@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2025.1.1">
+  <Settings>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="Thank you for your patience." valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant':'f&quot;{randint(0, 999999):06.0f}&quot;', 'session':'001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="height" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="(1024, 768)" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
+    <Param val="default" valType="str" updates="None" name="ecSampleRate"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="rem_know" valType="str" updates="None" name="expName"/>
+    <Param val="" valType="str" updates="None" name="expVersion"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Attempting to measure frame rate of screen, please wait..." valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="PsychToolbox" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="info" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="MIDDLE_BUTTON" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
+    <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="0" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="Instruction">
+      <RoutineSettingsComponent name="Instruction" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="Instruction" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="instrText" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="instrText" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="You will see or hear definitions of words. Your task is to rate how 'clever' or 'funny' the definition is on a scale of 1 to 5. Press the corresponding number on your keyboard. Some will be read to you, and some will be on the screen. Press space to begin." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="instrKey" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="instrKey" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="EncodingTrial">
+      <RoutineSettingsComponent name="EncodingTrial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="EncodingTrial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="speakerIcon" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="speaker-filled-audio-tool.png" valType="file" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="speakerIcon" valType="code" updates="None" name="name"/>
+        <Param val="$speakerOpacity" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <TextComponent name="definitionDisplay" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="definitionDisplay" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$displayText" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <SoundComponent name="definitionAudio" plugin="None">
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="True" valType="bool" updates="constant" name="hamming"/>
+        <Param val="1" valType="code" updates="None" name="latencyClass"/>
+        <Param val="definitionAudio" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="str" updates="None" name="resample"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="$audio_file" valType="str" updates="set every repeat" name="sound"/>
+        <Param val="-1" valType="str" updates="None" name="speakerIndex"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="constant" name="stopWithRoutine"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="$audioVolume" valType="num" updates="set every repeat" name="volume"/>
+      </SoundComponent>
+      <KeyboardComponent name="cleverRating" plugin="None">
+        <Param val="'1','2','3','4','5'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="cleverRating" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <CodeComponent name="switchCode" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="# Updated Modality Logic (Block 0 is now Visual)&amp;#10;if blocks.thisN % 2 == 0:&amp;#10;    # VISUAL SETTINGS (Blocks 1 and 3)&amp;#10;    displayText = definition + &quot;\n\nTARGET: &quot; + target_word&amp;#10;    speakerOpacity = 0 &amp;#10;    audioVolume = 0&amp;#10;    breakMessage = &quot;The next block will be VISUAL. \n\nPlease read the definitions on the screen. \n\nPress SPACE to start.&quot;&amp;#10;else:&amp;#10;    # AUDITORY SETTINGS (Blocks 2 and 4)&amp;#10;    displayText = &quot;&quot; &amp;#10;    speakerOpacity = 1 &amp;#10;    audioVolume = 1&amp;#10;    breakMessage = &quot;The next block will be AUDITORY. \n\nPlease listen to the definitions. \n\nPress SPACE to start.&quot;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="switchCode" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+    </Routine>
+    <Routine name="BlockBreak">
+      <RoutineSettingsComponent name="BlockBreak" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="BlockBreak" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="bMessage" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="bMessage" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$breakMessage" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="breakResp" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="breakResp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="Instruction"/>
+    <LoopInitiator loopType="TrialHandler" name="blocks">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="None" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="4" valType="num"/>
+      <Param name="name" updates="None" val="blocks" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="$([0,18], [18,36], [36,54], [54,72])[blocks.thisN]" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'definition': 'A talkative featherbrain', 'target_word': 'PARAKEET', 'modality': 'auditory', 'trial_type': 'target', 'block': 1, 'audio_file': 'audio/parakeet.wav'}, {'definition': 'A drill artist', 'target_word': 'DENTIST', 'modality': 'visual', 'trial_type': 'target', 'block': 1, 'audio_file': 'none'}, {'definition': 'A firm, friendly touch', 'target_word': 'HANDSHAKE', 'modality': 'auditory', 'trial_type': 'target', 'block': 1, 'audio_file': 'audio/handshake.wav'}, {'definition': 'You can sometimes eat it, but never sit on it', 'target_word': 'CACTUS', 'modality': 'visual', 'trial_type': 'target', 'block': 1, 'audio_file': 'none'}, {'definition': 'Hairy on the outside, delicious on the inside', 'target_word': 'COCONUT', 'modality': 'auditory', 'trial_type': 'target', 'block': 1, 'audio_file': 'audio/coconut.wav'}, {'definition': 'A very busy biological matchmaker', 'target_word': 'ENZYME', 'modality': 'visual', 'trial_type': 'target', 'block': 1, 'audio_file': 'none'}, {'definition': 'A weapon that can be folded for storage', 'target_word': 'POCKETKNIFE', 'modality': 'auditory', 'trial_type': 'target', 'block': 1, 'audio_file': 'audio/pocketknife.wav'}, {'definition': 'A servant in name only', 'target_word': 'BRIDESMAID', 'modality': 'visual', 'trial_type': 'target', 'block': 1, 'audio_file': 'none'}, {'definition': 'A wooden suit for a lead heart', 'target_word': 'PENCIL', 'modality': 'auditory', 'trial_type': 'target', 'block': 1, 'audio_file': 'audio/pencil.wav'}, {'definition': 'A long-necked sky-watcher', 'target_word': 'GIRAFFE', 'modality': 'visual', 'trial_type': 'target', 'block': 1, 'audio_file': 'none'}, {'definition': 'A liquid that remembers where it was', 'target_word': 'MERCURY', 'modality': 'auditory', 'trial_type': 'target', 'block': 1, 'audio_file': 'audio/mercury.wav'}, {'definition': 'A mountain with a hot temper', 'target_word': 'VOLCANO', 'modality': 'visual', 'trial_type': 'target', 'block': 1, 'audio_file': 'none'}, {'definition': 'The skeleton of a giant leaf', 'target_word': 'KITE', 'modality': 'auditory', 'trial_type': 'target', 'block': 1, 'audio_file': 'audio/kite.wav'}, {'definition': &quot;A window to the soul's health&quot;, 'target_word': 'EYE', 'modality': 'visual', 'trial_type': 'target', 'block': 1, 'audio_file': 'none'}, {'definition': 'A box that captures time', 'target_word': 'CAMERA', 'modality': 'auditory', 'trial_type': 'target', 'block': 1, 'audio_file': 'audio/camera.wav'}, {'definition': 'A paper house for a letter', 'target_word': 'ENVELOPE', 'modality': 'visual', 'trial_type': 'target', 'block': 1, 'audio_file': 'none'}, {'definition': 'A slow-moving mobile home', 'target_word': 'SNAIL', 'modality': 'auditory', 'trial_type': 'target', 'block': 1, 'audio_file': 'audio/snail.wav'}, {'definition': 'A star that works the night shift', 'target_word': 'MOON', 'modality': 'visual', 'trial_type': 'target', 'block': 1, 'audio_file': 'none'}, {'definition': 'A field of white that never grows', 'target_word': 'SNOW', 'modality': 'auditory', 'trial_type': 'target', 'block': 2, 'audio_file': 'audio/snow.wav'}, {'definition': 'An island of ice in a sea of blue', 'target_word': 'ICEBERG', 'modality': 'visual', 'trial_type': 'target', 'block': 2, 'audio_file': 'none'}, {'definition': 'A thief that steals the sun', 'target_word': 'ECLIPSE', 'modality': 'auditory', 'trial_type': 'target', 'block': 2, 'audio_file': 'audio/eclipse.wav'}, {'definition': 'A map of the world on a ball', 'target_word': 'GLOBE', 'modality': 'visual', 'trial_type': 'target', 'block': 2, 'audio_file': 'none'}, {'definition': 'A bridge made of colors', 'target_word': 'RAINBOW', 'modality': 'auditory', 'trial_type': 'target', 'block': 2, 'audio_file': 'audio/rainbow.wav'}, {'definition': 'A clock that never ticks', 'target_word': 'SUNDIAL', 'modality': 'visual', 'trial_type': 'target', 'block': 2, 'audio_file': 'none'}, {'definition': 'A box of thunder and lightning', 'target_word': 'BATTERY', 'modality': 'auditory', 'trial_type': 'target', 'block': 2, 'audio_file': 'audio/battery.wav'}, {'definition': 'A forest that fits in a pot', 'target_word': 'BONSAI', 'modality': 'visual', 'trial_type': 'target', 'block': 2, 'audio_file': 'none'}, {'definition': 'A mirror for the night sky', 'target_word': 'LAKE', 'modality': 'auditory', 'trial_type': 'target', 'block': 2, 'audio_file': 'audio/lake.wav'}, {'definition': 'A giant with one eye', 'target_word': 'CYCLOPS', 'modality': 'visual', 'trial_type': 'target', 'block': 2, 'audio_file': 'none'}, {'definition': 'A metal bird that never sleeps', 'target_word': 'AIRPLANE', 'modality': 'auditory', 'trial_type': 'target', 'block': 2, 'audio_file': 'audio/airplane.wav'}, {'definition': 'A house with many floors but no rooms', 'target_word': 'BOOKSHELF', 'modality': 'visual', 'trial_type': 'target', 'block': 2, 'audio_file': 'none'}, {'definition': 'A soldier of the chessboard', 'target_word': 'PAWN', 'modality': 'auditory', 'trial_type': 'target', 'block': 2, 'audio_file': 'audio/pawn.wav'}, {'definition': 'A dancer on the tips of her toes', 'target_word': 'BALLERINA', 'modality': 'visual', 'trial_type': 'target', 'block': 2, 'audio_file': 'none'}, {'definition': 'A ghost that haunts the morning', 'target_word': 'FOG', 'modality': 'auditory', 'trial_type': 'target', 'block': 2, 'audio_file': 'audio/fog.wav'}, {'definition': 'A silver path across the sky', 'target_word': 'MILKYWAY', 'modality': 'visual', 'trial_type': 'target', 'block': 2, 'audio_file': 'none'}, {'definition': 'A crown of gold for a king of beasts', 'target_word': 'MANE', 'modality': 'auditory', 'trial_type': 'target', 'block': 2, 'audio_file': 'audio/mane.wav'}, {'definition': 'A ship that travels beneath the waves', 'target_word': 'SUBMARINE', 'modality': 'visual', 'trial_type': 'target', 'block': 2, 'audio_file': 'none'}, {'definition': 'A giant umbrella that catches the wind', 'target_word': 'PARACHUTE', 'modality': 'auditory', 'trial_type': 'target', 'block': 3, 'audio_file': 'audio/parachute.wav'}, {'definition': 'A garden under the sea', 'target_word': 'REEF', 'modality': 'visual', 'trial_type': 'target', 'block': 3, 'audio_file': 'none'}, {'definition': 'A small house for a large dog', 'target_word': 'KENNEL', 'modality': 'auditory', 'trial_type': 'target', 'block': 3, 'audio_file': 'audio/kennel.wav'}, {'definition': 'A road that crosses the water', 'target_word': 'BRIDGE', 'modality': 'visual', 'trial_type': 'target', 'block': 3, 'audio_file': 'none'}, {'definition': 'A flower that follows the sun', 'target_word': 'SUNFLOWER', 'modality': 'auditory', 'trial_type': 'target', 'block': 3, 'audio_file': 'audio/sunflower.wav'}, {'definition': 'A pocket for a baby animal', 'target_word': 'POUCH', 'modality': 'visual', 'trial_type': 'target', 'block': 3, 'audio_file': 'none'}, {'definition': 'A silver circle for a finger', 'target_word': 'RING', 'modality': 'auditory', 'trial_type': 'target', 'block': 3, 'audio_file': 'audio/ring.wav'}, {'definition': 'A field of stars on a piece of cloth', 'target_word': 'FLAG', 'modality': 'visual', 'trial_type': 'target', 'block': 3, 'audio_file': 'none'}, {'definition': 'A giant cat with stripes of night', 'target_word': 'TIGER', 'modality': 'auditory', 'trial_type': 'target', 'block': 3, 'audio_file': 'audio/tiger.wav'}, {'definition': 'A fountain that never stops flowing', 'target_word': 'WATERFALL', 'modality': 'visual', 'trial_type': 'target', 'block': 3, 'audio_file': 'none'}, {'definition': 'A key that opens no locks', 'target_word': 'PIANO', 'modality': 'auditory', 'trial_type': 'target', 'block': 3, 'audio_file': 'audio/piano.wav'}, {'definition': 'A horse with a single horn', 'target_word': 'UNICORN', 'modality': 'visual', 'trial_type': 'target', 'block': 3, 'audio_file': 'none'}, {'definition': 'A bowl of fire in the sky', 'target_word': 'SUN', 'modality': 'auditory', 'trial_type': 'target', 'block': 3, 'audio_file': 'audio/sun.wav'}, {'definition': 'A forest made of stone', 'target_word': 'CAVE', 'modality': 'visual', 'trial_type': 'target', 'block': 3, 'audio_file': 'none'}, {'definition': 'A mountain with no peak', 'target_word': 'PLATEAU', 'modality': 'auditory', 'trial_type': 'target', 'block': 3, 'audio_file': 'audio/plateau.wav'}, {'definition': 'A window into the past', 'target_word': 'PHOTOGRAPH', 'modality': 'visual', 'trial_type': 'target', 'block': 3, 'audio_file': 'none'}, {'definition': 'A box that sings', 'target_word': 'RADIO', 'modality': 'auditory', 'trial_type': 'target', 'block': 3, 'audio_file': 'audio/radio.wav'}, {'definition': 'A path through the trees', 'target_word': 'TRAIL', 'modality': 'visual', 'trial_type': 'target', 'block': 3, 'audio_file': 'none'}, {'definition': 'A giant wave of earth', 'target_word': 'MOUNTAIN', 'modality': 'auditory', 'trial_type': 'target', 'block': 4, 'audio_file': 'audio/mountain.wav'}, {'definition': 'A star that points the way', 'target_word': 'COMPASS', 'modality': 'visual', 'trial_type': 'target', 'block': 4, 'audio_file': 'none'}, {'definition': 'A desert of salt', 'target_word': 'FLATS', 'modality': 'auditory', 'trial_type': 'target', 'block': 4, 'audio_file': 'audio/flats.wav'}, {'definition': 'A blanket of green for the earth', 'target_word': 'GRASS', 'modality': 'visual', 'trial_type': 'target', 'block': 4, 'audio_file': 'none'}, {'definition': 'A silver tear from the sky', 'target_word': 'RAINDROP', 'modality': 'auditory', 'trial_type': 'target', 'block': 4, 'audio_file': 'audio/raindrop.wav'}, {'definition': 'A city of sand by the sea', 'target_word': 'CASTLE', 'modality': 'visual', 'trial_type': 'target', 'block': 4, 'audio_file': 'none'}, {'definition': 'A bridge of stone across a river', 'target_word': 'AQUEDUCT', 'modality': 'auditory', 'trial_type': 'target', 'block': 4, 'audio_file': 'audio/aqueduct.wav'}, {'definition': 'A forest of tall grass', 'target_word': 'BAMBOO', 'modality': 'visual', 'trial_type': 'target', 'block': 4, 'audio_file': 'none'}, {'definition': 'A ship that sails on ice', 'target_word': 'SKATES', 'modality': 'auditory', 'trial_type': 'target', 'block': 4, 'audio_file': 'audio/skates.wav'}, {'definition': 'A star that fell to earth', 'target_word': 'METEORITE', 'modality': 'visual', 'trial_type': 'target', 'block': 4, 'audio_file': 'none'}, {'definition': 'A giant bowl of water', 'target_word': 'OCEAN', 'modality': 'auditory', 'trial_type': 'target', 'block': 4, 'audio_file': 'audio/ocean.wav'}, {'definition': 'A path through the clouds', 'target_word': 'RAINBOW', 'modality': 'visual', 'trial_type': 'target', 'block': 4, 'audio_file': 'none'}, {'definition': 'A silver needle in the sky', 'target_word': 'STEEPLE', 'modality': 'auditory', 'trial_type': 'target', 'block': 4, 'audio_file': 'audio/steeple.wav'}, {'definition': 'A giant box of knowledge', 'target_word': 'LIBRARY', 'modality': 'visual', 'trial_type': 'target', 'block': 4, 'audio_file': 'none'}, {'definition': 'A field of yellow fire', 'target_word': 'WHEAT', 'modality': 'auditory', 'trial_type': 'target', 'block': 4, 'audio_file': 'audio/wheat.wav'}, {'definition': 'A ship of the desert', 'target_word': 'CAMEL', 'modality': 'visual', 'trial_type': 'target', 'block': 4, 'audio_file': 'none'}, {'definition': 'A crown for a mountain', 'target_word': 'GLACIER', 'modality': 'auditory', 'trial_type': 'target', 'block': 4, 'audio_file': 'audio/glacier.wav'}, {'definition': 'A mirror for the sun', 'target_word': 'MOON', 'modality': 'visual', 'trial_type': 'target', 'block': 4, 'audio_file': 'none'}, {'definition': 'A white sheet for the ground', 'target_word': 'FROST', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A giant lizard with hot breath', 'target_word': 'DRAGON', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A giant tooth for a mountain', 'target_word': 'PEAK', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A house for a king made of cards', 'target_word': 'CASTLE', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A clock that tells time with sand', 'target_word': 'HOURGLASS', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A giant bird with a metal belly', 'target_word': 'AIRPLANE', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A field of white that falls from the sky', 'target_word': 'SNOW', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A map of the stars in your hand', 'target_word': 'COMPASS', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A silver path through the woods', 'target_word': 'RIVER', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A giant bowl of soup from the earth', 'target_word': 'VOLCANO', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A box of frozen memories', 'target_word': 'ICE', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A giant cat that lives in the snow', 'target_word': 'LEOPARD', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A silver needle for a giant', 'target_word': 'SPIRE', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A forest of metal and glass', 'target_word': 'CITY', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A ship that flies through the air', 'target_word': 'ROCKET', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A crown of white for the earth', 'target_word': 'CLOUDS', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A mirror for the world', 'target_word': 'LAKE', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A path of light across the sea', 'target_word': 'MOONLIGHT', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A giant umbrella for a tree', 'target_word': 'LEAVES', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A box of light and sound', 'target_word': 'TELEVISION', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A silver path across the grass', 'target_word': 'SLUG', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A giant bowl of fire', 'target_word': 'SUN', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A mountain with a hole in it', 'target_word': 'CAVE', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A silver needle for the sky', 'target_word': 'STEEPLE', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A forest of tall stones', 'target_word': 'CLIFFS', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A ship that sails on sand', 'target_word': 'DUNES', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A crown of gold for a king', 'target_word': 'TIARA', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A mirror for the sky', 'target_word': 'OCEAN', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A path of stars across the sky', 'target_word': 'MILKYWAY', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A giant box of stories', 'target_word': 'BOOK', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A silver tear from a cloud', 'target_word': 'RAIN', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A forest of white in the sky', 'target_word': 'CLOUDS', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A ship of the stars', 'target_word': 'SPACESHIP', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A crown of green for a mountain', 'target_word': 'FOREST', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A mirror for the night', 'target_word': 'MOON', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A path through the mountains', 'target_word': 'PASS', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A giant bowl of light', 'target_word': 'SKY', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A silver needle in a haystack', 'target_word': 'LOST', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A forest of tall trees', 'target_word': 'WOODS', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A ship that travels on a track', 'target_word': 'TRAIN', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A crown for a queen', 'target_word': 'CORONET', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A mirror for your face', 'target_word': 'GLASS', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A path across a river', 'target_word': 'BRIDGE', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A giant box of music', 'target_word': 'PIANO', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A silver path through the sky', 'target_word': 'COMET', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A forest of stone pillars', 'target_word': 'STALACTITES', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A ship that carries the sun', 'target_word': 'CHARIOT', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A crown of fire for the sun', 'target_word': 'CORONA', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A mirror for the past', 'target_word': 'HISTORY', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A path of gold through the wheat', 'target_word': 'TRAIL', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A giant bowl of fruit', 'target_word': 'ORCHARD', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A silver needle for a seamstress', 'target_word': 'THIMBLE', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A forest of frozen trees', 'target_word': 'TAIGA', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A ship of the line', 'target_word': 'BATTLESHIP', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A crown of thorns', 'target_word': 'BRAMBLE', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A mirror for the stars', 'target_word': 'TELESCOPE', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A path through the desert', 'target_word': 'OASIS', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A giant box of secrets', 'target_word': 'SAFE', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A silver needle for a compass', 'target_word': 'POINTER', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A forest of seaweed', 'target_word': 'KELP', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A ship that sails on a lake', 'target_word': 'FERRY', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A crown of flowers', 'target_word': 'WREATH', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A mirror for the moon', 'target_word': 'POND', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A path through the stars', 'target_word': 'ORBIT', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A giant box of toys', 'target_word': 'CHEST', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A silver needle for a clock', 'target_word': 'HAND', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A forest of mushrooms', 'target_word': 'MYCELIUM', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A ship that carries the mail', 'target_word': 'PACKET', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A crown of jewels', 'target_word': 'DIADEM', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A mirror for the soul', 'target_word': 'EYES', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A path through the clouds', 'target_word': 'JETSTREAM', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A giant box of tools', 'target_word': 'WORKBENCH', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}, {'definition': 'A silver needle for a record', 'target_word': 'STYLUS', 'modality': 'none', 'trial_type': 'lure', 'block': 'none', 'audio_file': 'none'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="conditions.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="random" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="EncodingTrial"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="BlockBreak"/>
+    <LoopTerminator name="blocks"/>
+  </Flow>
+</PsychoPy2experiment>
