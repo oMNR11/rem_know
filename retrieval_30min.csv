@@ -1,0 +1,73 @@
+definition,word,old_new,correct_old_new
+A metal heartbeat,ENGINE,new,no
+A pocket sun,FLASHLIGHT,old,yes
+A metal ladder for water,PIPELINE,new,no
+A metal umbrella for wheels,HUBCAP,old,yes
+A sky anchor,HELICOPTER,old,yes
+A polite skeleton for tents,POLE,old,yes
+A house for wheels,PARKINGLOT,old,yes
+A flying door,WINDOW,old,yes
+A portable shadow,HAT,new,no
+A portable shadow box,SUITCASE,old,yes
+A wooden sandwich for books,SHELF,new,no
+A pocket waterfall for ink,PEN,new,no
+A wooden road sign,SIGNPOST,new,no
+A polite explosion for birthdays,CONFETTI,new,no
+A spoon with ambition,SHOVEL,old,yes
+A metal spiderweb,FENCE,new,no
+A rainbow bridge for cars,OVERPASS,old,yes
+A metal rainbow,BRIDGE,old,yes
+A bread pillow,LOAF,old,yes
+A pocket library,DIARY,old,yes
+A metal river snake,PIPE,old,yes
+A wooden river,PLANK,old,yes
+A rock that floats,PUMICE,old,yes
+A pocket thunderbolt,BATTERY,old,yes
+A snowman's spare nose,CARROT,old,yes
+A metal handshake for roads,INTERSECTION,new,no
+A sugar snowstorm,POWDEREDSUGAR,new,no
+A spinning pancake,DISC,new,no
+A metal mushroom,BELL,new,no
+A sleeping volcano,HILL,new,no
+A sleepy mountain,VOLCANO,old,yes
+A wind-powered whisper,FLUTE,new,no
+A book for faces,ALBUM,new,no
+A portable cave for sleeping,TENT,new,no
+A portable thundercloud,DRUM,old,yes
+A pocket refrigerator,COOLER,old,yes
+A glass drum,BOWL,old,yes
+A portable sunshade,VISOR,old,yes
+A silent alarm for trees,LIGHTNING,new,no
+A metal shoelace,CHAIN,new,no
+A polite explosion,POPCORN,new,no
+A winter blanket for the earth,SNOW,new,no
+A wooden toothpick for giants,LOG,old,yes
+A wooden tongue for bells,CLAPPER,new,no
+A polite snowball,MARSHMALLOW,new,no
+A cloud on a stick,COTTONCANDY,old,yes
+A wooden blanket,FLOOR,new,no
+A glass stomach for flowers,VASE,old,yes
+A polite drum for rain,ROOF,new,no
+A portable mountain,BACKPACK,old,yes
+A sleepy trumpet,HORN,old,yes
+A metal pillow for trains,RAIL,new,no
+A pocket staircase,ESCALATOR,new,no
+A metal tree with traffic fruit,TRAFFICLIGHT,old,yes
+A chair for babies,HIGHCHAIR,new,no
+A glass prison for fish,AQUARIUM,new,no
+A spinning ladder,SCREW,new,no
+A sleepy traffic cop,STOPSIGN,new,no
+A metal spider for paper,STAPLER,old,yes
+A metal tongue for guitars,PICK,old,yes
+A silent scream on paper,EXCLAMATION,new,no
+A pocket mirror for spies,COMPACT,old,yes
+A wall that moves,CURTAIN,old,yes
+A glass slipper for drinks,CUP,old,yes
+A spinning umbrella,PROPELLER,new,no
+A silent fireworks show,STARS,old,yes
+A glass eye for houses,PEEPHOLE,new,no
+A talking rectangle,PHONE,new,no
+A paper forest,NEWSPAPER,old,yes
+A metal river dam,VALVE,new,no
+A clock that bites,TIMER,new,no
+A silent drummer,HEART,old,yes

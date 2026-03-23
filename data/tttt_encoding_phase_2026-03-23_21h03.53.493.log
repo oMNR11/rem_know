@@ -1,0 +1,1939 @@
+6.1890 	INFO 	Loaded monitor calibration from ['2025_12_27 10:38', '2025_12_27 13:43']
+6.4791 	INFO 	Using renderer 'Intel(R) UHD Graphics 770' for graphics
+6.4792 	INFO 	OpenGL version supported by driver is 4..
+6.4888 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002DD16D82920>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002DD16D82980>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002DD16A50370>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.4888 	EXP 	window1: backgroundImage = ''
+6.4888 	EXP 	window1: backgroundFit = 'none'
+6.7215 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+6.7215 	EXP 	window1: recordFrameIntervals = False
+6.8066 	EXP 	window1: recordFrameIntervals = True
+6.9167 	EXP 	Screen (0) actual frame rate measured at 100.00Hz
+6.9167 	EXP 	window1: recordFrameIntervals = False
+7.0038 	INFO 	keyboard.Keyboard is using ptb backend.
+7.0040 	INFO 	keyboard.Keyboard is using ptb backend.
+7.0151 	INFO 	Created stream for speaker device: Headphones (Space Travel 2) (6.0)
+7.0159 	INFO 	keyboard.Keyboard is using ptb backend.
+7.0159 	INFO 	keyboard.Keyboard is using ptb backend.
+7.0160 	INFO 	keyboard.Keyboard is using ptb backend.
+7.0160 	EXP 	encoding_phase: status = STARTED
+7.0784 	EXP 	Created instr_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='instr_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.0789 	EXP 	Created visual_stimulus = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='visual_stimulus', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.0911 	EXP 	Created auditory_icon = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='speaker.png', interpolate=True, mask=None, maskParams=None, name='auditory_icon', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+7.0911 	EXP 	audio_stim: sampleRate = 44100
+7.0912 	EXP 	audio_stim: channels = None
+7.0983 	EXP 	Sound audio_stim set volume 1.000
+7.1045 	EXP 	Created rating_prompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.03), italic=False, languageStyle='LTR', name='rating_prompt', opacity=1, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.1082 	EXP 	Created break_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='break_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.1119 	EXP 	Created end_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='end_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0042 	INFO 	Keyboard events cleared
+0.0042 	EXP 	instr_text: autoDraw = True
+4.3994 	EXP 	Device response: <KeyPress from None: t=4.3923219999996945, value=space, duration=None>
+4.4035 	EXP 	Imported encoding.csv as conditions, 72 conditions, 4 params
+4.4038 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'definition': 'A portable shadow box', 'word': 'SUITCASE', 'block': np.int64(1), 'modality': 'visual', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+4.4110 	DATA 	Keypress: space
+4.4124 	EXP 	instr_text: autoDraw = False
+4.4124 	EXP 	visual_stimulus: height = np.float64(0.04)
+4.4124 	EXP 	visual_stimulus: height = np.float64(0.04)
+4.4124 	EXP 	visual_stimulus: height = np.float64(0.04)
+4.4124 	EXP 	visual_stimulus: height = np.float64(0.04)
+4.4124 	EXP 	visual_stimulus: height = np.float64(0.04)
+4.4124 	EXP 	visual_stimulus: height = np.float64(0.04)
+4.4124 	EXP 	visual_stimulus: text = 'A portable shadow box\n\nSUITCASE'
+4.5044 	EXP 	Device response: <KeyPress from None: t=4.3923219999996945, value=space, duration=0.10418339993339032>
+4.8841 	EXP 	Sound audio_stim reached end of file
+4.9005 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+4.8938 	EXP 	visual_stimulus: autoDraw = True
+4.8938 	EXP 	auditory_icon: autoDraw = True
+9.8981 	EXP 	Sound audio_stim stopped
+9.9020 	INFO 	Keyboard events cleared
+9.9019 	EXP 	visual_stimulus: autoDraw = False
+9.9019 	EXP 	auditory_icon: autoDraw = False
+9.9019 	EXP 	rating_prompt: autoDraw = True
+16.7825 	EXP 	Device response: <KeyPress from None: t=16.775992600014433, value=4, duration=None>
+16.7829 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'definition': 'A silent drummer', 'word': 'HEART', 'block': np.int64(1), 'modality': 'visual', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+16.7907 	DATA 	Keypress: 4
+16.7921 	EXP 	visual_stimulus: autoDraw = False
+16.7921 	EXP 	auditory_icon: autoDraw = False
+16.7921 	EXP 	rating_prompt: autoDraw = False
+16.7921 	EXP 	break_text: autoDraw = False
+16.7921 	EXP 	visual_stimulus: height = np.float64(0.04)
+16.7921 	EXP 	visual_stimulus: height = np.float64(0.04)
+16.7921 	EXP 	visual_stimulus: height = np.float64(0.04)
+16.7921 	EXP 	visual_stimulus: height = np.float64(0.04)
+16.7921 	EXP 	visual_stimulus: height = np.float64(0.04)
+16.7921 	EXP 	visual_stimulus: height = np.float64(0.04)
+16.7921 	EXP 	visual_stimulus: text = 'A silent drummer\n\nHEART'
+16.8926 	EXP 	Device response: <KeyPress from None: t=16.775992600014433, value=4, duration=0.11213379993569106>
+17.2724 	EXP 	Sound audio_stim reached end of file
+17.2889 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+17.2823 	EXP 	visual_stimulus: autoDraw = True
+17.2823 	EXP 	auditory_icon: autoDraw = True
+22.2875 	EXP 	Sound audio_stim stopped
+22.2896 	INFO 	Keyboard events cleared
+22.2895 	EXP 	visual_stimulus: autoDraw = False
+22.2895 	EXP 	auditory_icon: autoDraw = False
+22.2895 	EXP 	rating_prompt: autoDraw = True
+24.2118 	EXP 	Device response: <KeyPress from None: t=24.2077901000157, value=3, duration=None>
+24.2120 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'definition': 'A spoon with ambition', 'word': 'SHOVEL', 'block': np.int64(1), 'modality': 'visual', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+24.2237 	DATA 	Keypress: 3
+24.2251 	EXP 	visual_stimulus: autoDraw = False
+24.2251 	EXP 	auditory_icon: autoDraw = False
+24.2251 	EXP 	rating_prompt: autoDraw = False
+24.2251 	EXP 	break_text: autoDraw = False
+24.2251 	EXP 	visual_stimulus: height = np.float64(0.04)
+24.2251 	EXP 	visual_stimulus: height = np.float64(0.04)
+24.2251 	EXP 	visual_stimulus: height = np.float64(0.04)
+24.2251 	EXP 	visual_stimulus: height = np.float64(0.04)
+24.2251 	EXP 	visual_stimulus: height = np.float64(0.04)
+24.2251 	EXP 	visual_stimulus: height = np.float64(0.04)
+24.2251 	EXP 	visual_stimulus: text = 'A spoon with ambition\n\nSHOVEL'
+24.3114 	EXP 	Device response: <KeyPress from None: t=24.2077901000157, value=3, duration=0.09604929992929101>
+24.7019 	EXP 	Sound audio_stim reached end of file
+24.7181 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+24.7116 	EXP 	visual_stimulus: autoDraw = True
+24.7116 	EXP 	auditory_icon: autoDraw = True
+29.7183 	EXP 	Sound audio_stim stopped
+29.7208 	INFO 	Keyboard events cleared
+29.7207 	EXP 	visual_stimulus: autoDraw = False
+29.7207 	EXP 	auditory_icon: autoDraw = False
+29.7207 	EXP 	rating_prompt: autoDraw = True
+31.6426 	DATA 	Keypress: 2
+31.6511 	EXP 	Device response: <KeyPress from None: t=31.640327799948864, value=2, duration=None>
+31.6517 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'definition': 'A metal tongue for guitars', 'word': 'PICK', 'block': np.int64(1), 'modality': 'visual', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+31.6641 	EXP 	visual_stimulus: autoDraw = False
+31.6641 	EXP 	auditory_icon: autoDraw = False
+31.6641 	EXP 	rating_prompt: autoDraw = False
+31.6641 	EXP 	break_text: autoDraw = False
+31.6641 	EXP 	visual_stimulus: height = np.float64(0.04)
+31.6641 	EXP 	visual_stimulus: height = np.float64(0.04)
+31.6641 	EXP 	visual_stimulus: height = np.float64(0.04)
+31.6641 	EXP 	visual_stimulus: height = np.float64(0.04)
+31.6641 	EXP 	visual_stimulus: height = np.float64(0.04)
+31.6641 	EXP 	visual_stimulus: height = np.float64(0.04)
+31.6641 	EXP 	visual_stimulus: text = 'A metal tongue for guitars\n\nPICK'
+31.7309 	EXP 	Device response: <KeyPress from None: t=31.640327799948864, value=2, duration=0.0879180000629276>
+32.1411 	EXP 	Sound audio_stim reached end of file
+32.1572 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+32.1506 	EXP 	visual_stimulus: autoDraw = True
+32.1506 	EXP 	auditory_icon: autoDraw = True
+37.1517 	EXP 	Sound audio_stim stopped
+37.1541 	INFO 	Keyboard events cleared
+37.1540 	EXP 	visual_stimulus: autoDraw = False
+37.1540 	EXP 	auditory_icon: autoDraw = False
+37.1540 	EXP 	rating_prompt: autoDraw = True
+38.4817 	DATA 	Keypress: 4
+38.4903 	EXP 	Device response: <KeyPress from None: t=38.48046430002432, value=4, duration=None>
+38.4908 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'definition': 'A glass slipper for drinks', 'word': 'CUP', 'block': np.int64(1), 'modality': 'visual', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+38.5027 	EXP 	visual_stimulus: autoDraw = False
+38.5027 	EXP 	auditory_icon: autoDraw = False
+38.5027 	EXP 	rating_prompt: autoDraw = False
+38.5027 	EXP 	break_text: autoDraw = False
+38.5027 	EXP 	visual_stimulus: height = np.float64(0.04)
+38.5027 	EXP 	visual_stimulus: height = np.float64(0.04)
+38.5027 	EXP 	visual_stimulus: height = np.float64(0.04)
+38.5027 	EXP 	visual_stimulus: height = np.float64(0.04)
+38.5027 	EXP 	visual_stimulus: height = np.float64(0.04)
+38.5027 	EXP 	visual_stimulus: height = np.float64(0.04)
+38.5027 	EXP 	visual_stimulus: text = 'A glass slipper for drinks\n\nCUP'
+38.5602 	EXP 	Device response: <KeyPress from None: t=38.48046430002432, value=4, duration=0.07177599996794015>
+38.9797 	EXP 	Sound audio_stim reached end of file
+38.9961 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+38.9896 	EXP 	visual_stimulus: autoDraw = True
+38.9896 	EXP 	auditory_icon: autoDraw = True
+43.9906 	EXP 	Sound audio_stim stopped
+43.9930 	INFO 	Keyboard events cleared
+43.9929 	EXP 	visual_stimulus: autoDraw = False
+43.9929 	EXP 	auditory_icon: autoDraw = False
+43.9929 	EXP 	rating_prompt: autoDraw = True
+45.2503 	DATA 	Keypress: 2
+45.2593 	EXP 	Device response: <KeyPress from None: t=45.24845860002097, value=2, duration=None>
+45.2596 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'definition': 'A glass drum', 'word': 'BOWL', 'block': np.int64(1), 'modality': 'visual', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+45.2711 	EXP 	visual_stimulus: autoDraw = False
+45.2711 	EXP 	auditory_icon: autoDraw = False
+45.2711 	EXP 	rating_prompt: autoDraw = False
+45.2711 	EXP 	break_text: autoDraw = False
+45.2711 	EXP 	visual_stimulus: height = np.float64(0.04)
+45.2711 	EXP 	visual_stimulus: height = np.float64(0.04)
+45.2711 	EXP 	visual_stimulus: height = np.float64(0.04)
+45.2711 	EXP 	visual_stimulus: height = np.float64(0.04)
+45.2711 	EXP 	visual_stimulus: height = np.float64(0.04)
+45.2711 	EXP 	visual_stimulus: height = np.float64(0.04)
+45.2711 	EXP 	visual_stimulus: text = 'A glass drum\n\nBOWL'
+45.3292 	EXP 	Device response: <KeyPress from None: t=45.24845860002097, value=2, duration=0.07181370002217591>
+45.7492 	EXP 	Sound audio_stim reached end of file
+45.7653 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+45.7588 	EXP 	visual_stimulus: autoDraw = True
+45.7588 	EXP 	auditory_icon: autoDraw = True
+50.7624 	EXP 	Sound audio_stim stopped
+50.7650 	INFO 	Keyboard events cleared
+50.7649 	EXP 	visual_stimulus: autoDraw = False
+50.7649 	EXP 	auditory_icon: autoDraw = False
+50.7649 	EXP 	rating_prompt: autoDraw = True
+52.1698 	DATA 	Keypress: 4
+52.1782 	EXP 	Device response: <KeyPress from None: t=52.16874510003254, value=4, duration=None>
+52.1788 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'definition': 'A house for wheels', 'word': 'PARKINGLOT', 'block': np.int64(1), 'modality': 'visual', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+52.1907 	EXP 	visual_stimulus: autoDraw = False
+52.1907 	EXP 	auditory_icon: autoDraw = False
+52.1907 	EXP 	rating_prompt: autoDraw = False
+52.1907 	EXP 	break_text: autoDraw = False
+52.1907 	EXP 	visual_stimulus: height = np.float64(0.04)
+52.1907 	EXP 	visual_stimulus: height = np.float64(0.04)
+52.1907 	EXP 	visual_stimulus: height = np.float64(0.04)
+52.1907 	EXP 	visual_stimulus: height = np.float64(0.04)
+52.1907 	EXP 	visual_stimulus: height = np.float64(0.04)
+52.1907 	EXP 	visual_stimulus: height = np.float64(0.04)
+52.1907 	EXP 	visual_stimulus: text = 'A house for wheels\n\nPARKINGLOT'
+52.2780 	EXP 	Device response: <KeyPress from None: t=52.16874510003254, value=4, duration=0.10329579992685467>
+52.6684 	EXP 	Sound audio_stim reached end of file
+52.6845 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+52.6778 	EXP 	visual_stimulus: autoDraw = True
+52.6778 	EXP 	auditory_icon: autoDraw = True
+57.6789 	EXP 	Sound audio_stim stopped
+57.6815 	INFO 	Keyboard events cleared
+57.6814 	EXP 	visual_stimulus: autoDraw = False
+57.6814 	EXP 	auditory_icon: autoDraw = False
+57.6814 	EXP 	rating_prompt: autoDraw = True
+59.0890 	DATA 	Keypress: 4
+59.0974 	EXP 	Device response: <KeyPress from None: t=59.08811579993926, value=4, duration=None>
+59.0979 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'definition': 'A glass stomach for flowers', 'word': 'VASE', 'block': np.int64(1), 'modality': 'visual', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+59.1085 	EXP 	visual_stimulus: autoDraw = False
+59.1085 	EXP 	auditory_icon: autoDraw = False
+59.1085 	EXP 	rating_prompt: autoDraw = False
+59.1085 	EXP 	break_text: autoDraw = False
+59.1085 	EXP 	visual_stimulus: height = np.float64(0.04)
+59.1085 	EXP 	visual_stimulus: height = np.float64(0.04)
+59.1085 	EXP 	visual_stimulus: height = np.float64(0.04)
+59.1085 	EXP 	visual_stimulus: height = np.float64(0.04)
+59.1085 	EXP 	visual_stimulus: height = np.float64(0.04)
+59.1085 	EXP 	visual_stimulus: height = np.float64(0.04)
+59.1085 	EXP 	visual_stimulus: text = 'A glass stomach for flowers\n\nVASE'
+59.1875 	EXP 	Device response: <KeyPress from None: t=59.08811579993926, value=4, duration=0.0882528000511229>
+59.5875 	EXP 	Sound audio_stim reached end of file
+59.6035 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+59.5970 	EXP 	visual_stimulus: autoDraw = True
+59.5970 	EXP 	auditory_icon: autoDraw = True
+64.6007 	EXP 	Sound audio_stim stopped
+64.6027 	INFO 	Keyboard events cleared
+64.6027 	EXP 	visual_stimulus: autoDraw = False
+64.6027 	EXP 	auditory_icon: autoDraw = False
+64.6027 	EXP 	rating_prompt: autoDraw = True
+65.2166 	EXP 	Device response: <KeyPress from None: t=65.20823340001516, value=1, duration=None>
+65.2172 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'definition': 'A pocket refrigerator', 'word': 'COOLER', 'block': np.int64(1), 'modality': 'visual', 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+65.2282 	DATA 	Keypress: 1
+65.2296 	EXP 	visual_stimulus: autoDraw = False
+65.2296 	EXP 	auditory_icon: autoDraw = False
+65.2296 	EXP 	rating_prompt: autoDraw = False
+65.2296 	EXP 	break_text: autoDraw = False
+65.2296 	EXP 	visual_stimulus: height = np.float64(0.04)
+65.2296 	EXP 	visual_stimulus: height = np.float64(0.04)
+65.2296 	EXP 	visual_stimulus: height = np.float64(0.04)
+65.2296 	EXP 	visual_stimulus: height = np.float64(0.04)
+65.2296 	EXP 	visual_stimulus: height = np.float64(0.04)
+65.2296 	EXP 	visual_stimulus: height = np.float64(0.04)
+65.2296 	EXP 	visual_stimulus: text = 'A pocket refrigerator\n\nCOOLER'
+65.3466 	EXP 	Device response: <KeyPress from None: t=65.20823340001516, value=1, duration=0.13591700000688434>
+65.7066 	EXP 	Sound audio_stim reached end of file
+65.7228 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+65.7163 	EXP 	visual_stimulus: autoDraw = True
+65.7163 	EXP 	auditory_icon: autoDraw = True
+69.2162 	EXP 	Device response: <KeyPress from None: t=69.20814240002073, value=5, duration=None>
+69.2178 	DATA 	Keypress: 5
+69.3663 	EXP 	Device response: <KeyPress from None: t=69.20814240002073, value=5, duration=0.15215859992895275>
+70.7176 	EXP 	Sound audio_stim stopped
+70.7199 	INFO 	Keyboard events cleared
+70.7198 	EXP 	visual_stimulus: autoDraw = False
+70.7198 	EXP 	auditory_icon: autoDraw = False
+70.7198 	EXP 	rating_prompt: autoDraw = True
+71.2059 	EXP 	Device response: <KeyPress from None: t=71.20014229998924, value=3, duration=None>
+71.2064 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'definition': 'A rainbow bridge for cars', 'word': 'OVERPASS', 'block': np.int64(1), 'modality': 'visual', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+71.2182 	DATA 	Keypress: 3
+71.2196 	EXP 	visual_stimulus: autoDraw = False
+71.2196 	EXP 	auditory_icon: autoDraw = False
+71.2196 	EXP 	rating_prompt: autoDraw = False
+71.2196 	EXP 	break_text: autoDraw = False
+71.2196 	EXP 	visual_stimulus: height = np.float64(0.04)
+71.2196 	EXP 	visual_stimulus: height = np.float64(0.04)
+71.2196 	EXP 	visual_stimulus: height = np.float64(0.04)
+71.2196 	EXP 	visual_stimulus: height = np.float64(0.04)
+71.2196 	EXP 	visual_stimulus: height = np.float64(0.04)
+71.2196 	EXP 	visual_stimulus: height = np.float64(0.04)
+71.2196 	EXP 	visual_stimulus: text = 'A rainbow bridge for cars\n\nOVERPASS'
+71.3458 	EXP 	Device response: <KeyPress from None: t=71.20014229998924, value=3, duration=0.13655509997624904>
+71.6959 	EXP 	Sound audio_stim reached end of file
+71.7121 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+71.7054 	EXP 	visual_stimulus: autoDraw = True
+71.7054 	EXP 	auditory_icon: autoDraw = True
+76.7118 	EXP 	Sound audio_stim stopped
+76.7143 	INFO 	Keyboard events cleared
+76.7142 	EXP 	visual_stimulus: autoDraw = False
+76.7142 	EXP 	auditory_icon: autoDraw = False
+76.7142 	EXP 	rating_prompt: autoDraw = True
+77.3867 	DATA 	Keypress: 3
+77.3952 	EXP 	Device response: <KeyPress from None: t=77.3845363999717, value=3, duration=None>
+77.3956 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'definition': 'A bread pillow', 'word': 'LOAF', 'block': np.int64(1), 'modality': 'visual', 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+77.4072 	EXP 	visual_stimulus: autoDraw = False
+77.4072 	EXP 	auditory_icon: autoDraw = False
+77.4072 	EXP 	rating_prompt: autoDraw = False
+77.4072 	EXP 	break_text: autoDraw = False
+77.4072 	EXP 	visual_stimulus: height = np.float64(0.04)
+77.4072 	EXP 	visual_stimulus: height = np.float64(0.04)
+77.4072 	EXP 	visual_stimulus: height = np.float64(0.04)
+77.4072 	EXP 	visual_stimulus: height = np.float64(0.04)
+77.4072 	EXP 	visual_stimulus: height = np.float64(0.04)
+77.4072 	EXP 	visual_stimulus: height = np.float64(0.04)
+77.4072 	EXP 	visual_stimulus: text = 'A bread pillow\n\nLOAF'
+77.4951 	EXP 	Device response: <KeyPress from None: t=77.3845363999717, value=3, duration=0.10395520005840808>
+77.8848 	EXP 	Sound audio_stim reached end of file
+77.9012 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+77.8946 	EXP 	visual_stimulus: autoDraw = True
+77.8946 	EXP 	auditory_icon: autoDraw = True
+82.9011 	EXP 	Sound audio_stim stopped
+82.9038 	INFO 	Keyboard events cleared
+82.9037 	EXP 	visual_stimulus: autoDraw = False
+82.9037 	EXP 	auditory_icon: autoDraw = False
+82.9037 	EXP 	rating_prompt: autoDraw = True
+83.8144 	EXP 	Device response: <KeyPress from None: t=83.80819889996201, value=3, duration=None>
+83.8151 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'definition': 'A sleepy trumpet', 'word': 'HORN', 'block': np.int64(1), 'modality': 'visual', 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+83.8242 	DATA 	Keypress: 3
+83.8255 	EXP 	visual_stimulus: autoDraw = False
+83.8255 	EXP 	auditory_icon: autoDraw = False
+83.8255 	EXP 	rating_prompt: autoDraw = False
+83.8255 	EXP 	break_text: autoDraw = False
+83.8255 	EXP 	visual_stimulus: height = np.float64(0.04)
+83.8255 	EXP 	visual_stimulus: height = np.float64(0.04)
+83.8255 	EXP 	visual_stimulus: height = np.float64(0.04)
+83.8255 	EXP 	visual_stimulus: height = np.float64(0.04)
+83.8255 	EXP 	visual_stimulus: height = np.float64(0.04)
+83.8255 	EXP 	visual_stimulus: height = np.float64(0.04)
+83.8255 	EXP 	visual_stimulus: text = 'A sleepy trumpet\n\nHORN'
+83.9543 	EXP 	Device response: <KeyPress from None: t=83.80819889996201, value=3, duration=0.13661879999563098>
+84.3041 	EXP 	Sound audio_stim reached end of file
+84.3203 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+84.3138 	EXP 	visual_stimulus: autoDraw = True
+84.3138 	EXP 	auditory_icon: autoDraw = True
+89.3175 	EXP 	Sound audio_stim stopped
+89.3197 	INFO 	Keyboard events cleared
+89.3196 	EXP 	visual_stimulus: autoDraw = False
+89.3196 	EXP 	auditory_icon: autoDraw = False
+89.3196 	EXP 	rating_prompt: autoDraw = True
+90.2934 	EXP 	Device response: <KeyPress from None: t=90.28802019997966, value=3, duration=None>
+90.2938 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'definition': 'A wooden toothpick for giants', 'word': 'LOG', 'block': np.int64(1), 'modality': 'visual', 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+90.3063 	DATA 	Keypress: 3
+90.3074 	EXP 	visual_stimulus: autoDraw = False
+90.3074 	EXP 	auditory_icon: autoDraw = False
+90.3074 	EXP 	rating_prompt: autoDraw = False
+90.3074 	EXP 	break_text: autoDraw = False
+90.3074 	EXP 	visual_stimulus: height = np.float64(0.04)
+90.3074 	EXP 	visual_stimulus: height = np.float64(0.04)
+90.3074 	EXP 	visual_stimulus: height = np.float64(0.04)
+90.3074 	EXP 	visual_stimulus: height = np.float64(0.04)
+90.3074 	EXP 	visual_stimulus: height = np.float64(0.04)
+90.3074 	EXP 	visual_stimulus: height = np.float64(0.04)
+90.3074 	EXP 	visual_stimulus: text = 'A wooden toothpick for giants\n\nLOG'
+90.3831 	EXP 	Device response: <KeyPress from None: t=90.28802019997966, value=3, duration=0.08822519995737821>
+90.7833 	EXP 	Sound audio_stim reached end of file
+90.7998 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+90.7930 	EXP 	visual_stimulus: autoDraw = True
+90.7930 	EXP 	auditory_icon: autoDraw = True
+95.7984 	EXP 	Sound audio_stim stopped
+95.8010 	INFO 	Keyboard events cleared
+95.8009 	EXP 	visual_stimulus: autoDraw = False
+95.8009 	EXP 	auditory_icon: autoDraw = False
+95.8009 	EXP 	rating_prompt: autoDraw = True
+96.6929 	EXP 	Device response: <KeyPress from None: t=96.68824699998368, value=5, duration=None>
+96.6933 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'definition': 'A portable sunshade', 'word': 'VISOR', 'block': np.int64(1), 'modality': 'visual', 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+96.7028 	DATA 	Keypress: 5
+96.7041 	EXP 	visual_stimulus: autoDraw = False
+96.7041 	EXP 	auditory_icon: autoDraw = False
+96.7041 	EXP 	rating_prompt: autoDraw = False
+96.7041 	EXP 	break_text: autoDraw = False
+96.7041 	EXP 	visual_stimulus: height = np.float64(0.04)
+96.7041 	EXP 	visual_stimulus: height = np.float64(0.04)
+96.7041 	EXP 	visual_stimulus: height = np.float64(0.04)
+96.7041 	EXP 	visual_stimulus: height = np.float64(0.04)
+96.7041 	EXP 	visual_stimulus: height = np.float64(0.04)
+96.7041 	EXP 	visual_stimulus: height = np.float64(0.04)
+96.7041 	EXP 	visual_stimulus: text = 'A portable sunshade\n\nVISOR'
+96.8026 	EXP 	Device response: <KeyPress from None: t=96.68824699998368, value=5, duration=0.11191790003795177>
+97.1827 	EXP 	Sound audio_stim reached end of file
+97.1989 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+97.1922 	EXP 	visual_stimulus: autoDraw = True
+97.1922 	EXP 	auditory_icon: autoDraw = True
+98.6422 	EXP 	Device response: <KeyPress from None: t=98.63999589998275, value=1, duration=None>
+98.6427 	DATA 	Keypress: 1
+98.8026 	EXP 	Device response: <KeyPress from None: t=98.63999589998275, value=1, duration=0.15238790004514158>
+102.2007 	EXP 	Sound audio_stim stopped
+102.2034 	INFO 	Keyboard events cleared
+102.2033 	EXP 	visual_stimulus: autoDraw = False
+102.2033 	EXP 	auditory_icon: autoDraw = False
+102.2033 	EXP 	rating_prompt: autoDraw = True
+102.6219 	EXP 	Device response: <KeyPress from None: t=102.61618479993194, value=2, duration=None>
+102.6224 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'definition': 'A wooden river', 'word': 'PLANK', 'block': np.int64(1), 'modality': 'visual', 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+102.6341 	DATA 	Keypress: 2
+102.6355 	EXP 	visual_stimulus: autoDraw = False
+102.6355 	EXP 	auditory_icon: autoDraw = False
+102.6355 	EXP 	rating_prompt: autoDraw = False
+102.6355 	EXP 	break_text: autoDraw = False
+102.6355 	EXP 	visual_stimulus: height = np.float64(0.04)
+102.6355 	EXP 	visual_stimulus: height = np.float64(0.04)
+102.6355 	EXP 	visual_stimulus: height = np.float64(0.04)
+102.6355 	EXP 	visual_stimulus: height = np.float64(0.04)
+102.6355 	EXP 	visual_stimulus: height = np.float64(0.04)
+102.6355 	EXP 	visual_stimulus: height = np.float64(0.04)
+102.6355 	EXP 	visual_stimulus: text = 'A wooden river\n\nPLANK'
+102.7518 	EXP 	Device response: <KeyPress from None: t=102.61618479993194, value=2, duration=0.1281532000284642>
+103.1120 	EXP 	Sound audio_stim reached end of file
+103.1282 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+103.1216 	EXP 	visual_stimulus: autoDraw = True
+103.1216 	EXP 	auditory_icon: autoDraw = True
+108.1276 	EXP 	Sound audio_stim stopped
+108.1304 	INFO 	Keyboard events cleared
+108.1303 	EXP 	visual_stimulus: autoDraw = False
+108.1303 	EXP 	auditory_icon: autoDraw = False
+108.1303 	EXP 	rating_prompt: autoDraw = True
+108.6912 	EXP 	Device response: <KeyPress from None: t=108.68853639997542, value=5, duration=None>
+108.6918 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'definition': 'A pocket thunderbolt', 'word': 'BATTERY', 'block': np.int64(1), 'modality': 'visual', 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+108.7022 	DATA 	Keypress: 5
+108.7036 	EXP 	visual_stimulus: autoDraw = False
+108.7036 	EXP 	auditory_icon: autoDraw = False
+108.7036 	EXP 	rating_prompt: autoDraw = False
+108.7036 	EXP 	break_text: autoDraw = False
+108.7036 	EXP 	visual_stimulus: height = np.float64(0.04)
+108.7036 	EXP 	visual_stimulus: height = np.float64(0.04)
+108.7036 	EXP 	visual_stimulus: height = np.float64(0.04)
+108.7036 	EXP 	visual_stimulus: height = np.float64(0.04)
+108.7036 	EXP 	visual_stimulus: height = np.float64(0.04)
+108.7036 	EXP 	visual_stimulus: height = np.float64(0.04)
+108.7036 	EXP 	visual_stimulus: text = 'A pocket thunderbolt\n\nBATTERY'
+108.8110 	EXP 	Device response: <KeyPress from None: t=108.68853639997542, value=5, duration=0.11961920000612736>
+109.1812 	EXP 	Sound audio_stim reached end of file
+109.1974 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+109.1908 	EXP 	visual_stimulus: autoDraw = True
+109.1908 	EXP 	auditory_icon: autoDraw = True
+114.1995 	EXP 	Sound audio_stim stopped
+114.2025 	INFO 	Keyboard events cleared
+114.2024 	EXP 	visual_stimulus: autoDraw = False
+114.2024 	EXP 	auditory_icon: autoDraw = False
+114.2024 	EXP 	rating_prompt: autoDraw = True
+114.7805 	EXP 	Device response: <KeyPress from None: t=114.77648609993048, value=5, duration=None>
+114.7809 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'definition': 'A portable mountain', 'word': 'BACKPACK', 'block': np.int64(1), 'modality': 'visual', 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+114.7910 	DATA 	Keypress: 5
+114.7924 	EXP 	visual_stimulus: autoDraw = False
+114.7924 	EXP 	auditory_icon: autoDraw = False
+114.7924 	EXP 	rating_prompt: autoDraw = False
+114.7924 	EXP 	break_text: autoDraw = False
+114.7924 	EXP 	visual_stimulus: height = np.float64(0.04)
+114.7924 	EXP 	visual_stimulus: height = np.float64(0.04)
+114.7924 	EXP 	visual_stimulus: height = np.float64(0.04)
+114.7924 	EXP 	visual_stimulus: height = np.float64(0.04)
+114.7924 	EXP 	visual_stimulus: height = np.float64(0.04)
+114.7924 	EXP 	visual_stimulus: height = np.float64(0.04)
+114.7924 	EXP 	visual_stimulus: text = 'A portable mountain\n\nBACKPACK'
+114.8906 	EXP 	Device response: <KeyPress from None: t=114.77648609993048, value=5, duration=0.1123284000204876>
+115.2704 	EXP 	Sound audio_stim reached end of file
+115.2866 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+115.2800 	EXP 	visual_stimulus: autoDraw = True
+115.2800 	EXP 	auditory_icon: autoDraw = True
+120.2875 	EXP 	Sound audio_stim stopped
+120.2902 	INFO 	Keyboard events cleared
+120.2901 	EXP 	visual_stimulus: autoDraw = False
+120.2901 	EXP 	auditory_icon: autoDraw = False
+120.2901 	EXP 	rating_prompt: autoDraw = True
+121.2804 	DATA 	Keypress: 3
+121.2898 	EXP 	Device response: <KeyPress from None: t=121.28009469993412, value=3, duration=None>
+121.2902 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'definition': 'A metal river snake', 'word': 'PIPE', 'block': np.int64(1), 'modality': 'visual', 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+121.3014 	EXP 	visual_stimulus: autoDraw = False
+121.3014 	EXP 	auditory_icon: autoDraw = False
+121.3014 	EXP 	rating_prompt: autoDraw = False
+121.3014 	EXP 	break_text: autoDraw = False
+121.3014 	EXP 	visual_stimulus: height = np.float64(0.04)
+121.3014 	EXP 	visual_stimulus: height = np.float64(0.04)
+121.3014 	EXP 	visual_stimulus: height = np.float64(0.04)
+121.3014 	EXP 	visual_stimulus: height = np.float64(0.04)
+121.3014 	EXP 	visual_stimulus: height = np.float64(0.04)
+121.3014 	EXP 	visual_stimulus: height = np.float64(0.04)
+121.3014 	EXP 	visual_stimulus: text = 'A metal river snake\n\nPIPE'
+121.4196 	EXP 	Device response: <KeyPress from None: t=121.28009469993412, value=3, duration=0.1362269000383094>
+121.7797 	EXP 	Sound audio_stim reached end of file
+121.7958 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+121.7892 	EXP 	visual_stimulus: autoDraw = True
+121.7892 	EXP 	auditory_icon: autoDraw = True
+126.7904 	EXP 	Sound audio_stim stopped
+126.7928 	INFO 	Keyboard events cleared
+126.7927 	EXP 	visual_stimulus: autoDraw = False
+126.7927 	EXP 	auditory_icon: autoDraw = False
+126.7927 	EXP 	rating_prompt: autoDraw = True
+127.8587 	EXP 	Device response: <KeyPress from None: t=127.85616740002297, value=5, duration=None>
+127.8620 	DATA 	Keypress: 5
+127.8685 	INFO 	Keyboard events cleared
+127.8684 	EXP 	visual_stimulus: autoDraw = False
+127.8684 	EXP 	auditory_icon: autoDraw = False
+127.8684 	EXP 	rating_prompt: autoDraw = False
+127.8684 	EXP 	break_text: autoDraw = True
+127.9689 	EXP 	Device response: <KeyPress from None: t=127.85616740002297, value=5, duration=0.10410899994894862>
+129.4889 	EXP 	Device response: <KeyPress from None: t=129.48032289999537, value=space, duration=None>
+129.4893 	EXP 	New trial (rep=0, index=18): <Trial 18 (18 in rep 0) data={'definition': 'A pocket mirror for spies', 'word': 'COMPACT', 'block': np.int64(2), 'modality': 'auditory', 'thisN': 18, 'thisTrialN': 18, 'thisRepN': 0}>
+129.4979 	EXP 	audio_stim: sampleRate = 24000
+129.5221 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+129.5236 	DATA 	Keypress: space
+129.5252 	EXP 	break_text: autoDraw = False
+129.5252 	EXP 	visual_stimulus: height = np.float64(0.04)
+129.5252 	EXP 	visual_stimulus: height = np.float64(0.04)
+129.5252 	EXP 	visual_stimulus: height = np.float64(0.04)
+129.5252 	EXP 	visual_stimulus: height = np.float64(0.04)
+129.5252 	EXP 	visual_stimulus: height = np.float64(0.04)
+129.5252 	EXP 	visual_stimulus: height = np.float64(0.04)
+129.5252 	EXP 	visual_stimulus: text = 'A pocket mirror for spies\n\nCOMPACT'
+129.6186 	EXP 	Device response: <KeyPress from None: t=129.48032289999537, value=space, duration=0.13601340004242957>
+129.9786 	EXP 	Sound audio_stim reached end of file
+129.9947 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+129.9882 	EXP 	visual_stimulus: autoDraw = True
+129.9882 	EXP 	auditory_icon: autoDraw = True
+134.7855 	EXP 	Sound audio_stim reached end of file
+134.7885 	EXP 	Sound audio_stim reached end of file
+134.9878 	INFO 	Keyboard events cleared
+134.9877 	EXP 	visual_stimulus: autoDraw = False
+134.9877 	EXP 	auditory_icon: autoDraw = False
+134.9877 	EXP 	rating_prompt: autoDraw = True
+135.9478 	EXP 	Device response: <KeyPress from None: t=135.94418250001036, value=3, duration=None>
+135.9484 	EXP 	New trial (rep=0, index=19): <Trial 19 (19 in rep 0) data={'definition': 'A paper forest', 'word': 'NEWSPAPER', 'block': np.int64(2), 'modality': 'auditory', 'thisN': 19, 'thisTrialN': 19, 'thisRepN': 0}>
+135.9561 	EXP 	audio_stim: sampleRate = 24000
+135.9827 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+135.9843 	DATA 	Keypress: 3
+135.9860 	EXP 	visual_stimulus: autoDraw = False
+135.9860 	EXP 	auditory_icon: autoDraw = False
+135.9860 	EXP 	rating_prompt: autoDraw = False
+135.9860 	EXP 	break_text: autoDraw = False
+135.9860 	EXP 	visual_stimulus: height = np.float64(0.04)
+135.9860 	EXP 	visual_stimulus: height = np.float64(0.04)
+135.9860 	EXP 	visual_stimulus: height = np.float64(0.04)
+135.9860 	EXP 	visual_stimulus: height = np.float64(0.04)
+135.9860 	EXP 	visual_stimulus: height = np.float64(0.04)
+135.9860 	EXP 	visual_stimulus: height = np.float64(0.04)
+135.9860 	EXP 	visual_stimulus: text = 'A paper forest\n\nNEWSPAPER'
+136.0580 	EXP 	Device response: <KeyPress from None: t=135.94418250001036, value=3, duration=0.11236189992632717>
+136.4378 	EXP 	Sound audio_stim reached end of file
+136.4540 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+136.4474 	EXP 	visual_stimulus: autoDraw = True
+136.4474 	EXP 	auditory_icon: autoDraw = True
+140.8841 	EXP 	Sound audio_stim reached end of file
+140.8872 	EXP 	Sound audio_stim reached end of file
+141.4467 	INFO 	Keyboard events cleared
+141.4465 	EXP 	visual_stimulus: autoDraw = False
+141.4465 	EXP 	auditory_icon: autoDraw = False
+141.4465 	EXP 	rating_prompt: autoDraw = True
+142.1471 	EXP 	Device response: <KeyPress from None: t=142.14417400001548, value=5, duration=None>
+142.1476 	EXP 	New trial (rep=0, index=20): <Trial 20 (20 in rep 0) data={'definition': 'A polite skeleton for tents', 'word': 'POLE', 'block': np.int64(2), 'modality': 'auditory', 'thisN': 20, 'thisTrialN': 20, 'thisRepN': 0}>
+142.1559 	EXP 	audio_stim: sampleRate = 24000
+142.1818 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+142.1834 	DATA 	Keypress: 5
+142.1850 	EXP 	visual_stimulus: autoDraw = False
+142.1850 	EXP 	auditory_icon: autoDraw = False
+142.1850 	EXP 	rating_prompt: autoDraw = False
+142.1850 	EXP 	break_text: autoDraw = False
+142.1850 	EXP 	visual_stimulus: height = np.float64(0.04)
+142.1850 	EXP 	visual_stimulus: height = np.float64(0.04)
+142.1850 	EXP 	visual_stimulus: height = np.float64(0.04)
+142.1850 	EXP 	visual_stimulus: height = np.float64(0.04)
+142.1850 	EXP 	visual_stimulus: height = np.float64(0.04)
+142.1850 	EXP 	visual_stimulus: height = np.float64(0.04)
+142.1850 	EXP 	visual_stimulus: text = 'A polite skeleton for tents\n\nPOLE'
+142.2571 	EXP 	Device response: <KeyPress from None: t=142.14417400001548, value=5, duration=0.10394890001043677>
+142.6373 	EXP 	Sound audio_stim reached end of file
+142.6534 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+142.6467 	EXP 	visual_stimulus: autoDraw = True
+142.6467 	EXP 	auditory_icon: autoDraw = True
+147.3983 	EXP 	Sound audio_stim reached end of file
+147.4002 	EXP 	Sound audio_stim reached end of file
+147.6457 	INFO 	Keyboard events cleared
+147.6457 	EXP 	visual_stimulus: autoDraw = False
+147.6457 	EXP 	auditory_icon: autoDraw = False
+147.6457 	EXP 	rating_prompt: autoDraw = True
+148.2464 	EXP 	Device response: <KeyPress from None: t=148.24028359993827, value=2, duration=None>
+148.2469 	EXP 	New trial (rep=0, index=21): <Trial 21 (21 in rep 0) data={'definition': 'A metal umbrella for wheels', 'word': 'HUBCAP', 'block': np.int64(2), 'modality': 'auditory', 'thisN': 21, 'thisTrialN': 21, 'thisRepN': 0}>
+148.2547 	EXP 	audio_stim: sampleRate = 24000
+148.2654 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+148.2673 	DATA 	Keypress: 2
+148.2689 	EXP 	visual_stimulus: autoDraw = False
+148.2689 	EXP 	auditory_icon: autoDraw = False
+148.2689 	EXP 	rating_prompt: autoDraw = False
+148.2689 	EXP 	break_text: autoDraw = False
+148.2689 	EXP 	visual_stimulus: height = np.float64(0.04)
+148.2689 	EXP 	visual_stimulus: height = np.float64(0.04)
+148.2689 	EXP 	visual_stimulus: height = np.float64(0.04)
+148.2689 	EXP 	visual_stimulus: height = np.float64(0.04)
+148.2689 	EXP 	visual_stimulus: height = np.float64(0.04)
+148.2689 	EXP 	visual_stimulus: height = np.float64(0.04)
+148.2689 	EXP 	visual_stimulus: text = 'A metal umbrella for wheels\n\nHUBCAP'
+148.3860 	EXP 	Device response: <KeyPress from None: t=148.24028359993827, value=2, duration=0.13565370009746403>
+148.7365 	EXP 	Sound audio_stim reached end of file
+148.7526 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+148.7459 	EXP 	visual_stimulus: autoDraw = True
+148.7459 	EXP 	auditory_icon: autoDraw = True
+153.4465 	EXP 	Sound audio_stim reached end of file
+153.4494 	EXP 	Sound audio_stim reached end of file
+153.7454 	INFO 	Keyboard events cleared
+153.7453 	EXP 	visual_stimulus: autoDraw = False
+153.7453 	EXP 	auditory_icon: autoDraw = False
+153.7453 	EXP 	rating_prompt: autoDraw = True
+154.2752 	EXP 	Device response: <KeyPress from None: t=154.27213980001397, value=5, duration=None>
+154.2755 	EXP 	New trial (rep=0, index=22): <Trial 22 (22 in rep 0) data={'definition': 'A wall that moves', 'word': 'CURTAIN', 'block': np.int64(2), 'modality': 'auditory', 'thisN': 22, 'thisTrialN': 22, 'thisRepN': 0}>
+154.2805 	EXP 	audio_stim: sampleRate = 24000
+154.2938 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+154.2953 	DATA 	Keypress: 5
+154.2968 	EXP 	visual_stimulus: autoDraw = False
+154.2968 	EXP 	auditory_icon: autoDraw = False
+154.2968 	EXP 	rating_prompt: autoDraw = False
+154.2968 	EXP 	break_text: autoDraw = False
+154.2968 	EXP 	visual_stimulus: height = np.float64(0.04)
+154.2968 	EXP 	visual_stimulus: height = np.float64(0.04)
+154.2968 	EXP 	visual_stimulus: height = np.float64(0.04)
+154.2968 	EXP 	visual_stimulus: height = np.float64(0.04)
+154.2968 	EXP 	visual_stimulus: height = np.float64(0.04)
+154.2968 	EXP 	visual_stimulus: height = np.float64(0.04)
+154.2968 	EXP 	visual_stimulus: text = 'A wall that moves\n\nCURTAIN'
+154.3854 	EXP 	Device response: <KeyPress from None: t=154.27213980001397, value=5, duration=0.10410240001510829>
+154.7658 	EXP 	Sound audio_stim reached end of file
+154.7816 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+154.7749 	EXP 	visual_stimulus: autoDraw = True
+154.7749 	EXP 	auditory_icon: autoDraw = True
+158.8298 	EXP 	Sound audio_stim reached end of file
+158.8327 	EXP 	Sound audio_stim reached end of file
+159.7743 	INFO 	Keyboard events cleared
+159.7742 	EXP 	visual_stimulus: autoDraw = False
+159.7742 	EXP 	auditory_icon: autoDraw = False
+159.7742 	EXP 	rating_prompt: autoDraw = True
+160.0448 	EXP 	Device response: <KeyPress from None: t=160.0402744000312, value=3, duration=None>
+160.0454 	EXP 	New trial (rep=0, index=23): <Trial 23 (23 in rep 0) data={'definition': 'A pocket library', 'word': 'DIARY', 'block': np.int64(2), 'modality': 'auditory', 'thisN': 23, 'thisTrialN': 23, 'thisRepN': 0}>
+160.0533 	EXP 	audio_stim: sampleRate = 24000
+160.0742 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+160.0757 	DATA 	Keypress: 3
+160.0772 	EXP 	visual_stimulus: autoDraw = False
+160.0772 	EXP 	auditory_icon: autoDraw = False
+160.0772 	EXP 	rating_prompt: autoDraw = False
+160.0772 	EXP 	break_text: autoDraw = False
+160.0772 	EXP 	visual_stimulus: height = np.float64(0.04)
+160.0772 	EXP 	visual_stimulus: height = np.float64(0.04)
+160.0772 	EXP 	visual_stimulus: height = np.float64(0.04)
+160.0772 	EXP 	visual_stimulus: height = np.float64(0.04)
+160.0772 	EXP 	visual_stimulus: height = np.float64(0.04)
+160.0772 	EXP 	visual_stimulus: height = np.float64(0.04)
+160.0772 	EXP 	visual_stimulus: text = 'A pocket library\n\nDIARY'
+160.1546 	EXP 	Device response: <KeyPress from None: t=160.0402744000312, value=3, duration=0.1119685999583453>
+160.5346 	EXP 	Sound audio_stim reached end of file
+160.5509 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+160.5443 	EXP 	visual_stimulus: autoDraw = True
+160.5443 	EXP 	auditory_icon: autoDraw = True
+164.8159 	EXP 	Sound audio_stim reached end of file
+164.8188 	EXP 	Sound audio_stim reached end of file
+165.5437 	INFO 	Keyboard events cleared
+165.5436 	EXP 	visual_stimulus: autoDraw = False
+165.5436 	EXP 	auditory_icon: autoDraw = False
+165.5436 	EXP 	rating_prompt: autoDraw = True
+165.7940 	EXP 	Device response: <KeyPress from None: t=165.79222599999048, value=2, duration=None>
+165.7945 	EXP 	New trial (rep=0, index=24): <Trial 24 (24 in rep 0) data={'definition': 'A silent fireworks show', 'word': 'STARS', 'block': np.int64(2), 'modality': 'auditory', 'thisN': 24, 'thisTrialN': 24, 'thisRepN': 0}>
+165.8018 	EXP 	audio_stim: sampleRate = 24000
+165.8117 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+165.8133 	DATA 	Keypress: 2
+165.8148 	EXP 	visual_stimulus: autoDraw = False
+165.8148 	EXP 	auditory_icon: autoDraw = False
+165.8148 	EXP 	rating_prompt: autoDraw = False
+165.8148 	EXP 	break_text: autoDraw = False
+165.8148 	EXP 	visual_stimulus: height = np.float64(0.04)
+165.8148 	EXP 	visual_stimulus: height = np.float64(0.04)
+165.8148 	EXP 	visual_stimulus: height = np.float64(0.04)
+165.8148 	EXP 	visual_stimulus: height = np.float64(0.04)
+165.8148 	EXP 	visual_stimulus: height = np.float64(0.04)
+165.8148 	EXP 	visual_stimulus: height = np.float64(0.04)
+165.8148 	EXP 	visual_stimulus: text = 'A silent fireworks show\n\nSTARS'
+165.9139 	EXP 	Device response: <KeyPress from None: t=165.79222599999048, value=2, duration=0.12018129997886717>
+166.2840 	EXP 	Sound audio_stim reached end of file
+166.3001 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+166.2936 	EXP 	visual_stimulus: autoDraw = True
+166.2936 	EXP 	auditory_icon: autoDraw = True
+171.1163 	EXP 	Sound audio_stim reached end of file
+171.1188 	EXP 	Sound audio_stim reached end of file
+171.2931 	INFO 	Keyboard events cleared
+171.2930 	EXP 	visual_stimulus: autoDraw = False
+171.2930 	EXP 	auditory_icon: autoDraw = False
+171.2930 	EXP 	rating_prompt: autoDraw = True
+172.1034 	EXP 	Device response: <KeyPress from None: t=172.0963475999888, value=3, duration=None>
+172.1040 	EXP 	New trial (rep=0, index=25): <Trial 25 (25 in rep 0) data={'definition': 'A rock that floats', 'word': 'PUMICE', 'block': np.int64(2), 'modality': 'auditory', 'thisN': 25, 'thisTrialN': 25, 'thisRepN': 0}>
+172.1110 	EXP 	audio_stim: sampleRate = 24000
+172.1329 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+172.1343 	DATA 	Keypress: 3
+172.1359 	EXP 	visual_stimulus: autoDraw = False
+172.1359 	EXP 	auditory_icon: autoDraw = False
+172.1359 	EXP 	rating_prompt: autoDraw = False
+172.1359 	EXP 	break_text: autoDraw = False
+172.1359 	EXP 	visual_stimulus: height = np.float64(0.04)
+172.1359 	EXP 	visual_stimulus: height = np.float64(0.04)
+172.1359 	EXP 	visual_stimulus: height = np.float64(0.04)
+172.1359 	EXP 	visual_stimulus: height = np.float64(0.04)
+172.1359 	EXP 	visual_stimulus: height = np.float64(0.04)
+172.1359 	EXP 	visual_stimulus: height = np.float64(0.04)
+172.1359 	EXP 	visual_stimulus: text = 'A rock that floats\n\nPUMICE'
+172.2032 	EXP 	Device response: <KeyPress from None: t=172.0963475999888, value=3, duration=0.09634769998956472>
+172.5934 	EXP 	Sound audio_stim reached end of file
+172.6095 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+172.6030 	EXP 	visual_stimulus: autoDraw = True
+172.6030 	EXP 	auditory_icon: autoDraw = True
+176.8495 	EXP 	Sound audio_stim reached end of file
+176.8529 	EXP 	Sound audio_stim reached end of file
+177.6023 	INFO 	Keyboard events cleared
+177.6022 	EXP 	visual_stimulus: autoDraw = False
+177.6022 	EXP 	auditory_icon: autoDraw = False
+177.6022 	EXP 	rating_prompt: autoDraw = True
+178.1125 	EXP 	Device response: <KeyPress from None: t=178.10420299996622, value=5, duration=None>
+178.1129 	EXP 	New trial (rep=0, index=26): <Trial 26 (26 in rep 0) data={'definition': 'A metal rainbow', 'word': 'BRIDGE', 'block': np.int64(2), 'modality': 'auditory', 'thisN': 26, 'thisTrialN': 26, 'thisRepN': 0}>
+178.1205 	EXP 	audio_stim: sampleRate = 24000
+178.1372 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+178.1386 	DATA 	Keypress: 5
+178.1402 	EXP 	visual_stimulus: autoDraw = False
+178.1402 	EXP 	auditory_icon: autoDraw = False
+178.1402 	EXP 	rating_prompt: autoDraw = False
+178.1402 	EXP 	break_text: autoDraw = False
+178.1402 	EXP 	visual_stimulus: height = np.float64(0.04)
+178.1402 	EXP 	visual_stimulus: height = np.float64(0.04)
+178.1402 	EXP 	visual_stimulus: height = np.float64(0.04)
+178.1402 	EXP 	visual_stimulus: height = np.float64(0.04)
+178.1402 	EXP 	visual_stimulus: height = np.float64(0.04)
+178.1402 	EXP 	visual_stimulus: height = np.float64(0.04)
+178.1402 	EXP 	visual_stimulus: text = 'A metal rainbow\n\nBRIDGE'
+178.2425 	EXP 	Device response: <KeyPress from None: t=178.10420299996622, value=5, duration=0.13606519997119904>
+178.6025 	EXP 	Sound audio_stim reached end of file
+178.6186 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+178.6119 	EXP 	visual_stimulus: autoDraw = True
+178.6119 	EXP 	auditory_icon: autoDraw = True
+182.6917 	EXP 	Sound audio_stim reached end of file
+182.6944 	EXP 	Sound audio_stim reached end of file
+183.6115 	INFO 	Keyboard events cleared
+183.6113 	EXP 	visual_stimulus: autoDraw = False
+183.6113 	EXP 	auditory_icon: autoDraw = False
+183.6113 	EXP 	rating_prompt: autoDraw = True
+183.8732 	DATA 	Keypress: 2
+183.8818 	EXP 	Device response: <KeyPress from None: t=183.8725131000392, value=2, duration=None>
+183.8823 	EXP 	New trial (rep=0, index=27): <Trial 27 (27 in rep 0) data={'definition': 'A sky anchor', 'word': 'HELICOPTER', 'block': np.int64(2), 'modality': 'auditory', 'thisN': 27, 'thisTrialN': 27, 'thisRepN': 0}>
+183.8904 	EXP 	audio_stim: sampleRate = 24000
+183.9021 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+183.9049 	EXP 	visual_stimulus: autoDraw = False
+183.9049 	EXP 	auditory_icon: autoDraw = False
+183.9049 	EXP 	rating_prompt: autoDraw = False
+183.9049 	EXP 	break_text: autoDraw = False
+183.9049 	EXP 	visual_stimulus: height = np.float64(0.04)
+183.9049 	EXP 	visual_stimulus: height = np.float64(0.04)
+183.9049 	EXP 	visual_stimulus: height = np.float64(0.04)
+183.9049 	EXP 	visual_stimulus: height = np.float64(0.04)
+183.9049 	EXP 	visual_stimulus: height = np.float64(0.04)
+183.9049 	EXP 	visual_stimulus: height = np.float64(0.04)
+183.9049 	EXP 	visual_stimulus: text = 'A sky anchor\n\nHELICOPTER'
+183.9618 	EXP 	Device response: <KeyPress from None: t=183.8725131000392, value=2, duration=0.08763919991906732>
+184.3716 	EXP 	Sound audio_stim reached end of file
+184.3878 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+184.3814 	EXP 	visual_stimulus: autoDraw = True
+184.3814 	EXP 	auditory_icon: autoDraw = True
+188.6235 	EXP 	Sound audio_stim reached end of file
+188.6255 	EXP 	Sound audio_stim reached end of file
+189.3807 	INFO 	Keyboard events cleared
+189.3805 	EXP 	visual_stimulus: autoDraw = False
+189.3805 	EXP 	auditory_icon: autoDraw = False
+189.3805 	EXP 	rating_prompt: autoDraw = True
+189.7805 	EXP 	Device response: <KeyPress from None: t=189.77581479994114, value=5, duration=None>
+189.7807 	EXP 	New trial (rep=0, index=28): <Trial 28 (28 in rep 0) data={'definition': "A snowman's spare nose", 'word': 'CARROT', 'block': np.int64(2), 'modality': 'auditory', 'thisN': 28, 'thisTrialN': 28, 'thisRepN': 0}>
+189.7841 	EXP 	audio_stim: sampleRate = 24000
+189.8070 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+189.8086 	DATA 	Keypress: 5
+189.8103 	EXP 	visual_stimulus: autoDraw = False
+189.8103 	EXP 	auditory_icon: autoDraw = False
+189.8103 	EXP 	rating_prompt: autoDraw = False
+189.8103 	EXP 	break_text: autoDraw = False
+189.8103 	EXP 	visual_stimulus: height = np.float64(0.04)
+189.8103 	EXP 	visual_stimulus: height = np.float64(0.04)
+189.8103 	EXP 	visual_stimulus: height = np.float64(0.04)
+189.8103 	EXP 	visual_stimulus: height = np.float64(0.04)
+189.8103 	EXP 	visual_stimulus: height = np.float64(0.04)
+189.8103 	EXP 	visual_stimulus: height = np.float64(0.04)
+189.8103 	EXP 	visual_stimulus: text = "A snowman's spare nose\n\nCARROT"
+189.9109 	EXP 	Device response: <KeyPress from None: t=189.77581479994114, value=5, duration=0.12850470002740622>
+190.2708 	EXP 	Sound audio_stim reached end of file
+190.2871 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+190.2805 	EXP 	visual_stimulus: autoDraw = True
+190.2805 	EXP 	auditory_icon: autoDraw = True
+194.7862 	EXP 	Sound audio_stim reached end of file
+194.7893 	EXP 	Sound audio_stim reached end of file
+194.9803 	EXP 	Device response: <KeyPress from None: t=194.97639990004245, value=5, duration=None>
+194.9815 	DATA 	Keypress: 5
+195.1004 	EXP 	Device response: <KeyPress from None: t=194.97639990004245, value=5, duration=0.11988339992240071>
+195.2799 	INFO 	Keyboard events cleared
+195.2798 	EXP 	visual_stimulus: autoDraw = False
+195.2798 	EXP 	auditory_icon: autoDraw = False
+195.2798 	EXP 	rating_prompt: autoDraw = True
+195.9301 	EXP 	Device response: <KeyPress from None: t=195.9287129000295, value=5, duration=None>
+195.9306 	EXP 	New trial (rep=0, index=29): <Trial 29 (29 in rep 0) data={'definition': 'A cloud on a stick', 'word': 'COTTONCANDY', 'block': np.int64(2), 'modality': 'auditory', 'thisN': 29, 'thisTrialN': 29, 'thisRepN': 0}>
+195.9369 	EXP 	audio_stim: sampleRate = 24000
+195.9566 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+195.9583 	DATA 	Keypress: 5
+195.9600 	EXP 	visual_stimulus: autoDraw = False
+195.9600 	EXP 	auditory_icon: autoDraw = False
+195.9600 	EXP 	rating_prompt: autoDraw = False
+195.9600 	EXP 	break_text: autoDraw = False
+195.9600 	EXP 	visual_stimulus: height = np.float64(0.04)
+195.9600 	EXP 	visual_stimulus: height = np.float64(0.04)
+195.9600 	EXP 	visual_stimulus: height = np.float64(0.04)
+195.9600 	EXP 	visual_stimulus: height = np.float64(0.04)
+195.9600 	EXP 	visual_stimulus: height = np.float64(0.04)
+195.9600 	EXP 	visual_stimulus: height = np.float64(0.04)
+195.9600 	EXP 	visual_stimulus: text = 'A cloud on a stick\n\nCOTTONCANDY'
+196.0504 	EXP 	Device response: <KeyPress from None: t=195.9287129000295, value=5, duration=0.11183750000782311>
+196.4202 	EXP 	Sound audio_stim reached end of file
+196.4363 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+196.4298 	EXP 	visual_stimulus: autoDraw = True
+196.4298 	EXP 	auditory_icon: autoDraw = True
+200.9925 	EXP 	Sound audio_stim reached end of file
+200.9994 	EXP 	Sound audio_stim reached end of file
+201.4292 	INFO 	Keyboard events cleared
+201.4290 	EXP 	visual_stimulus: autoDraw = False
+201.4290 	EXP 	auditory_icon: autoDraw = False
+201.4290 	EXP 	rating_prompt: autoDraw = True
+201.9794 	EXP 	Device response: <KeyPress from None: t=201.97616670001298, value=5, duration=None>
+201.9800 	EXP 	New trial (rep=0, index=30): <Trial 30 (30 in rep 0) data={'definition': 'A metal tree with traffic fruit', 'word': 'TRAFFICLIGHT', 'block': np.int64(2), 'modality': 'auditory', 'thisN': 30, 'thisTrialN': 30, 'thisRepN': 0}>
+201.9883 	EXP 	audio_stim: sampleRate = 24000
+202.0134 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+202.0151 	DATA 	Keypress: 5
+202.0166 	EXP 	visual_stimulus: autoDraw = False
+202.0166 	EXP 	auditory_icon: autoDraw = False
+202.0166 	EXP 	rating_prompt: autoDraw = False
+202.0166 	EXP 	break_text: autoDraw = False
+202.0166 	EXP 	visual_stimulus: height = np.float64(0.04)
+202.0166 	EXP 	visual_stimulus: height = np.float64(0.04)
+202.0166 	EXP 	visual_stimulus: height = np.float64(0.04)
+202.0166 	EXP 	visual_stimulus: height = np.float64(0.04)
+202.0166 	EXP 	visual_stimulus: height = np.float64(0.04)
+202.0166 	EXP 	visual_stimulus: height = np.float64(0.04)
+202.0166 	EXP 	visual_stimulus: text = 'A metal tree with traffic fruit\n\nTRAFFICLIGHT'
+202.0994 	EXP 	Device response: <KeyPress from None: t=201.97616670001298, value=5, duration=0.11999449995346367>
+202.4694 	EXP 	Sound audio_stim reached end of file
+202.4856 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+202.4790 	EXP 	visual_stimulus: autoDraw = True
+202.4790 	EXP 	auditory_icon: autoDraw = True
+207.4875 	EXP 	Sound audio_stim stopped
+207.4902 	INFO 	Keyboard events cleared
+207.4900 	EXP 	visual_stimulus: autoDraw = False
+207.4900 	EXP 	auditory_icon: autoDraw = False
+207.4900 	EXP 	rating_prompt: autoDraw = True
+208.9686 	EXP 	Device response: <KeyPress from None: t=208.9601661999477, value=3, duration=None>
+208.9691 	EXP 	New trial (rep=0, index=31): <Trial 31 (31 in rep 0) data={'definition': 'A flying door', 'word': 'WINDOW', 'block': np.int64(2), 'modality': 'auditory', 'thisN': 31, 'thisTrialN': 31, 'thisRepN': 0}>
+208.9758 	EXP 	audio_stim: sampleRate = 24000
+208.9858 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+208.9874 	DATA 	Keypress: 3
+208.9888 	EXP 	visual_stimulus: autoDraw = False
+208.9888 	EXP 	auditory_icon: autoDraw = False
+208.9888 	EXP 	rating_prompt: autoDraw = False
+208.9888 	EXP 	break_text: autoDraw = False
+208.9888 	EXP 	visual_stimulus: height = np.float64(0.04)
+208.9888 	EXP 	visual_stimulus: height = np.float64(0.04)
+208.9888 	EXP 	visual_stimulus: height = np.float64(0.04)
+208.9888 	EXP 	visual_stimulus: height = np.float64(0.04)
+208.9888 	EXP 	visual_stimulus: height = np.float64(0.04)
+208.9888 	EXP 	visual_stimulus: height = np.float64(0.04)
+208.9888 	EXP 	visual_stimulus: text = 'A flying door\n\nWINDOW'
+209.0687 	EXP 	Device response: <KeyPress from None: t=208.9601661999477, value=3, duration=0.1040457000490278>
+209.4589 	EXP 	Sound audio_stim reached end of file
+209.4748 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+209.4683 	EXP 	visual_stimulus: autoDraw = True
+209.4683 	EXP 	auditory_icon: autoDraw = True
+213.5692 	EXP 	Sound audio_stim reached end of file
+213.5720 	EXP 	Sound audio_stim reached end of file
+214.4677 	INFO 	Keyboard events cleared
+214.4675 	EXP 	visual_stimulus: autoDraw = False
+214.4675 	EXP 	auditory_icon: autoDraw = False
+214.4675 	EXP 	rating_prompt: autoDraw = True
+214.9378 	EXP 	Device response: <KeyPress from None: t=214.93664550001267, value=5, duration=None>
+214.9382 	EXP 	New trial (rep=0, index=32): <Trial 32 (32 in rep 0) data={'definition': 'A pocket sun', 'word': 'FLASHLIGHT', 'block': np.int64(2), 'modality': 'auditory', 'thisN': 32, 'thisTrialN': 32, 'thisRepN': 0}>
+214.9459 	EXP 	audio_stim: sampleRate = 24000
+214.9575 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+214.9590 	DATA 	Keypress: 5
+214.9605 	EXP 	visual_stimulus: autoDraw = False
+214.9605 	EXP 	auditory_icon: autoDraw = False
+214.9605 	EXP 	rating_prompt: autoDraw = False
+214.9605 	EXP 	break_text: autoDraw = False
+214.9605 	EXP 	visual_stimulus: height = np.float64(0.04)
+214.9605 	EXP 	visual_stimulus: height = np.float64(0.04)
+214.9605 	EXP 	visual_stimulus: height = np.float64(0.04)
+214.9605 	EXP 	visual_stimulus: height = np.float64(0.04)
+214.9605 	EXP 	visual_stimulus: height = np.float64(0.04)
+214.9605 	EXP 	visual_stimulus: height = np.float64(0.04)
+214.9605 	EXP 	visual_stimulus: text = 'A pocket sun\n\nFLASHLIGHT'
+215.0677 	EXP 	Device response: <KeyPress from None: t=214.93664550001267, value=5, duration=0.1275815999833867>
+215.4277 	EXP 	Sound audio_stim reached end of file
+215.4439 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+215.4374 	EXP 	visual_stimulus: autoDraw = True
+215.4374 	EXP 	auditory_icon: autoDraw = True
+219.6915 	EXP 	Sound audio_stim reached end of file
+219.6941 	EXP 	Sound audio_stim reached end of file
+219.9373 	EXP 	Device response: <KeyPress from None: t=219.93625509995036, value=4, duration=None>
+219.9385 	DATA 	Keypress: 4
+220.0972 	EXP 	Device response: <KeyPress from None: t=219.93625509995036, value=4, duration=0.15243360004387796>
+220.4370 	INFO 	Keyboard events cleared
+220.4369 	EXP 	visual_stimulus: autoDraw = False
+220.4369 	EXP 	auditory_icon: autoDraw = False
+220.4369 	EXP 	rating_prompt: autoDraw = True
+220.7271 	EXP 	Device response: <KeyPress from None: t=220.7204170000041, value=4, duration=None>
+220.7276 	EXP 	New trial (rep=0, index=33): <Trial 33 (33 in rep 0) data={'definition': 'A portable thundercloud', 'word': 'DRUM', 'block': np.int64(2), 'modality': 'auditory', 'thisN': 33, 'thisTrialN': 33, 'thisRepN': 0}>
+220.7354 	EXP 	audio_stim: sampleRate = 24000
+220.7458 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+220.7473 	DATA 	Keypress: 4
+220.7488 	EXP 	visual_stimulus: autoDraw = False
+220.7488 	EXP 	auditory_icon: autoDraw = False
+220.7488 	EXP 	rating_prompt: autoDraw = False
+220.7488 	EXP 	break_text: autoDraw = False
+220.7488 	EXP 	visual_stimulus: height = np.float64(0.04)
+220.7488 	EXP 	visual_stimulus: height = np.float64(0.04)
+220.7488 	EXP 	visual_stimulus: height = np.float64(0.04)
+220.7488 	EXP 	visual_stimulus: height = np.float64(0.04)
+220.7488 	EXP 	visual_stimulus: height = np.float64(0.04)
+220.7488 	EXP 	visual_stimulus: height = np.float64(0.04)
+220.7488 	EXP 	visual_stimulus: text = 'A portable thundercloud\n\nDRUM'
+220.8270 	EXP 	Device response: <KeyPress from None: t=220.7204170000041, value=4, duration=0.10379159997683018>
+221.2172 	EXP 	Sound audio_stim reached end of file
+221.2334 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+221.2268 	EXP 	visual_stimulus: autoDraw = True
+221.2268 	EXP 	auditory_icon: autoDraw = True
+225.5918 	EXP 	Sound audio_stim reached end of file
+225.5962 	EXP 	Sound audio_stim reached end of file
+226.2262 	INFO 	Keyboard events cleared
+226.2260 	EXP 	visual_stimulus: autoDraw = False
+226.2260 	EXP 	auditory_icon: autoDraw = False
+226.2260 	EXP 	rating_prompt: autoDraw = True
+227.1466 	EXP 	Device response: <KeyPress from None: t=227.1441666999599, value=5, duration=None>
+227.1471 	EXP 	New trial (rep=0, index=34): <Trial 34 (34 in rep 0) data={'definition': 'A sleepy mountain', 'word': 'VOLCANO', 'block': np.int64(2), 'modality': 'auditory', 'thisN': 34, 'thisTrialN': 34, 'thisRepN': 0}>
+227.1543 	EXP 	audio_stim: sampleRate = 24000
+227.1716 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+227.1733 	DATA 	Keypress: 5
+227.1749 	EXP 	visual_stimulus: autoDraw = False
+227.1749 	EXP 	auditory_icon: autoDraw = False
+227.1749 	EXP 	rating_prompt: autoDraw = False
+227.1749 	EXP 	break_text: autoDraw = False
+227.1749 	EXP 	visual_stimulus: height = np.float64(0.04)
+227.1749 	EXP 	visual_stimulus: height = np.float64(0.04)
+227.1749 	EXP 	visual_stimulus: height = np.float64(0.04)
+227.1749 	EXP 	visual_stimulus: height = np.float64(0.04)
+227.1749 	EXP 	visual_stimulus: height = np.float64(0.04)
+227.1749 	EXP 	visual_stimulus: height = np.float64(0.04)
+227.1749 	EXP 	visual_stimulus: text = 'A sleepy mountain\n\nVOLCANO'
+227.2664 	EXP 	Device response: <KeyPress from None: t=227.1441666999599, value=5, duration=0.11217990005388856>
+227.6364 	EXP 	Sound audio_stim reached end of file
+227.6523 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+227.6459 	EXP 	visual_stimulus: autoDraw = True
+227.6459 	EXP 	auditory_icon: autoDraw = True
+231.9406 	EXP 	Sound audio_stim reached end of file
+231.9454 	EXP 	Sound audio_stim reached end of file
+232.6452 	INFO 	Keyboard events cleared
+232.6450 	EXP 	visual_stimulus: autoDraw = False
+232.6450 	EXP 	auditory_icon: autoDraw = False
+232.6450 	EXP 	rating_prompt: autoDraw = True
+233.6582 	DATA 	Keypress: 3
+233.6653 	EXP 	Device response: <KeyPress from None: t=233.6563226999715, value=3, duration=None>
+233.6658 	EXP 	New trial (rep=0, index=35): <Trial 35 (35 in rep 0) data={'definition': 'A metal spider for paper', 'word': 'STAPLER', 'block': np.int64(2), 'modality': 'auditory', 'thisN': 35, 'thisTrialN': 35, 'thisRepN': 0}>
+233.6750 	EXP 	audio_stim: sampleRate = 24000
+233.6905 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+233.6937 	EXP 	visual_stimulus: autoDraw = False
+233.6937 	EXP 	auditory_icon: autoDraw = False
+233.6937 	EXP 	rating_prompt: autoDraw = False
+233.6937 	EXP 	break_text: autoDraw = False
+233.6937 	EXP 	visual_stimulus: height = np.float64(0.04)
+233.6937 	EXP 	visual_stimulus: height = np.float64(0.04)
+233.6937 	EXP 	visual_stimulus: height = np.float64(0.04)
+233.6937 	EXP 	visual_stimulus: height = np.float64(0.04)
+233.6937 	EXP 	visual_stimulus: height = np.float64(0.04)
+233.6937 	EXP 	visual_stimulus: height = np.float64(0.04)
+233.6937 	EXP 	visual_stimulus: text = 'A metal spider for paper\n\nSTAPLER'
+233.7654 	EXP 	Device response: <KeyPress from None: t=233.6563226999715, value=3, duration=0.10384200001135468>
+234.1553 	EXP 	Sound audio_stim reached end of file
+234.1715 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+234.1652 	EXP 	visual_stimulus: autoDraw = True
+234.1652 	EXP 	auditory_icon: autoDraw = True
+238.8464 	EXP 	Sound audio_stim reached end of file
+238.8495 	EXP 	Sound audio_stim reached end of file
+239.1644 	INFO 	Keyboard events cleared
+239.1642 	EXP 	visual_stimulus: autoDraw = False
+239.1642 	EXP 	auditory_icon: autoDraw = False
+239.1642 	EXP 	rating_prompt: autoDraw = True
+239.9548 	EXP 	Device response: <KeyPress from None: t=239.9522130000405, value=5, duration=None>
+239.9565 	DATA 	Keypress: 5
+239.9644 	INFO 	Keyboard events cleared
+239.9642 	EXP 	visual_stimulus: autoDraw = False
+239.9642 	EXP 	auditory_icon: autoDraw = False
+239.9642 	EXP 	rating_prompt: autoDraw = False
+239.9642 	EXP 	break_text: autoDraw = True
+240.0748 	EXP 	Device response: <KeyPress from None: t=239.9522130000405, value=5, duration=0.1199052999727428>
+241.6659 	DATA 	Keypress: space
+241.6745 	EXP 	Device response: <KeyPress from None: t=241.66438820003532, value=space, duration=None>
+241.6749 	EXP 	New trial (rep=0, index=36): <Trial 36 (36 in rep 0) data={'definition': 'A polite thunderbolt', 'word': 'FLASH', 'block': np.int64(3), 'modality': 'visual', 'thisN': 36, 'thisTrialN': 36, 'thisRepN': 0}>
+241.6885 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+241.6915 	EXP 	break_text: autoDraw = False
+241.6915 	EXP 	visual_stimulus: height = np.float64(0.04)
+241.6915 	EXP 	visual_stimulus: height = np.float64(0.04)
+241.6915 	EXP 	visual_stimulus: height = np.float64(0.04)
+241.6915 	EXP 	visual_stimulus: height = np.float64(0.04)
+241.6915 	EXP 	visual_stimulus: height = np.float64(0.04)
+241.6915 	EXP 	visual_stimulus: height = np.float64(0.04)
+241.6915 	EXP 	visual_stimulus: text = 'A polite thunderbolt\n\nFLASH'
+241.7944 	EXP 	Device response: <KeyPress from None: t=241.66438820003532, value=space, duration=0.12775819993112236>
+242.1643 	EXP 	Sound audio_stim reached end of file
+242.1805 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+242.1741 	EXP 	visual_stimulus: autoDraw = True
+242.1741 	EXP 	auditory_icon: autoDraw = True
+247.1779 	EXP 	Sound audio_stim stopped
+247.1806 	INFO 	Keyboard events cleared
+247.1805 	EXP 	visual_stimulus: autoDraw = False
+247.1805 	EXP 	auditory_icon: autoDraw = False
+247.1805 	EXP 	rating_prompt: autoDraw = True
+247.4936 	EXP 	Device response: <KeyPress from None: t=247.48847879993264, value=5, duration=None>
+247.4941 	EXP 	New trial (rep=0, index=37): <Trial 37 (37 in rep 0) data={'definition': 'A glass shoe for science', 'word': 'BEAKER', 'block': np.int64(3), 'modality': 'visual', 'thisN': 37, 'thisTrialN': 37, 'thisRepN': 0}>
+247.5047 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+247.5062 	DATA 	Keypress: 5
+247.5074 	EXP 	visual_stimulus: autoDraw = False
+247.5074 	EXP 	auditory_icon: autoDraw = False
+247.5074 	EXP 	rating_prompt: autoDraw = False
+247.5074 	EXP 	break_text: autoDraw = False
+247.5074 	EXP 	visual_stimulus: height = np.float64(0.04)
+247.5074 	EXP 	visual_stimulus: height = np.float64(0.04)
+247.5074 	EXP 	visual_stimulus: height = np.float64(0.04)
+247.5074 	EXP 	visual_stimulus: height = np.float64(0.04)
+247.5074 	EXP 	visual_stimulus: height = np.float64(0.04)
+247.5074 	EXP 	visual_stimulus: height = np.float64(0.04)
+247.5074 	EXP 	visual_stimulus: text = 'A glass shoe for science\n\nBEAKER'
+247.6036 	EXP 	Device response: <KeyPress from None: t=247.48847879993264, value=5, duration=0.11171090009156615>
+247.9838 	EXP 	Sound audio_stim reached end of file
+247.9997 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+247.9934 	EXP 	visual_stimulus: autoDraw = True
+247.9934 	EXP 	auditory_icon: autoDraw = True
+253.0011 	EXP 	Sound audio_stim stopped
+253.0044 	INFO 	Keyboard events cleared
+253.0043 	EXP 	visual_stimulus: autoDraw = False
+253.0043 	EXP 	auditory_icon: autoDraw = False
+253.0043 	EXP 	rating_prompt: autoDraw = True
+253.5630 	EXP 	Device response: <KeyPress from None: t=253.56009159993846, value=5, duration=None>
+253.5634 	EXP 	New trial (rep=0, index=38): <Trial 38 (38 in rep 0) data={'definition': 'A paper boat for money', 'word': 'WALLET', 'block': np.int64(3), 'modality': 'visual', 'thisN': 38, 'thisTrialN': 38, 'thisRepN': 0}>
+253.5743 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+253.5761 	DATA 	Keypress: 5
+253.5775 	EXP 	visual_stimulus: autoDraw = False
+253.5775 	EXP 	auditory_icon: autoDraw = False
+253.5775 	EXP 	rating_prompt: autoDraw = False
+253.5775 	EXP 	break_text: autoDraw = False
+253.5775 	EXP 	visual_stimulus: height = np.float64(0.04)
+253.5775 	EXP 	visual_stimulus: height = np.float64(0.04)
+253.5775 	EXP 	visual_stimulus: height = np.float64(0.04)
+253.5775 	EXP 	visual_stimulus: height = np.float64(0.04)
+253.5775 	EXP 	visual_stimulus: height = np.float64(0.04)
+253.5775 	EXP 	visual_stimulus: height = np.float64(0.04)
+253.5775 	EXP 	visual_stimulus: text = 'A paper boat for money\n\nWALLET'
+253.6831 	EXP 	Device response: <KeyPress from None: t=253.56009159993846, value=5, duration=0.11216820008121431>
+254.0532 	EXP 	Sound audio_stim reached end of file
+254.0692 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+254.0625 	EXP 	visual_stimulus: autoDraw = True
+254.0625 	EXP 	auditory_icon: autoDraw = True
+259.0693 	EXP 	Sound audio_stim stopped
+259.0721 	INFO 	Keyboard events cleared
+259.0720 	EXP 	visual_stimulus: autoDraw = False
+259.0720 	EXP 	auditory_icon: autoDraw = False
+259.0720 	EXP 	rating_prompt: autoDraw = True
+259.6623 	EXP 	Device response: <KeyPress from None: t=259.6562053000089, value=5, duration=None>
+259.6627 	EXP 	New trial (rep=0, index=39): <Trial 39 (39 in rep 0) data={'definition': 'A frozen river bridge', 'word': 'ICEBRIDGE', 'block': np.int64(3), 'modality': 'visual', 'thisN': 39, 'thisTrialN': 39, 'thisRepN': 0}>
+259.6732 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+259.6746 	DATA 	Keypress: 5
+259.6760 	EXP 	visual_stimulus: autoDraw = False
+259.6760 	EXP 	auditory_icon: autoDraw = False
+259.6760 	EXP 	rating_prompt: autoDraw = False
+259.6760 	EXP 	break_text: autoDraw = False
+259.6760 	EXP 	visual_stimulus: height = np.float64(0.04)
+259.6760 	EXP 	visual_stimulus: height = np.float64(0.04)
+259.6760 	EXP 	visual_stimulus: height = np.float64(0.04)
+259.6760 	EXP 	visual_stimulus: height = np.float64(0.04)
+259.6760 	EXP 	visual_stimulus: height = np.float64(0.04)
+259.6760 	EXP 	visual_stimulus: height = np.float64(0.04)
+259.6760 	EXP 	visual_stimulus: text = 'A frozen river bridge\n\nICEBRIDGE'
+259.7524 	EXP 	Device response: <KeyPress from None: t=259.6562053000089, value=5, duration=0.0879970999667421>
+260.1522 	EXP 	Sound audio_stim reached end of file
+260.1683 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+260.1617 	EXP 	visual_stimulus: autoDraw = True
+260.1617 	EXP 	auditory_icon: autoDraw = True
+265.1690 	EXP 	Sound audio_stim stopped
+265.1717 	INFO 	Keyboard events cleared
+265.1716 	EXP 	visual_stimulus: autoDraw = False
+265.1716 	EXP 	auditory_icon: autoDraw = False
+265.1716 	EXP 	rating_prompt: autoDraw = True
+266.1514 	EXP 	Device response: <KeyPress from None: t=266.1442284999648, value=5, duration=None>
+266.1519 	EXP 	New trial (rep=0, index=40): <Trial 40 (40 in rep 0) data={'definition': 'A metal sunflower seed', 'word': 'NUT', 'block': np.int64(3), 'modality': 'visual', 'thisN': 40, 'thisTrialN': 40, 'thisRepN': 0}>
+266.1627 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+266.1643 	DATA 	Keypress: 5
+266.1656 	EXP 	visual_stimulus: autoDraw = False
+266.1656 	EXP 	auditory_icon: autoDraw = False
+266.1656 	EXP 	rating_prompt: autoDraw = False
+266.1656 	EXP 	break_text: autoDraw = False
+266.1656 	EXP 	visual_stimulus: height = np.float64(0.04)
+266.1656 	EXP 	visual_stimulus: height = np.float64(0.04)
+266.1656 	EXP 	visual_stimulus: height = np.float64(0.04)
+266.1656 	EXP 	visual_stimulus: height = np.float64(0.04)
+266.1656 	EXP 	visual_stimulus: height = np.float64(0.04)
+266.1656 	EXP 	visual_stimulus: height = np.float64(0.04)
+266.1656 	EXP 	visual_stimulus: text = 'A metal sunflower seed\n\nNUT'
+266.2814 	EXP 	Device response: <KeyPress from None: t=266.1442284999648, value=5, duration=0.13597719999961555>
+266.6416 	EXP 	Sound audio_stim reached end of file
+266.6577 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+266.6511 	EXP 	visual_stimulus: autoDraw = True
+266.6511 	EXP 	auditory_icon: autoDraw = True
+271.6510 	EXP 	Sound audio_stim stopped
+271.6528 	INFO 	Keyboard events cleared
+271.6528 	EXP 	visual_stimulus: autoDraw = False
+271.6528 	EXP 	auditory_icon: autoDraw = False
+271.6528 	EXP 	rating_prompt: autoDraw = True
+272.2803 	EXP 	Device response: <KeyPress from None: t=272.2800881000003, value=5, duration=None>
+272.2807 	EXP 	New trial (rep=0, index=41): <Trial 41 (41 in rep 0) data={'definition': 'A sleepy ladder', 'word': 'STAIRS', 'block': np.int64(3), 'modality': 'visual', 'thisN': 41, 'thisTrialN': 41, 'thisRepN': 0}>
+272.2877 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+272.2897 	DATA 	Keypress: 5
+272.2914 	EXP 	visual_stimulus: autoDraw = False
+272.2914 	EXP 	auditory_icon: autoDraw = False
+272.2914 	EXP 	rating_prompt: autoDraw = False
+272.2914 	EXP 	break_text: autoDraw = False
+272.2914 	EXP 	visual_stimulus: height = np.float64(0.04)
+272.2914 	EXP 	visual_stimulus: height = np.float64(0.04)
+272.2914 	EXP 	visual_stimulus: height = np.float64(0.04)
+272.2914 	EXP 	visual_stimulus: height = np.float64(0.04)
+272.2914 	EXP 	visual_stimulus: height = np.float64(0.04)
+272.2914 	EXP 	visual_stimulus: height = np.float64(0.04)
+272.2914 	EXP 	visual_stimulus: text = 'A sleepy ladder\n\nSTAIRS'
+272.4005 	EXP 	Device response: <KeyPress from None: t=272.2800881000003, value=5, duration=0.11192579998169094>
+272.7708 	EXP 	Sound audio_stim reached end of file
+272.7869 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+272.7803 	EXP 	visual_stimulus: autoDraw = True
+272.7803 	EXP 	auditory_icon: autoDraw = True
+277.7828 	EXP 	Sound audio_stim stopped
+277.7853 	INFO 	Keyboard events cleared
+277.7852 	EXP 	visual_stimulus: autoDraw = False
+277.7852 	EXP 	auditory_icon: autoDraw = False
+277.7852 	EXP 	rating_prompt: autoDraw = True
+278.2806 	DATA 	Keypress: 5
+278.2897 	EXP 	Device response: <KeyPress from None: t=278.27996349998284, value=5, duration=None>
+278.2901 	EXP 	New trial (rep=0, index=42): <Trial 42 (42 in rep 0) data={'definition': 'A sleepy paintbrush', 'word': 'MOP', 'block': np.int64(3), 'modality': 'visual', 'thisN': 42, 'thisTrialN': 42, 'thisRepN': 0}>
+278.3005 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+278.3032 	EXP 	visual_stimulus: autoDraw = False
+278.3032 	EXP 	auditory_icon: autoDraw = False
+278.3032 	EXP 	rating_prompt: autoDraw = False
+278.3032 	EXP 	break_text: autoDraw = False
+278.3032 	EXP 	visual_stimulus: height = np.float64(0.04)
+278.3032 	EXP 	visual_stimulus: height = np.float64(0.04)
+278.3032 	EXP 	visual_stimulus: height = np.float64(0.04)
+278.3032 	EXP 	visual_stimulus: height = np.float64(0.04)
+278.3032 	EXP 	visual_stimulus: height = np.float64(0.04)
+278.3032 	EXP 	visual_stimulus: height = np.float64(0.04)
+278.3032 	EXP 	visual_stimulus: text = 'A sleepy paintbrush\n\nMOP'
+278.3799 	EXP 	Device response: <KeyPress from None: t=278.27996349998284, value=5, duration=0.09619609999936074>
+278.7799 	EXP 	Sound audio_stim reached end of file
+278.7961 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+278.7895 	EXP 	visual_stimulus: autoDraw = True
+278.7895 	EXP 	auditory_icon: autoDraw = True
+283.7930 	EXP 	Sound audio_stim stopped
+283.7959 	INFO 	Keyboard events cleared
+283.7958 	EXP 	visual_stimulus: autoDraw = False
+283.7958 	EXP 	auditory_icon: autoDraw = False
+283.7958 	EXP 	rating_prompt: autoDraw = True
+284.0391 	EXP 	Device response: <KeyPress from None: t=284.0320542999543, value=4, duration=None>
+284.0396 	EXP 	New trial (rep=0, index=43): <Trial 43 (43 in rep 0) data={'definition': 'A wall with lungs', 'word': 'WINDOWSCREEN', 'block': np.int64(3), 'modality': 'visual', 'thisN': 43, 'thisTrialN': 43, 'thisRepN': 0}>
+284.0515 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+284.0531 	DATA 	Keypress: 4
+284.0544 	EXP 	visual_stimulus: autoDraw = False
+284.0544 	EXP 	auditory_icon: autoDraw = False
+284.0544 	EXP 	rating_prompt: autoDraw = False
+284.0544 	EXP 	break_text: autoDraw = False
+284.0544 	EXP 	visual_stimulus: height = np.float64(0.04)
+284.0544 	EXP 	visual_stimulus: height = np.float64(0.04)
+284.0544 	EXP 	visual_stimulus: height = np.float64(0.04)
+284.0544 	EXP 	visual_stimulus: height = np.float64(0.04)
+284.0544 	EXP 	visual_stimulus: height = np.float64(0.04)
+284.0544 	EXP 	visual_stimulus: height = np.float64(0.04)
+284.0544 	EXP 	visual_stimulus: text = 'A wall with lungs\n\nWINDOWSCREEN'
+284.1691 	EXP 	Device response: <KeyPress from None: t=284.0320542999543, value=4, duration=0.1280186000512913>
+284.5290 	EXP 	Sound audio_stim reached end of file
+284.5452 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+284.5387 	EXP 	visual_stimulus: autoDraw = True
+284.5387 	EXP 	auditory_icon: autoDraw = True
+289.5402 	EXP 	Sound audio_stim stopped
+289.5430 	INFO 	Keyboard events cleared
+289.5429 	EXP 	visual_stimulus: autoDraw = False
+289.5429 	EXP 	auditory_icon: autoDraw = False
+289.5429 	EXP 	rating_prompt: autoDraw = True
+290.0184 	EXP 	Device response: <KeyPress from None: t=290.01618649996817, value=5, duration=None>
+290.0189 	EXP 	New trial (rep=0, index=44): <Trial 44 (44 in rep 0) data={'definition': 'A pocket blizzard', 'word': 'TISSUE', 'block': np.int64(3), 'modality': 'visual', 'thisN': 44, 'thisTrialN': 44, 'thisRepN': 0}>
+290.0291 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+290.0305 	DATA 	Keypress: 5
+290.0319 	EXP 	visual_stimulus: autoDraw = False
+290.0319 	EXP 	auditory_icon: autoDraw = False
+290.0319 	EXP 	rating_prompt: autoDraw = False
+290.0319 	EXP 	break_text: autoDraw = False
+290.0319 	EXP 	visual_stimulus: height = np.float64(0.04)
+290.0319 	EXP 	visual_stimulus: height = np.float64(0.04)
+290.0319 	EXP 	visual_stimulus: height = np.float64(0.04)
+290.0319 	EXP 	visual_stimulus: height = np.float64(0.04)
+290.0319 	EXP 	visual_stimulus: height = np.float64(0.04)
+290.0319 	EXP 	visual_stimulus: height = np.float64(0.04)
+290.0319 	EXP 	visual_stimulus: text = 'A pocket blizzard\n\nTISSUE'
+290.1283 	EXP 	Device response: <KeyPress from None: t=290.01618649996817, value=5, duration=0.10408950003329664>
+290.5084 	EXP 	Sound audio_stim reached end of file
+290.5245 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+290.5179 	EXP 	visual_stimulus: autoDraw = True
+290.5179 	EXP 	auditory_icon: autoDraw = True
+295.5206 	EXP 	Sound audio_stim stopped
+295.5230 	INFO 	Keyboard events cleared
+295.5229 	EXP 	visual_stimulus: autoDraw = False
+295.5229 	EXP 	auditory_icon: autoDraw = False
+295.5229 	EXP 	rating_prompt: autoDraw = True
+295.8571 	EXP 	Device response: <KeyPress from None: t=295.8559200000018, value=4, duration=None>
+295.8572 	EXP 	New trial (rep=0, index=45): <Trial 45 (45 in rep 0) data={'definition': 'A book for recipes', 'word': 'COOKBOOK', 'block': np.int64(3), 'modality': 'visual', 'thisN': 45, 'thisTrialN': 45, 'thisRepN': 0}>
+295.8631 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+295.8645 	DATA 	Keypress: 4
+295.8668 	EXP 	visual_stimulus: autoDraw = False
+295.8668 	EXP 	auditory_icon: autoDraw = False
+295.8668 	EXP 	rating_prompt: autoDraw = False
+295.8668 	EXP 	break_text: autoDraw = False
+295.8668 	EXP 	visual_stimulus: height = np.float64(0.04)
+295.8668 	EXP 	visual_stimulus: height = np.float64(0.04)
+295.8668 	EXP 	visual_stimulus: height = np.float64(0.04)
+295.8668 	EXP 	visual_stimulus: height = np.float64(0.04)
+295.8668 	EXP 	visual_stimulus: height = np.float64(0.04)
+295.8668 	EXP 	visual_stimulus: height = np.float64(0.04)
+295.8668 	EXP 	visual_stimulus: text = 'A book for recipes\n\nCOOKBOOK'
+295.9272 	EXP 	Device response: <KeyPress from None: t=295.8559200000018, value=4, duration=0.06391170003917068>
+296.3475 	EXP 	Sound audio_stim reached end of file
+296.3637 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+296.3573 	EXP 	visual_stimulus: autoDraw = True
+296.3573 	EXP 	auditory_icon: autoDraw = True
+299.2490 	DATA 	Keypress: 3
+299.2575 	EXP 	Device response: <KeyPress from None: t=299.2484033999499, value=3, duration=None>
+299.3773 	EXP 	Device response: <KeyPress from None: t=299.2484033999499, value=3, duration=0.11998459999449551>
+301.3576 	EXP 	Sound audio_stim stopped
+301.3595 	INFO 	Keyboard events cleared
+301.3595 	EXP 	visual_stimulus: autoDraw = False
+301.3595 	EXP 	auditory_icon: autoDraw = False
+301.3595 	EXP 	rating_prompt: autoDraw = True
+301.7067 	EXP 	Device response: <KeyPress from None: t=301.7044150000438, value=3, duration=None>
+301.7072 	EXP 	New trial (rep=0, index=46): <Trial 46 (46 in rep 0) data={'definition': 'A sleepless neighborhood rooster', 'word': 'SIREN', 'block': np.int64(3), 'modality': 'visual', 'thisN': 46, 'thisTrialN': 46, 'thisRepN': 0}>
+301.7161 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+301.7177 	DATA 	Keypress: 3
+301.7193 	EXP 	visual_stimulus: autoDraw = False
+301.7193 	EXP 	auditory_icon: autoDraw = False
+301.7193 	EXP 	rating_prompt: autoDraw = False
+301.7193 	EXP 	break_text: autoDraw = False
+301.7193 	EXP 	visual_stimulus: height = np.float64(0.04)
+301.7193 	EXP 	visual_stimulus: height = np.float64(0.04)
+301.7193 	EXP 	visual_stimulus: height = np.float64(0.04)
+301.7193 	EXP 	visual_stimulus: height = np.float64(0.04)
+301.7193 	EXP 	visual_stimulus: height = np.float64(0.04)
+301.7193 	EXP 	visual_stimulus: height = np.float64(0.04)
+301.7193 	EXP 	visual_stimulus: text = 'A sleepless neighborhood rooster\n\nSIREN'
+301.8268 	EXP 	Device response: <KeyPress from None: t=301.7044150000438, value=3, duration=0.11995219998061657>
+302.1973 	EXP 	Sound audio_stim reached end of file
+302.2130 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+302.2064 	EXP 	visual_stimulus: autoDraw = True
+302.2064 	EXP 	auditory_icon: autoDraw = True
+307.2096 	EXP 	Sound audio_stim stopped
+307.2116 	INFO 	Keyboard events cleared
+307.2116 	EXP 	visual_stimulus: autoDraw = False
+307.2116 	EXP 	auditory_icon: autoDraw = False
+307.2116 	EXP 	rating_prompt: autoDraw = True
+307.9756 	EXP 	Device response: <KeyPress from None: t=307.9678875999525, value=4, duration=None>
+307.9758 	EXP 	New trial (rep=0, index=47): <Trial 47 (47 in rep 0) data={'definition': 'A polite mirror for time', 'word': 'WATCH', 'block': np.int64(3), 'modality': 'visual', 'thisN': 47, 'thisTrialN': 47, 'thisRepN': 0}>
+307.9824 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+307.9840 	DATA 	Keypress: 4
+307.9860 	EXP 	visual_stimulus: autoDraw = False
+307.9860 	EXP 	auditory_icon: autoDraw = False
+307.9860 	EXP 	rating_prompt: autoDraw = False
+307.9860 	EXP 	break_text: autoDraw = False
+307.9860 	EXP 	visual_stimulus: height = np.float64(0.04)
+307.9860 	EXP 	visual_stimulus: height = np.float64(0.04)
+307.9860 	EXP 	visual_stimulus: height = np.float64(0.04)
+307.9860 	EXP 	visual_stimulus: height = np.float64(0.04)
+307.9860 	EXP 	visual_stimulus: height = np.float64(0.04)
+307.9860 	EXP 	visual_stimulus: height = np.float64(0.04)
+307.9860 	EXP 	visual_stimulus: text = 'A polite mirror for time\n\nWATCH'
+308.0656 	EXP 	Device response: <KeyPress from None: t=307.9678875999525, value=4, duration=0.0880235000513494>
+308.4657 	EXP 	Sound audio_stim reached end of file
+308.4821 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+308.4755 	EXP 	visual_stimulus: autoDraw = True
+308.4755 	EXP 	auditory_icon: autoDraw = True
+311.4759 	EXP 	Device response: <KeyPress from None: t=311.4725231999764, value=2, duration=None>
+311.4772 	DATA 	Keypress: 2
+311.5855 	EXP 	Device response: <KeyPress from None: t=311.4725231999764, value=2, duration=0.10361099999863654>
+313.4822 	EXP 	Sound audio_stim stopped
+313.4847 	INFO 	Keyboard events cleared
+313.4846 	EXP 	visual_stimulus: autoDraw = False
+313.4846 	EXP 	auditory_icon: autoDraw = False
+313.4846 	EXP 	rating_prompt: autoDraw = True
+313.7453 	EXP 	Device response: <KeyPress from None: t=313.73620739998296, value=2, duration=None>
+313.7458 	EXP 	New trial (rep=0, index=48): <Trial 48 (48 in rep 0) data={'definition': 'A rock pillow', 'word': 'BOULDER', 'block': np.int64(3), 'modality': 'visual', 'thisN': 48, 'thisTrialN': 48, 'thisRepN': 0}>
+313.7566 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+313.7583 	DATA 	Keypress: 2
+313.7599 	EXP 	visual_stimulus: autoDraw = False
+313.7599 	EXP 	auditory_icon: autoDraw = False
+313.7599 	EXP 	rating_prompt: autoDraw = False
+313.7599 	EXP 	break_text: autoDraw = False
+313.7599 	EXP 	visual_stimulus: height = np.float64(0.04)
+313.7599 	EXP 	visual_stimulus: height = np.float64(0.04)
+313.7599 	EXP 	visual_stimulus: height = np.float64(0.04)
+313.7599 	EXP 	visual_stimulus: height = np.float64(0.04)
+313.7599 	EXP 	visual_stimulus: height = np.float64(0.04)
+313.7599 	EXP 	visual_stimulus: height = np.float64(0.04)
+313.7599 	EXP 	visual_stimulus: text = 'A rock pillow\n\nBOULDER'
+313.8952 	EXP 	Device response: <KeyPress from None: t=313.73620739998296, value=2, duration=0.15195950004272163>
+314.2352 	EXP 	Sound audio_stim reached end of file
+314.2515 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+314.2449 	EXP 	visual_stimulus: autoDraw = True
+314.2449 	EXP 	auditory_icon: autoDraw = True
+319.2494 	EXP 	Sound audio_stim stopped
+319.2520 	INFO 	Keyboard events cleared
+319.2519 	EXP 	visual_stimulus: autoDraw = False
+319.2519 	EXP 	auditory_icon: autoDraw = False
+319.2519 	EXP 	rating_prompt: autoDraw = True
+319.8447 	EXP 	Device response: <KeyPress from None: t=319.84019240003545, value=4, duration=None>
+319.8451 	EXP 	New trial (rep=0, index=49): <Trial 49 (49 in rep 0) data={'definition': 'A glass ladder for drinking', 'word': 'STRAW', 'block': np.int64(3), 'modality': 'visual', 'thisN': 49, 'thisTrialN': 49, 'thisRepN': 0}>
+319.8536 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+319.8550 	DATA 	Keypress: 4
+319.8565 	EXP 	visual_stimulus: autoDraw = False
+319.8565 	EXP 	auditory_icon: autoDraw = False
+319.8565 	EXP 	rating_prompt: autoDraw = False
+319.8565 	EXP 	break_text: autoDraw = False
+319.8565 	EXP 	visual_stimulus: height = np.float64(0.04)
+319.8565 	EXP 	visual_stimulus: height = np.float64(0.04)
+319.8565 	EXP 	visual_stimulus: height = np.float64(0.04)
+319.8565 	EXP 	visual_stimulus: height = np.float64(0.04)
+319.8565 	EXP 	visual_stimulus: height = np.float64(0.04)
+319.8565 	EXP 	visual_stimulus: height = np.float64(0.04)
+319.8565 	EXP 	visual_stimulus: text = 'A glass ladder for drinking\n\nSTRAW'
+319.9645 	EXP 	Device response: <KeyPress from None: t=319.84019240003545, value=4, duration=0.11999519995879382>
+320.3342 	EXP 	Sound audio_stim reached end of file
+320.3506 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+320.3441 	EXP 	visual_stimulus: autoDraw = True
+320.3441 	EXP 	auditory_icon: autoDraw = True
+325.3508 	EXP 	Sound audio_stim stopped
+325.3536 	INFO 	Keyboard events cleared
+325.3535 	EXP 	visual_stimulus: autoDraw = False
+325.3535 	EXP 	auditory_icon: autoDraw = False
+325.3535 	EXP 	rating_prompt: autoDraw = True
+326.0735 	EXP 	Device response: <KeyPress from None: t=326.06401570001617, value=3, duration=None>
+326.0738 	EXP 	New trial (rep=0, index=50): <Trial 50 (50 in rep 0) data={'definition': 'A polite cage for books', 'word': 'BOOKCASE', 'block': np.int64(3), 'modality': 'visual', 'thisN': 50, 'thisTrialN': 50, 'thisRepN': 0}>
+326.0816 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+326.0830 	DATA 	Keypress: 3
+326.0843 	EXP 	visual_stimulus: autoDraw = False
+326.0843 	EXP 	auditory_icon: autoDraw = False
+326.0843 	EXP 	rating_prompt: autoDraw = False
+326.0843 	EXP 	break_text: autoDraw = False
+326.0843 	EXP 	visual_stimulus: height = np.float64(0.04)
+326.0843 	EXP 	visual_stimulus: height = np.float64(0.04)
+326.0843 	EXP 	visual_stimulus: height = np.float64(0.04)
+326.0843 	EXP 	visual_stimulus: height = np.float64(0.04)
+326.0843 	EXP 	visual_stimulus: height = np.float64(0.04)
+326.0843 	EXP 	visual_stimulus: height = np.float64(0.04)
+326.0843 	EXP 	visual_stimulus: text = 'A polite cage for books\n\nBOOKCASE'
+326.2141 	EXP 	Device response: <KeyPress from None: t=326.06401570001617, value=3, duration=0.14416469994466752>
+326.5638 	EXP 	Sound audio_stim reached end of file
+326.5800 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+326.5733 	EXP 	visual_stimulus: autoDraw = True
+326.5733 	EXP 	auditory_icon: autoDraw = True
+331.5808 	EXP 	Sound audio_stim stopped
+331.5837 	INFO 	Keyboard events cleared
+331.5836 	EXP 	visual_stimulus: autoDraw = False
+331.5836 	EXP 	auditory_icon: autoDraw = False
+331.5836 	EXP 	rating_prompt: autoDraw = True
+331.9543 	DATA 	Keypress: 5
+331.9630 	EXP 	Device response: <KeyPress from None: t=331.9525528999511, value=5, duration=None>
+331.9634 	EXP 	New trial (rep=0, index=51): <Trial 51 (51 in rep 0) data={'definition': 'A striped escape artist', 'word': 'ZEBRA', 'block': np.int64(3), 'modality': 'visual', 'thisN': 51, 'thisTrialN': 51, 'thisRepN': 0}>
+331.9749 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+331.9775 	EXP 	visual_stimulus: autoDraw = False
+331.9775 	EXP 	auditory_icon: autoDraw = False
+331.9775 	EXP 	rating_prompt: autoDraw = False
+331.9775 	EXP 	break_text: autoDraw = False
+331.9775 	EXP 	visual_stimulus: height = np.float64(0.04)
+331.9775 	EXP 	visual_stimulus: height = np.float64(0.04)
+331.9775 	EXP 	visual_stimulus: height = np.float64(0.04)
+331.9775 	EXP 	visual_stimulus: height = np.float64(0.04)
+331.9775 	EXP 	visual_stimulus: height = np.float64(0.04)
+331.9775 	EXP 	visual_stimulus: height = np.float64(0.04)
+331.9775 	EXP 	visual_stimulus: text = 'A striped escape artist\n\nZEBRA'
+332.0730 	EXP 	Device response: <KeyPress from None: t=331.9525528999511, value=5, duration=0.1197327000554651>
+332.4529 	EXP 	Sound audio_stim reached end of file
+332.4691 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+332.4626 	EXP 	visual_stimulus: autoDraw = True
+332.4626 	EXP 	auditory_icon: autoDraw = True
+337.4698 	EXP 	Sound audio_stim stopped
+337.4731 	INFO 	Keyboard events cleared
+337.4730 	EXP 	visual_stimulus: autoDraw = False
+337.4730 	EXP 	auditory_icon: autoDraw = False
+337.4730 	EXP 	rating_prompt: autoDraw = True
+338.0736 	DATA 	Keypress: 4
+338.0822 	EXP 	Device response: <KeyPress from None: t=338.0729013000382, value=4, duration=None>
+338.0827 	EXP 	New trial (rep=0, index=52): <Trial 52 (52 in rep 0) data={'definition': 'A portable shadow maker', 'word': 'UMBRELLA', 'block': np.int64(3), 'modality': 'visual', 'thisN': 52, 'thisTrialN': 52, 'thisRepN': 0}>
+338.0928 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+338.0954 	EXP 	visual_stimulus: autoDraw = False
+338.0954 	EXP 	auditory_icon: autoDraw = False
+338.0954 	EXP 	rating_prompt: autoDraw = False
+338.0954 	EXP 	break_text: autoDraw = False
+338.0954 	EXP 	visual_stimulus: height = np.float64(0.04)
+338.0954 	EXP 	visual_stimulus: height = np.float64(0.04)
+338.0954 	EXP 	visual_stimulus: height = np.float64(0.04)
+338.0954 	EXP 	visual_stimulus: height = np.float64(0.04)
+338.0954 	EXP 	visual_stimulus: height = np.float64(0.04)
+338.0954 	EXP 	visual_stimulus: height = np.float64(0.04)
+338.0954 	EXP 	visual_stimulus: text = 'A portable shadow maker\n\nUMBRELLA'
+338.1622 	EXP 	Device response: <KeyPress from None: t=338.0729013000382, value=4, duration=0.07953519991133362>
+338.5723 	EXP 	Sound audio_stim reached end of file
+338.5883 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+338.5819 	EXP 	visual_stimulus: autoDraw = True
+338.5819 	EXP 	auditory_icon: autoDraw = True
+343.5894 	EXP 	Sound audio_stim stopped
+343.5922 	INFO 	Keyboard events cleared
+343.5921 	EXP 	visual_stimulus: autoDraw = False
+343.5921 	EXP 	auditory_icon: autoDraw = False
+343.5921 	EXP 	rating_prompt: autoDraw = True
+344.5414 	EXP 	Device response: <KeyPress from None: t=344.53624279994983, value=2, duration=None>
+344.5419 	EXP 	New trial (rep=0, index=53): <Trial 53 (53 in rep 0) data={'definition': 'A sleepy computer', 'word': 'SERVER', 'block': np.int64(3), 'modality': 'visual', 'thisN': 53, 'thisTrialN': 53, 'thisRepN': 0}>
+344.5520 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+344.5534 	DATA 	Keypress: 2
+344.5548 	EXP 	visual_stimulus: autoDraw = False
+344.5548 	EXP 	auditory_icon: autoDraw = False
+344.5548 	EXP 	rating_prompt: autoDraw = False
+344.5548 	EXP 	break_text: autoDraw = False
+344.5548 	EXP 	visual_stimulus: height = np.float64(0.04)
+344.5548 	EXP 	visual_stimulus: height = np.float64(0.04)
+344.5548 	EXP 	visual_stimulus: height = np.float64(0.04)
+344.5548 	EXP 	visual_stimulus: height = np.float64(0.04)
+344.5548 	EXP 	visual_stimulus: height = np.float64(0.04)
+344.5548 	EXP 	visual_stimulus: height = np.float64(0.04)
+344.5548 	EXP 	visual_stimulus: text = 'A sleepy computer\n\nSERVER'
+344.6614 	EXP 	Device response: <KeyPress from None: t=344.53624279994983, value=2, duration=0.12009780004154891>
+345.0314 	EXP 	Sound audio_stim reached end of file
+345.0476 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+345.0410 	EXP 	visual_stimulus: autoDraw = True
+345.0410 	EXP 	auditory_icon: autoDraw = True
+350.0416 	EXP 	Sound audio_stim stopped
+350.0443 	INFO 	Keyboard events cleared
+350.0442 	EXP 	visual_stimulus: autoDraw = False
+350.0442 	EXP 	auditory_icon: autoDraw = False
+350.0442 	EXP 	rating_prompt: autoDraw = True
+350.3407 	EXP 	Device response: <KeyPress from None: t=350.3363302999642, value=5, duration=None>
+350.3425 	DATA 	Keypress: 5
+350.3505 	INFO 	Keyboard events cleared
+350.3504 	EXP 	visual_stimulus: autoDraw = False
+350.3504 	EXP 	auditory_icon: autoDraw = False
+350.3504 	EXP 	rating_prompt: autoDraw = False
+350.3504 	EXP 	break_text: autoDraw = True
+350.4510 	EXP 	Device response: <KeyPress from None: t=350.3363302999642, value=5, duration=0.11191950005013496>
+351.9906 	EXP 	Device response: <KeyPress from None: t=351.98415879998356, value=space, duration=None>
+351.9909 	EXP 	New trial (rep=0, index=54): <Trial 54 (54 in rep 0) data={'definition': 'A book with teeth', 'word': 'ZIPPER', 'block': np.int64(4), 'modality': 'auditory', 'thisN': 54, 'thisTrialN': 54, 'thisRepN': 0}>
+351.9971 	EXP 	audio_stim: sampleRate = 24000
+352.0102 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+352.0116 	DATA 	Keypress: space
+352.0133 	EXP 	break_text: autoDraw = False
+352.0133 	EXP 	visual_stimulus: height = np.float64(0.04)
+352.0133 	EXP 	visual_stimulus: height = np.float64(0.04)
+352.0133 	EXP 	visual_stimulus: height = np.float64(0.04)
+352.0133 	EXP 	visual_stimulus: height = np.float64(0.04)
+352.0133 	EXP 	visual_stimulus: height = np.float64(0.04)
+352.0133 	EXP 	visual_stimulus: height = np.float64(0.04)
+352.0133 	EXP 	visual_stimulus: text = 'A book with teeth\n\nZIPPER'
+352.2104 	EXP 	Device response: <KeyPress from None: t=351.98415879998356, value=space, duration=0.22410400002263486>
+352.4804 	EXP 	Sound audio_stim reached end of file
+352.4966 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+352.4901 	EXP 	visual_stimulus: autoDraw = True
+352.4901 	EXP 	auditory_icon: autoDraw = True
+356.5444 	EXP 	Sound audio_stim reached end of file
+356.5498 	EXP 	Sound audio_stim reached end of file
+356.6701 	EXP 	Device response: <KeyPress from None: t=356.66415990004316, value=3, duration=None>
+356.6715 	DATA 	Keypress: 3
+356.7700 	EXP 	Device response: <KeyPress from None: t=356.66415990004316, value=3, duration=0.10438959999009967>
+357.4896 	INFO 	Keyboard events cleared
+357.4895 	EXP 	visual_stimulus: autoDraw = False
+357.4895 	EXP 	auditory_icon: autoDraw = False
+357.4895 	EXP 	rating_prompt: autoDraw = True
+357.8197 	EXP 	Device response: <KeyPress from None: t=357.81624830001965, value=3, duration=None>
+357.8201 	EXP 	New trial (rep=0, index=55): <Trial 55 (55 in rep 0) data={'definition': 'A sky leash', 'word': 'KITE', 'block': np.int64(4), 'modality': 'auditory', 'thisN': 55, 'thisTrialN': 55, 'thisRepN': 0}>
+357.8269 	EXP 	audio_stim: sampleRate = 24000
+357.8399 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+357.8413 	DATA 	Keypress: 3
+357.8428 	EXP 	visual_stimulus: autoDraw = False
+357.8428 	EXP 	auditory_icon: autoDraw = False
+357.8428 	EXP 	rating_prompt: autoDraw = False
+357.8428 	EXP 	break_text: autoDraw = False
+357.8428 	EXP 	visual_stimulus: height = np.float64(0.04)
+357.8428 	EXP 	visual_stimulus: height = np.float64(0.04)
+357.8428 	EXP 	visual_stimulus: height = np.float64(0.04)
+357.8428 	EXP 	visual_stimulus: height = np.float64(0.04)
+357.8428 	EXP 	visual_stimulus: height = np.float64(0.04)
+357.8428 	EXP 	visual_stimulus: height = np.float64(0.04)
+357.8428 	EXP 	visual_stimulus: text = 'A sky leash\n\nKITE'
+357.9497 	EXP 	Device response: <KeyPress from None: t=357.81624830001965, value=3, duration=0.1279175999807194>
+358.3096 	EXP 	Sound audio_stim reached end of file
+358.3258 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+358.3194 	EXP 	visual_stimulus: autoDraw = True
+358.3194 	EXP 	auditory_icon: autoDraw = True
+362.1822 	EXP 	Sound audio_stim reached end of file
+362.1889 	EXP 	Sound audio_stim reached end of file
+363.3188 	INFO 	Keyboard events cleared
+363.3186 	EXP 	visual_stimulus: autoDraw = False
+363.3186 	EXP 	auditory_icon: autoDraw = False
+363.3186 	EXP 	rating_prompt: autoDraw = True
+363.6105 	DATA 	Keypress: 4
+363.6189 	EXP 	Device response: <KeyPress from None: t=363.6088099000044, value=4, duration=None>
+363.6194 	EXP 	New trial (rep=0, index=56): <Trial 56 (56 in rep 0) data={'definition': 'A metal pillow for ships', 'word': 'DOCK', 'block': np.int64(4), 'modality': 'auditory', 'thisN': 56, 'thisTrialN': 56, 'thisRepN': 0}>
+363.6279 	EXP 	audio_stim: sampleRate = 24000
+363.6338 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+363.6367 	EXP 	visual_stimulus: autoDraw = False
+363.6367 	EXP 	auditory_icon: autoDraw = False
+363.6367 	EXP 	rating_prompt: autoDraw = False
+363.6367 	EXP 	break_text: autoDraw = False
+363.6367 	EXP 	visual_stimulus: height = np.float64(0.04)
+363.6367 	EXP 	visual_stimulus: height = np.float64(0.04)
+363.6367 	EXP 	visual_stimulus: height = np.float64(0.04)
+363.6367 	EXP 	visual_stimulus: height = np.float64(0.04)
+363.6367 	EXP 	visual_stimulus: height = np.float64(0.04)
+363.6367 	EXP 	visual_stimulus: height = np.float64(0.04)
+363.6367 	EXP 	visual_stimulus: text = 'A metal pillow for ships\n\nDOCK'
+363.6990 	EXP 	Device response: <KeyPress from None: t=363.6088099000044, value=4, duration=0.07954149995930493>
+364.1090 	EXP 	Sound audio_stim reached end of file
+364.1252 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+364.1187 	EXP 	visual_stimulus: autoDraw = True
+364.1187 	EXP 	auditory_icon: autoDraw = True
+368.4848 	EXP 	Sound audio_stim reached end of file
+368.4884 	EXP 	Sound audio_stim reached end of file
+368.8099 	DATA 	Keypress: 4
+368.8185 	EXP 	Device response: <KeyPress from None: t=368.8083446000237, value=4, duration=None>
+368.9285 	EXP 	Device response: <KeyPress from None: t=368.8083446000237, value=4, duration=0.1118311999598518>
+369.1182 	INFO 	Keyboard events cleared
+369.1181 	EXP 	visual_stimulus: autoDraw = False
+369.1181 	EXP 	auditory_icon: autoDraw = False
+369.1181 	EXP 	rating_prompt: autoDraw = True
+369.4983 	EXP 	Device response: <KeyPress from None: t=369.4964226000011, value=4, duration=None>
+369.4989 	EXP 	New trial (rep=0, index=57): <Trial 57 (57 in rep 0) data={'definition': 'A metal butterfly', 'word': 'CLIP', 'block': np.int64(4), 'modality': 'auditory', 'thisN': 57, 'thisTrialN': 57, 'thisRepN': 0}>
+369.5068 	EXP 	audio_stim: sampleRate = 24000
+369.5141 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+369.5157 	DATA 	Keypress: 4
+369.5172 	EXP 	visual_stimulus: autoDraw = False
+369.5172 	EXP 	auditory_icon: autoDraw = False
+369.5172 	EXP 	rating_prompt: autoDraw = False
+369.5172 	EXP 	break_text: autoDraw = False
+369.5172 	EXP 	visual_stimulus: height = np.float64(0.04)
+369.5172 	EXP 	visual_stimulus: height = np.float64(0.04)
+369.5172 	EXP 	visual_stimulus: height = np.float64(0.04)
+369.5172 	EXP 	visual_stimulus: height = np.float64(0.04)
+369.5172 	EXP 	visual_stimulus: height = np.float64(0.04)
+369.5172 	EXP 	visual_stimulus: height = np.float64(0.04)
+369.5172 	EXP 	visual_stimulus: text = 'A metal butterfly\n\nCLIP'
+369.5780 	EXP 	Device response: <KeyPress from None: t=369.4964226000011, value=4, duration=0.07950270001310855>
+369.9885 	EXP 	Sound audio_stim reached end of file
+370.0047 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+369.9979 	EXP 	visual_stimulus: autoDraw = True
+369.9979 	EXP 	auditory_icon: autoDraw = True
+374.0582 	EXP 	Sound audio_stim reached end of file
+374.0614 	EXP 	Sound audio_stim reached end of file
+374.9975 	INFO 	Keyboard events cleared
+374.9974 	EXP 	visual_stimulus: autoDraw = False
+374.9974 	EXP 	auditory_icon: autoDraw = False
+374.9974 	EXP 	rating_prompt: autoDraw = True
+375.2891 	DATA 	Keypress: 3
+375.2977 	EXP 	Device response: <KeyPress from None: t=375.28824939997867, value=3, duration=None>
+375.2982 	EXP 	New trial (rep=0, index=58): <Trial 58 (58 in rep 0) data={'definition': 'A polite prison for tea', 'word': 'TEAPOT', 'block': np.int64(4), 'modality': 'auditory', 'thisN': 58, 'thisTrialN': 58, 'thisRepN': 0}>
+375.3047 	EXP 	audio_stim: sampleRate = 24000
+375.3241 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+375.3272 	EXP 	visual_stimulus: autoDraw = False
+375.3272 	EXP 	auditory_icon: autoDraw = False
+375.3272 	EXP 	rating_prompt: autoDraw = False
+375.3272 	EXP 	break_text: autoDraw = False
+375.3272 	EXP 	visual_stimulus: height = np.float64(0.04)
+375.3272 	EXP 	visual_stimulus: height = np.float64(0.04)
+375.3272 	EXP 	visual_stimulus: height = np.float64(0.04)
+375.3272 	EXP 	visual_stimulus: height = np.float64(0.04)
+375.3272 	EXP 	visual_stimulus: height = np.float64(0.04)
+375.3272 	EXP 	visual_stimulus: height = np.float64(0.04)
+375.3272 	EXP 	visual_stimulus: text = 'A polite prison for tea\n\nTEAPOT'
+375.4278 	EXP 	Device response: <KeyPress from None: t=375.28824939997867, value=3, duration=0.13596200000029057>
+375.7878 	EXP 	Sound audio_stim reached end of file
+375.8040 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+375.7975 	EXP 	visual_stimulus: autoDraw = True
+375.7975 	EXP 	auditory_icon: autoDraw = True
+380.3559 	EXP 	Sound audio_stim reached end of file
+380.3589 	EXP 	Sound audio_stim reached end of file
+380.7969 	INFO 	Keyboard events cleared
+380.7967 	EXP 	visual_stimulus: autoDraw = False
+380.7967 	EXP 	auditory_icon: autoDraw = False
+380.7967 	EXP 	rating_prompt: autoDraw = True
+381.2769 	EXP 	Device response: <KeyPress from None: t=381.2720174000133, value=2, duration=None>
+381.2773 	EXP 	New trial (rep=0, index=59): <Trial 59 (59 in rep 0) data={'definition': 'A paper road', 'word': 'MAP', 'block': np.int64(4), 'modality': 'auditory', 'thisN': 59, 'thisTrialN': 59, 'thisRepN': 0}>
+381.2833 	EXP 	audio_stim: sampleRate = 24000
+381.2938 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+381.2953 	DATA 	Keypress: 2
+381.2968 	EXP 	visual_stimulus: autoDraw = False
+381.2968 	EXP 	auditory_icon: autoDraw = False
+381.2968 	EXP 	rating_prompt: autoDraw = False
+381.2968 	EXP 	break_text: autoDraw = False
+381.2968 	EXP 	visual_stimulus: height = np.float64(0.04)
+381.2968 	EXP 	visual_stimulus: height = np.float64(0.04)
+381.2968 	EXP 	visual_stimulus: height = np.float64(0.04)
+381.2968 	EXP 	visual_stimulus: height = np.float64(0.04)
+381.2968 	EXP 	visual_stimulus: height = np.float64(0.04)
+381.2968 	EXP 	visual_stimulus: height = np.float64(0.04)
+381.2968 	EXP 	visual_stimulus: text = 'A paper road\n\nMAP'
+381.4169 	EXP 	Device response: <KeyPress from None: t=381.2720174000133, value=2, duration=0.13623720000032336>
+381.7670 	EXP 	Sound audio_stim reached end of file
+381.7832 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+381.7765 	EXP 	visual_stimulus: autoDraw = True
+381.7765 	EXP 	auditory_icon: autoDraw = True
+385.7634 	EXP 	Sound audio_stim reached end of file
+385.7662 	EXP 	Sound audio_stim reached end of file
+386.7763 	INFO 	Keyboard events cleared
+386.7761 	EXP 	visual_stimulus: autoDraw = False
+386.7761 	EXP 	auditory_icon: autoDraw = False
+386.7761 	EXP 	rating_prompt: autoDraw = True
+387.0663 	EXP 	Device response: <KeyPress from None: t=387.06409280002117, value=4, duration=None>
+387.0668 	EXP 	New trial (rep=0, index=60): <Trial 60 (60 in rep 0) data={'definition': 'A pocket desert', 'word': 'SAND', 'block': np.int64(4), 'modality': 'auditory', 'thisN': 60, 'thisTrialN': 60, 'thisRepN': 0}>
+387.0747 	EXP 	audio_stim: sampleRate = 24000
+387.0855 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+387.0869 	DATA 	Keypress: 4
+387.0884 	EXP 	visual_stimulus: autoDraw = False
+387.0884 	EXP 	auditory_icon: autoDraw = False
+387.0884 	EXP 	rating_prompt: autoDraw = False
+387.0884 	EXP 	break_text: autoDraw = False
+387.0884 	EXP 	visual_stimulus: height = np.float64(0.04)
+387.0884 	EXP 	visual_stimulus: height = np.float64(0.04)
+387.0884 	EXP 	visual_stimulus: height = np.float64(0.04)
+387.0884 	EXP 	visual_stimulus: height = np.float64(0.04)
+387.0884 	EXP 	visual_stimulus: height = np.float64(0.04)
+387.0884 	EXP 	visual_stimulus: height = np.float64(0.04)
+387.0884 	EXP 	visual_stimulus: text = 'A pocket desert\n\nSAND'
+387.1563 	EXP 	Device response: <KeyPress from None: t=387.06409280002117, value=4, duration=0.08818640001118183>
+387.5562 	EXP 	Sound audio_stim reached end of file
+387.5723 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+387.5657 	EXP 	visual_stimulus: autoDraw = True
+387.5657 	EXP 	auditory_icon: autoDraw = True
+391.7866 	EXP 	Sound audio_stim reached end of file
+391.7896 	EXP 	Sound audio_stim reached end of file
+392.5653 	INFO 	Keyboard events cleared
+392.5652 	EXP 	visual_stimulus: autoDraw = False
+392.5652 	EXP 	auditory_icon: autoDraw = False
+392.5652 	EXP 	rating_prompt: autoDraw = True
+392.8355 	EXP 	Device response: <KeyPress from None: t=392.832074200036, value=3, duration=None>
+392.8362 	EXP 	New trial (rep=0, index=61): <Trial 61 (61 in rep 0) data={'definition': 'A portable cave', 'word': 'BOX', 'block': np.int64(4), 'modality': 'auditory', 'thisN': 61, 'thisTrialN': 61, 'thisRepN': 0}>
+392.8447 	EXP 	audio_stim: sampleRate = 24000
+392.8666 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+392.8681 	DATA 	Keypress: 3
+392.8696 	EXP 	visual_stimulus: autoDraw = False
+392.8696 	EXP 	auditory_icon: autoDraw = False
+392.8696 	EXP 	rating_prompt: autoDraw = False
+392.8696 	EXP 	break_text: autoDraw = False
+392.8696 	EXP 	visual_stimulus: height = np.float64(0.04)
+392.8696 	EXP 	visual_stimulus: height = np.float64(0.04)
+392.8696 	EXP 	visual_stimulus: height = np.float64(0.04)
+392.8696 	EXP 	visual_stimulus: height = np.float64(0.04)
+392.8696 	EXP 	visual_stimulus: height = np.float64(0.04)
+392.8696 	EXP 	visual_stimulus: height = np.float64(0.04)
+392.8696 	EXP 	visual_stimulus: text = 'A portable cave\n\nBOX'
+392.9253 	EXP 	Device response: <KeyPress from None: t=392.832074200036, value=3, duration=0.08790589997079223>
+393.3255 	EXP 	Sound audio_stim reached end of file
+393.3417 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+393.3351 	EXP 	visual_stimulus: autoDraw = True
+393.3351 	EXP 	auditory_icon: autoDraw = True
+397.4603 	EXP 	Sound audio_stim reached end of file
+397.4648 	EXP 	Sound audio_stim reached end of file
+398.3346 	INFO 	Keyboard events cleared
+398.3344 	EXP 	visual_stimulus: autoDraw = False
+398.3344 	EXP 	auditory_icon: autoDraw = False
+398.3344 	EXP 	rating_prompt: autoDraw = True
+398.5861 	DATA 	Keypress: 4
+398.5950 	EXP 	Device response: <KeyPress from None: t=398.5843189000152, value=4, duration=None>
+398.5956 	EXP 	New trial (rep=0, index=62): <Trial 62 (62 in rep 0) data={'definition': 'A pocket rainbow', 'word': 'CRAYON', 'block': np.int64(4), 'modality': 'auditory', 'thisN': 62, 'thisTrialN': 62, 'thisRepN': 0}>
+398.6023 	EXP 	audio_stim: sampleRate = 24000
+398.6058 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+398.6083 	EXP 	visual_stimulus: autoDraw = False
+398.6083 	EXP 	auditory_icon: autoDraw = False
+398.6083 	EXP 	rating_prompt: autoDraw = False
+398.6083 	EXP 	break_text: autoDraw = False
+398.6083 	EXP 	visual_stimulus: height = np.float64(0.04)
+398.6083 	EXP 	visual_stimulus: height = np.float64(0.04)
+398.6083 	EXP 	visual_stimulus: height = np.float64(0.04)
+398.6083 	EXP 	visual_stimulus: height = np.float64(0.04)
+398.6083 	EXP 	visual_stimulus: height = np.float64(0.04)
+398.6083 	EXP 	visual_stimulus: height = np.float64(0.04)
+398.6083 	EXP 	visual_stimulus: text = 'A pocket rainbow\n\nCRAYON'
+398.6949 	EXP 	Device response: <KeyPress from None: t=398.5843189000152, value=4, duration=0.10400559997651726>
+399.0850 	EXP 	Sound audio_stim reached end of file
+399.1010 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+399.0944 	EXP 	visual_stimulus: autoDraw = True
+399.0944 	EXP 	auditory_icon: autoDraw = True
+403.2925 	EXP 	Sound audio_stim reached end of file
+403.2950 	EXP 	Sound audio_stim reached end of file
+404.0937 	INFO 	Keyboard events cleared
+404.0935 	EXP 	visual_stimulus: autoDraw = False
+404.0935 	EXP 	auditory_icon: autoDraw = False
+404.0935 	EXP 	rating_prompt: autoDraw = True
+404.4440 	EXP 	Device response: <KeyPress from None: t=404.4401567999739, value=5, duration=None>
+404.4446 	EXP 	New trial (rep=0, index=63): <Trial 63 (63 in rep 0) data={'definition': 'A polite cage for hands', 'word': 'GLOVE', 'block': np.int64(4), 'modality': 'auditory', 'thisN': 63, 'thisTrialN': 63, 'thisRepN': 0}>
+404.4510 	EXP 	audio_stim: sampleRate = 24000
+404.4690 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+404.4706 	DATA 	Keypress: 5
+404.4723 	EXP 	visual_stimulus: autoDraw = False
+404.4723 	EXP 	auditory_icon: autoDraw = False
+404.4723 	EXP 	rating_prompt: autoDraw = False
+404.4723 	EXP 	break_text: autoDraw = False
+404.4723 	EXP 	visual_stimulus: height = np.float64(0.04)
+404.4723 	EXP 	visual_stimulus: height = np.float64(0.04)
+404.4723 	EXP 	visual_stimulus: height = np.float64(0.04)
+404.4723 	EXP 	visual_stimulus: height = np.float64(0.04)
+404.4723 	EXP 	visual_stimulus: height = np.float64(0.04)
+404.4723 	EXP 	visual_stimulus: height = np.float64(0.04)
+404.4723 	EXP 	visual_stimulus: text = 'A polite cage for hands\n\nGLOVE'
+404.5137 	EXP 	Device response: <KeyPress from None: t=404.4401567999739, value=5, duration=0.07182960002683103>
+404.9342 	EXP 	Sound audio_stim reached end of file
+404.9501 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+404.9435 	EXP 	visual_stimulus: autoDraw = True
+404.9435 	EXP 	auditory_icon: autoDraw = True
+409.5501 	EXP 	Sound audio_stim reached end of file
+409.5533 	EXP 	Sound audio_stim reached end of file
+409.9429 	INFO 	Keyboard events cleared
+409.9428 	EXP 	visual_stimulus: autoDraw = False
+409.9428 	EXP 	auditory_icon: autoDraw = False
+409.9428 	EXP 	rating_prompt: autoDraw = True
+410.3131 	EXP 	Device response: <KeyPress from None: t=410.3126276000403, value=1, duration=None>
+410.3136 	EXP 	New trial (rep=0, index=64): <Trial 64 (64 in rep 0) data={'definition': 'A pocket tornado', 'word': 'FAN', 'block': np.int64(4), 'modality': 'auditory', 'thisN': 64, 'thisTrialN': 64, 'thisRepN': 0}>
+410.3212 	EXP 	audio_stim: sampleRate = 24000
+410.3396 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+410.3411 	DATA 	Keypress: 1
+410.3428 	EXP 	visual_stimulus: autoDraw = False
+410.3428 	EXP 	auditory_icon: autoDraw = False
+410.3428 	EXP 	rating_prompt: autoDraw = False
+410.3428 	EXP 	break_text: autoDraw = False
+410.3428 	EXP 	visual_stimulus: height = np.float64(0.04)
+410.3428 	EXP 	visual_stimulus: height = np.float64(0.04)
+410.3428 	EXP 	visual_stimulus: height = np.float64(0.04)
+410.3428 	EXP 	visual_stimulus: height = np.float64(0.04)
+410.3428 	EXP 	visual_stimulus: height = np.float64(0.04)
+410.3428 	EXP 	visual_stimulus: height = np.float64(0.04)
+410.3428 	EXP 	visual_stimulus: text = 'A pocket tornado\n\nFAN'
+410.4332 	EXP 	Device response: <KeyPress from None: t=410.3126276000403, value=1, duration=0.11200919991824776>
+410.8031 	EXP 	Sound audio_stim reached end of file
+410.8192 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+410.8128 	EXP 	visual_stimulus: autoDraw = True
+410.8128 	EXP 	auditory_icon: autoDraw = True
+415.1055 	EXP 	Sound audio_stim reached end of file
+415.1088 	EXP 	Sound audio_stim reached end of file
+415.8122 	INFO 	Keyboard events cleared
+415.8121 	EXP 	visual_stimulus: autoDraw = False
+415.8121 	EXP 	auditory_icon: autoDraw = False
+415.8121 	EXP 	rating_prompt: autoDraw = True
+416.0924 	EXP 	Device response: <KeyPress from None: t=416.08817250002176, value=4, duration=None>
+416.0930 	EXP 	New trial (rep=0, index=65): <Trial 65 (65 in rep 0) data={'definition': 'A sun-powered eye', 'word': 'SOLARPANEL', 'block': np.int64(4), 'modality': 'auditory', 'thisN': 65, 'thisTrialN': 65, 'thisRepN': 0}>
+416.1032 	EXP 	audio_stim: sampleRate = 24000
+416.1261 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+416.1278 	DATA 	Keypress: 4
+416.1293 	EXP 	visual_stimulus: autoDraw = False
+416.1293 	EXP 	auditory_icon: autoDraw = False
+416.1293 	EXP 	rating_prompt: autoDraw = False
+416.1293 	EXP 	break_text: autoDraw = False
+416.1293 	EXP 	visual_stimulus: height = np.float64(0.04)
+416.1293 	EXP 	visual_stimulus: height = np.float64(0.04)
+416.1293 	EXP 	visual_stimulus: height = np.float64(0.04)
+416.1293 	EXP 	visual_stimulus: height = np.float64(0.04)
+416.1293 	EXP 	visual_stimulus: height = np.float64(0.04)
+416.1293 	EXP 	visual_stimulus: height = np.float64(0.04)
+416.1293 	EXP 	visual_stimulus: text = 'A sun-powered eye\n\nSOLARPANEL'
+416.1923 	EXP 	Device response: <KeyPress from None: t=416.08817250002176, value=4, duration=0.09584650001488626>
+416.5827 	EXP 	Sound audio_stim reached end of file
+416.5987 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+416.5920 	EXP 	visual_stimulus: autoDraw = True
+416.5920 	EXP 	auditory_icon: autoDraw = True
+421.0801 	EXP 	Sound audio_stim reached end of file
+421.0831 	EXP 	Sound audio_stim reached end of file
+421.5913 	INFO 	Keyboard events cleared
+421.5912 	EXP 	visual_stimulus: autoDraw = False
+421.5912 	EXP 	auditory_icon: autoDraw = False
+421.5912 	EXP 	rating_prompt: autoDraw = True
+422.1014 	EXP 	Device response: <KeyPress from None: t=422.09604740003124, value=3, duration=None>
+422.1016 	EXP 	New trial (rep=0, index=66): <Trial 66 (66 in rep 0) data={'definition': 'A paper airplane graveyard', 'word': 'TRASHCAN', 'block': np.int64(4), 'modality': 'auditory', 'thisN': 66, 'thisTrialN': 66, 'thisRepN': 0}>
+422.1052 	EXP 	audio_stim: sampleRate = 24000
+422.1179 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+422.1196 	DATA 	Keypress: 3
+422.1213 	EXP 	visual_stimulus: autoDraw = False
+422.1213 	EXP 	auditory_icon: autoDraw = False
+422.1213 	EXP 	rating_prompt: autoDraw = False
+422.1213 	EXP 	break_text: autoDraw = False
+422.1213 	EXP 	visual_stimulus: height = np.float64(0.04)
+422.1213 	EXP 	visual_stimulus: height = np.float64(0.04)
+422.1213 	EXP 	visual_stimulus: height = np.float64(0.04)
+422.1213 	EXP 	visual_stimulus: height = np.float64(0.04)
+422.1213 	EXP 	visual_stimulus: height = np.float64(0.04)
+422.1213 	EXP 	visual_stimulus: height = np.float64(0.04)
+422.1213 	EXP 	visual_stimulus: text = 'A paper airplane graveyard\n\nTRASHCAN'
+422.2317 	EXP 	Device response: <KeyPress from None: t=422.09604740003124, value=3, duration=0.1282198999542743>
+422.5917 	EXP 	Sound audio_stim reached end of file
+422.6078 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+422.6013 	EXP 	visual_stimulus: autoDraw = True
+422.6013 	EXP 	auditory_icon: autoDraw = True
+427.5717 	EXP 	Sound audio_stim reached end of file
+427.5810 	EXP 	Sound audio_stim reached end of file
+427.6007 	INFO 	Keyboard events cleared
+427.6006 	EXP 	visual_stimulus: autoDraw = False
+427.6006 	EXP 	auditory_icon: autoDraw = False
+427.6006 	EXP 	rating_prompt: autoDraw = True
+428.1609 	EXP 	Device response: <KeyPress from None: t=428.1601524000289, value=5, duration=None>
+428.1613 	EXP 	New trial (rep=0, index=67): <Trial 67 (67 in rep 0) data={'definition': 'A glass pillow', 'word': 'LENS', 'block': np.int64(4), 'modality': 'auditory', 'thisN': 67, 'thisTrialN': 67, 'thisRepN': 0}>
+428.1671 	EXP 	audio_stim: sampleRate = 24000
+428.1893 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+428.1907 	DATA 	Keypress: 5
+428.1925 	EXP 	visual_stimulus: autoDraw = False
+428.1925 	EXP 	auditory_icon: autoDraw = False
+428.1925 	EXP 	rating_prompt: autoDraw = False
+428.1925 	EXP 	break_text: autoDraw = False
+428.1925 	EXP 	visual_stimulus: height = np.float64(0.04)
+428.1925 	EXP 	visual_stimulus: height = np.float64(0.04)
+428.1925 	EXP 	visual_stimulus: height = np.float64(0.04)
+428.1925 	EXP 	visual_stimulus: height = np.float64(0.04)
+428.1925 	EXP 	visual_stimulus: height = np.float64(0.04)
+428.1925 	EXP 	visual_stimulus: height = np.float64(0.04)
+428.1925 	EXP 	visual_stimulus: text = 'A glass pillow\n\nLENS'
+428.2509 	EXP 	Device response: <KeyPress from None: t=428.1601524000289, value=5, duration=0.08810369996353984>
+428.6509 	EXP 	Sound audio_stim reached end of file
+428.6670 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+428.6604 	EXP 	visual_stimulus: autoDraw = True
+428.6604 	EXP 	auditory_icon: autoDraw = True
+432.6966 	EXP 	Sound audio_stim reached end of file
+432.6999 	EXP 	Sound audio_stim reached end of file
+433.6596 	INFO 	Keyboard events cleared
+433.6595 	EXP 	visual_stimulus: autoDraw = False
+433.6595 	EXP 	auditory_icon: autoDraw = False
+433.6595 	EXP 	rating_prompt: autoDraw = True
+433.9203 	EXP 	Device response: <KeyPress from None: t=433.9122931000311, value=3, duration=None>
+433.9208 	EXP 	New trial (rep=0, index=68): <Trial 68 (68 in rep 0) data={'definition': 'A polite cage for light', 'word': 'LAMPSHADE', 'block': np.int64(4), 'modality': 'auditory', 'thisN': 68, 'thisTrialN': 68, 'thisRepN': 0}>
+433.9275 	EXP 	audio_stim: sampleRate = 24000
+433.9395 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+433.9412 	DATA 	Keypress: 3
+433.9430 	EXP 	visual_stimulus: autoDraw = False
+433.9430 	EXP 	auditory_icon: autoDraw = False
+433.9430 	EXP 	rating_prompt: autoDraw = False
+433.9430 	EXP 	break_text: autoDraw = False
+433.9430 	EXP 	visual_stimulus: height = np.float64(0.04)
+433.9430 	EXP 	visual_stimulus: height = np.float64(0.04)
+433.9430 	EXP 	visual_stimulus: height = np.float64(0.04)
+433.9430 	EXP 	visual_stimulus: height = np.float64(0.04)
+433.9430 	EXP 	visual_stimulus: height = np.float64(0.04)
+433.9430 	EXP 	visual_stimulus: height = np.float64(0.04)
+433.9430 	EXP 	visual_stimulus: text = 'A polite cage for light\n\nLAMPSHADE'
+434.0201 	EXP 	Device response: <KeyPress from None: t=433.9122931000311, value=3, duration=0.1038513999665156>
+434.4102 	EXP 	Sound audio_stim reached end of file
+434.4263 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+434.4198 	EXP 	visual_stimulus: autoDraw = True
+434.4198 	EXP 	auditory_icon: autoDraw = True
+439.1443 	EXP 	Sound audio_stim reached end of file
+439.1467 	EXP 	Sound audio_stim reached end of file
+439.4191 	INFO 	Keyboard events cleared
+439.4190 	EXP 	visual_stimulus: autoDraw = False
+439.4190 	EXP 	auditory_icon: autoDraw = False
+439.4190 	EXP 	rating_prompt: autoDraw = True
+439.7494 	EXP 	Device response: <KeyPress from None: t=439.74423620000016, value=2, duration=None>
+439.7499 	EXP 	New trial (rep=0, index=69): <Trial 69 (69 in rep 0) data={'definition': 'A sleepy spotlight', 'word': 'MOON', 'block': np.int64(4), 'modality': 'auditory', 'thisN': 69, 'thisTrialN': 69, 'thisRepN': 0}>
+439.7561 	EXP 	audio_stim: sampleRate = 24000
+439.7783 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+439.7800 	DATA 	Keypress: 2
+439.7814 	EXP 	visual_stimulus: autoDraw = False
+439.7814 	EXP 	auditory_icon: autoDraw = False
+439.7814 	EXP 	rating_prompt: autoDraw = False
+439.7814 	EXP 	break_text: autoDraw = False
+439.7814 	EXP 	visual_stimulus: height = np.float64(0.04)
+439.7814 	EXP 	visual_stimulus: height = np.float64(0.04)
+439.7814 	EXP 	visual_stimulus: height = np.float64(0.04)
+439.7814 	EXP 	visual_stimulus: height = np.float64(0.04)
+439.7814 	EXP 	visual_stimulus: height = np.float64(0.04)
+439.7814 	EXP 	visual_stimulus: height = np.float64(0.04)
+439.7814 	EXP 	visual_stimulus: text = 'A sleepy spotlight\n\nMOON'
+439.8594 	EXP 	Device response: <KeyPress from None: t=439.74423620000016, value=2, duration=0.11262419994454831>
+440.2391 	EXP 	Sound audio_stim reached end of file
+440.2554 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+440.2490 	EXP 	visual_stimulus: autoDraw = True
+440.2490 	EXP 	auditory_icon: autoDraw = True
+444.4044 	EXP 	Sound audio_stim reached end of file
+444.4085 	EXP 	Sound audio_stim reached end of file
+445.2484 	INFO 	Keyboard events cleared
+445.2482 	EXP 	visual_stimulus: autoDraw = False
+445.2482 	EXP 	auditory_icon: autoDraw = False
+445.2482 	EXP 	rating_prompt: autoDraw = True
+445.4900 	DATA 	Keypress: 1
+445.4987 	EXP 	Device response: <KeyPress from None: t=445.4883724999381, value=1, duration=None>
+445.4992 	EXP 	New trial (rep=0, index=70): <Trial 70 (70 in rep 0) data={'definition': 'A rainproof shell on legs', 'word': 'TURTLE', 'block': np.int64(4), 'modality': 'auditory', 'thisN': 70, 'thisTrialN': 70, 'thisRepN': 0}>
+445.5055 	EXP 	audio_stim: sampleRate = 24000
+445.5166 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+445.5196 	EXP 	visual_stimulus: autoDraw = False
+445.5196 	EXP 	auditory_icon: autoDraw = False
+445.5196 	EXP 	rating_prompt: autoDraw = False
+445.5196 	EXP 	break_text: autoDraw = False
+445.5196 	EXP 	visual_stimulus: height = np.float64(0.04)
+445.5196 	EXP 	visual_stimulus: height = np.float64(0.04)
+445.5196 	EXP 	visual_stimulus: height = np.float64(0.04)
+445.5196 	EXP 	visual_stimulus: height = np.float64(0.04)
+445.5196 	EXP 	visual_stimulus: height = np.float64(0.04)
+445.5196 	EXP 	visual_stimulus: height = np.float64(0.04)
+445.5196 	EXP 	visual_stimulus: text = 'A rainproof shell on legs\n\nTURTLE'
+445.6088 	EXP 	Device response: <KeyPress from None: t=445.4883724999381, value=1, duration=0.11184970010071993>
+445.9890 	EXP 	Sound audio_stim reached end of file
+446.0051 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+445.9983 	EXP 	visual_stimulus: autoDraw = True
+445.9983 	EXP 	auditory_icon: autoDraw = True
+450.6010 	EXP 	Sound audio_stim reached end of file
+450.6080 	EXP 	Sound audio_stim reached end of file
+450.9977 	INFO 	Keyboard events cleared
+450.9976 	EXP 	visual_stimulus: autoDraw = False
+450.9976 	EXP 	auditory_icon: autoDraw = False
+450.9976 	EXP 	rating_prompt: autoDraw = True
+451.4280 	EXP 	Device response: <KeyPress from None: t=451.4242481000256, value=2, duration=None>
+451.4285 	EXP 	New trial (rep=0, index=71): <Trial 71 (71 in rep 0) data={'definition': 'A metal shoebox for wheels', 'word': 'GARAGE', 'block': np.int64(4), 'modality': 'auditory', 'thisN': 71, 'thisTrialN': 71, 'thisRepN': 0}>
+451.4348 	EXP 	audio_stim: sampleRate = 24000
+451.4561 	INFO 	Resampled audio from 24000Hz to 44100Hz using method 'default'.
+451.4586 	DATA 	Keypress: 2
+451.4604 	EXP 	visual_stimulus: autoDraw = False
+451.4604 	EXP 	auditory_icon: autoDraw = False
+451.4604 	EXP 	rating_prompt: autoDraw = False
+451.4604 	EXP 	break_text: autoDraw = False
+451.4604 	EXP 	visual_stimulus: height = np.float64(0.04)
+451.4604 	EXP 	visual_stimulus: height = np.float64(0.04)
+451.4604 	EXP 	visual_stimulus: height = np.float64(0.04)
+451.4604 	EXP 	visual_stimulus: height = np.float64(0.04)
+451.4604 	EXP 	visual_stimulus: height = np.float64(0.04)
+451.4604 	EXP 	visual_stimulus: height = np.float64(0.04)
+451.4604 	EXP 	visual_stimulus: text = 'A metal shoebox for wheels\n\nGARAGE'
+451.5681 	EXP 	Device response: <KeyPress from None: t=451.4242481000256, value=2, duration=0.13597319996915758>
+451.9179 	EXP 	Sound audio_stim reached end of file
+451.9340 	EXP 	Playing sound audio_stim on speaker Headphones (Space Travel 2)
+451.9277 	EXP 	visual_stimulus: autoDraw = True
+451.9277 	EXP 	auditory_icon: autoDraw = True
+456.7015 	EXP 	Sound audio_stim reached end of file
+456.7073 	EXP 	Sound audio_stim reached end of file
+456.9269 	INFO 	Keyboard events cleared
+456.9268 	EXP 	visual_stimulus: autoDraw = False
+456.9268 	EXP 	auditory_icon: autoDraw = False
+456.9268 	EXP 	rating_prompt: autoDraw = True
+457.3372 	EXP 	Device response: <KeyPress from None: t=457.3362177000381, value=1, duration=None>
+457.3412 	DATA 	Keypress: 1
+457.3468 	INFO 	Keyboard events cleared
+457.3467 	EXP 	visual_stimulus: autoDraw = False
+457.3467 	EXP 	auditory_icon: autoDraw = False
+457.3467 	EXP 	rating_prompt: autoDraw = False
+457.3467 	EXP 	break_text: autoDraw = False
+457.3467 	EXP 	end_text: autoDraw = True
+457.4670 	EXP 	Device response: <KeyPress from None: t=457.3362177000381, value=1, duration=0.12018219998572022>
+461.4767 	EXP 	Device response: <KeyPress from None: t=461.4722664000001, value=space, duration=None>
+461.4778 	DATA 	Keypress: space
+461.4862 	EXP 	end_text: autoDraw = False
+461.4864 	EXP 	encoding_phase: status = STOPPED
+461.5091 	INFO 	saved data to 'D:\\Remember_Know\\data\\tttt_encoding_phase_2026-03-23_21h03.53.493.csv'
+461.5099 	INFO 	saved data to D:\Remember_Know\data\tttt_encoding_phase_2026-03-23_21h03.53.493.psydat
+461.8736 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+461.8930 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+461.8930 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+461.8930 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+461.8930 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

@@ -1,0 +1,137 @@
+5.1960 	INFO 	Loaded monitor calibration from ['2025_12_27 10:38', '2025_12_27 13:43']
+5.4817 	INFO 	Using renderer 'Intel(R) UHD Graphics 770' for graphics
+5.4817 	INFO 	OpenGL version supported by driver is 4..
+5.4923 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000262966273D0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000026296627430>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000026296713E50>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.4923 	EXP 	window1: backgroundImage = ''
+5.4923 	EXP 	window1: backgroundFit = 'none'
+5.7225 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+5.7225 	EXP 	window1: recordFrameIntervals = False
+5.8051 	EXP 	window1: recordFrameIntervals = True
+5.9158 	EXP 	Screen (0) actual frame rate measured at 99.51Hz
+5.9159 	EXP 	window1: recordFrameIntervals = False
+6.0014 	INFO 	keyboard.Keyboard is using ptb backend.
+6.0016 	INFO 	keyboard.Keyboard is using ptb backend.
+6.1540 	WARNING 	No default speaker specified in Preferences / Hardware, using first speaker found: Speakers (Realtek(R) Audio)
+6.1869 	INFO 	Created stream for speaker device: Speakers (Realtek(R) Audio) (5.0)
+6.1880 	INFO 	keyboard.Keyboard is using ptb backend.
+6.1880 	INFO 	keyboard.Keyboard is using ptb backend.
+6.1880 	INFO 	keyboard.Keyboard is using ptb backend.
+6.1880 	EXP 	encoding_phase: status = STARTED
+6.2631 	EXP 	Created instr_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.03), italic=False, languageStyle='LTR', name='instr_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+6.2636 	EXP 	Created visual_stimulus = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='visual_stimulus', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.2757 	EXP 	Created auditory_icon = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='speaker.png', interpolate=True, mask=None, maskParams=None, name='auditory_icon', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+6.2757 	EXP 	audio_stim: sampleRate = 48000
+6.2757 	EXP 	audio_stim: channels = None
+6.2840 	EXP 	Sound audio_stim set volume 1.000
+6.2876 	EXP 	Created break_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.03), italic=False, languageStyle='LTR', name='break_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+6.2918 	EXP 	Created end_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.03), italic=False, languageStyle='LTR', name='end_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0044 	INFO 	Keyboard events cleared
+0.0043 	EXP 	instr_text: autoDraw = True
+6.7820 	EXP 	Device response: <KeyPress from None: t=6.7710817999904975, value=space, duration=None>
+6.7863 	EXP 	Imported encoding.csv as conditions, 72 conditions, 4 params
+6.7867 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'definition': 'A portable shadow box', 'word': 'SUITCASE', 'block': np.int64(1), 'modality': 'visual', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+6.7947 	DATA 	Keypress: space
+6.7962 	EXP 	instr_text: autoDraw = False
+6.7962 	EXP 	visual_stimulus: height = np.float64(0.03)
+6.7962 	EXP 	visual_stimulus: height = np.float64(0.03)
+6.7962 	EXP 	visual_stimulus: height = np.float64(0.03)
+6.7962 	EXP 	visual_stimulus: height = np.float64(0.03)
+6.7962 	EXP 	visual_stimulus: height = np.float64(0.03)
+6.7962 	EXP 	visual_stimulus: height = np.float64(0.03)
+6.7962 	EXP 	visual_stimulus: text = 'A portable shadow box\n\nSUITCASE'
+6.9624 	EXP 	Device response: <KeyPress from None: t=6.7710817999904975, value=space, duration=0.18340179999358952>
+7.2729 	EXP 	Sound audio_stim reached end of file
+7.2890 	EXP 	Playing sound audio_stim on speaker Speakers (Realtek(R) Audio)
+7.2823 	INFO 	Keyboard events cleared
+7.2822 	EXP 	visual_stimulus: autoDraw = True
+7.2822 	EXP 	auditory_icon: autoDraw = True
+12.2913 	EXP 	Sound audio_stim stopped
+12.2919 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'definition': 'A silent drummer', 'word': 'HEART', 'block': np.int64(1), 'modality': 'visual', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+12.3060 	EXP 	visual_stimulus: autoDraw = False
+12.3060 	EXP 	auditory_icon: autoDraw = False
+12.3060 	EXP 	visual_stimulus: autoDraw = False
+12.3060 	EXP 	auditory_icon: autoDraw = False
+12.3060 	EXP 	break_text: autoDraw = False
+12.3060 	EXP 	visual_stimulus: height = np.float64(0.03)
+12.3060 	EXP 	visual_stimulus: height = np.float64(0.03)
+12.3060 	EXP 	visual_stimulus: height = np.float64(0.03)
+12.3060 	EXP 	visual_stimulus: height = np.float64(0.03)
+12.3060 	EXP 	visual_stimulus: height = np.float64(0.03)
+12.3060 	EXP 	visual_stimulus: height = np.float64(0.03)
+12.3060 	EXP 	visual_stimulus: text = 'A silent drummer\n\nHEART'
+12.7822 	EXP 	Sound audio_stim reached end of file
+12.7983 	EXP 	Playing sound audio_stim on speaker Speakers (Realtek(R) Audio)
+12.7918 	INFO 	Keyboard events cleared
+12.7917 	EXP 	visual_stimulus: autoDraw = True
+12.7917 	EXP 	auditory_icon: autoDraw = True
+17.8012 	EXP 	Sound audio_stim stopped
+17.8017 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'definition': 'A spoon with ambition', 'word': 'SHOVEL', 'block': np.int64(1), 'modality': 'visual', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+17.8160 	EXP 	visual_stimulus: autoDraw = False
+17.8160 	EXP 	auditory_icon: autoDraw = False
+17.8160 	EXP 	visual_stimulus: autoDraw = False
+17.8160 	EXP 	auditory_icon: autoDraw = False
+17.8160 	EXP 	break_text: autoDraw = False
+17.8160 	EXP 	visual_stimulus: height = np.float64(0.03)
+17.8160 	EXP 	visual_stimulus: height = np.float64(0.03)
+17.8160 	EXP 	visual_stimulus: height = np.float64(0.03)
+17.8160 	EXP 	visual_stimulus: height = np.float64(0.03)
+17.8160 	EXP 	visual_stimulus: height = np.float64(0.03)
+17.8160 	EXP 	visual_stimulus: height = np.float64(0.03)
+17.8160 	EXP 	visual_stimulus: text = 'A spoon with ambition\n\nSHOVEL'
+18.2916 	EXP 	Sound audio_stim reached end of file
+18.3076 	EXP 	Playing sound audio_stim on speaker Speakers (Realtek(R) Audio)
+18.3012 	INFO 	Keyboard events cleared
+18.3011 	EXP 	visual_stimulus: autoDraw = True
+18.3011 	EXP 	auditory_icon: autoDraw = True
+23.3099 	EXP 	Sound audio_stim stopped
+23.3104 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'definition': 'A metal tongue for guitars', 'word': 'PICK', 'block': np.int64(1), 'modality': 'visual', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+23.3244 	EXP 	visual_stimulus: autoDraw = False
+23.3244 	EXP 	auditory_icon: autoDraw = False
+23.3244 	EXP 	visual_stimulus: autoDraw = False
+23.3244 	EXP 	auditory_icon: autoDraw = False
+23.3244 	EXP 	break_text: autoDraw = False
+23.3244 	EXP 	visual_stimulus: height = np.float64(0.03)
+23.3244 	EXP 	visual_stimulus: height = np.float64(0.03)
+23.3244 	EXP 	visual_stimulus: height = np.float64(0.03)
+23.3244 	EXP 	visual_stimulus: height = np.float64(0.03)
+23.3244 	EXP 	visual_stimulus: height = np.float64(0.03)
+23.3244 	EXP 	visual_stimulus: height = np.float64(0.03)
+23.3244 	EXP 	visual_stimulus: text = 'A metal tongue for guitars\n\nPICK'
+23.8007 	EXP 	Sound audio_stim reached end of file
+23.8168 	EXP 	Playing sound audio_stim on speaker Speakers (Realtek(R) Audio)
+23.8102 	INFO 	Keyboard events cleared
+23.8101 	EXP 	visual_stimulus: autoDraw = True
+23.8101 	EXP 	auditory_icon: autoDraw = True
+28.8192 	EXP 	Sound audio_stim stopped
+28.8198 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'definition': 'A glass slipper for drinks', 'word': 'CUP', 'block': np.int64(1), 'modality': 'visual', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+28.8320 	EXP 	visual_stimulus: autoDraw = False
+28.8320 	EXP 	auditory_icon: autoDraw = False
+28.8320 	EXP 	visual_stimulus: autoDraw = False
+28.8320 	EXP 	auditory_icon: autoDraw = False
+28.8320 	EXP 	break_text: autoDraw = False
+28.8320 	EXP 	visual_stimulus: height = np.float64(0.03)
+28.8320 	EXP 	visual_stimulus: height = np.float64(0.03)
+28.8320 	EXP 	visual_stimulus: height = np.float64(0.03)
+28.8320 	EXP 	visual_stimulus: height = np.float64(0.03)
+28.8320 	EXP 	visual_stimulus: height = np.float64(0.03)
+28.8320 	EXP 	visual_stimulus: height = np.float64(0.03)
+28.8320 	EXP 	visual_stimulus: text = 'A glass slipper for drinks\n\nCUP'
+29.3100 	EXP 	Sound audio_stim reached end of file
+29.3260 	EXP 	Playing sound audio_stim on speaker Speakers (Realtek(R) Audio)
+29.3197 	INFO 	Keyboard events cleared
+29.3196 	EXP 	visual_stimulus: autoDraw = True
+29.3196 	EXP 	auditory_icon: autoDraw = True
+30.5199 	EXP 	Device response: <KeyPress from None: t=30.514920399989933, value=escape, duration=None>
+30.5213 	DATA 	Keypress: escape
+30.7000 	EXP 	Device response: <KeyPress from None: t=30.514920399989933, value=escape, duration=0.1758222000207752>
+30.7001 	EXP 	encoding_phase: status = STOPPED
+30.7093 	EXP 	visual_stimulus: autoDraw = False
+30.7093 	EXP 	auditory_icon: autoDraw = False
+30.7095 	EXP 	encoding_phase: status = STOPPED
+30.7137 	INFO 	saved data to 'D:\\Remember_Know\\data\\tttt_encoding_phase_2026-03-23_20h43.16.867.csv'
+30.7146 	INFO 	saved data to D:\Remember_Know\data\tttt_encoding_phase_2026-03-23_20h43.16.867.psydat
+31.0979 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+31.1946 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+31.1947 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+31.1947 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+31.1948 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

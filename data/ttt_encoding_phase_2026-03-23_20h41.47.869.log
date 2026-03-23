@@ -1,0 +1,42 @@
+5.9037 	INFO 	Loaded monitor calibration from ['2025_12_27 10:38', '2025_12_27 13:43']
+6.2000 	INFO 	Using renderer 'Intel(R) UHD Graphics 770' for graphics
+6.2000 	INFO 	OpenGL version supported by driver is 4..
+6.2100 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000195079873D0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000019507987430>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000019507A73E50>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.2100 	EXP 	window1: backgroundImage = ''
+6.2101 	EXP 	window1: backgroundFit = 'none'
+6.4505 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+6.4505 	EXP 	window1: recordFrameIntervals = False
+6.5490 	EXP 	window1: recordFrameIntervals = True
+6.6592 	EXP 	Screen (0) actual frame rate measured at 99.89Hz
+6.6592 	EXP 	window1: recordFrameIntervals = False
+6.7459 	INFO 	keyboard.Keyboard is using ptb backend.
+6.7460 	INFO 	keyboard.Keyboard is using ptb backend.
+6.8886 	WARNING 	No default speaker specified in Preferences / Hardware, using first speaker found: Speakers (Realtek(R) Audio)
+6.9221 	INFO 	Created stream for speaker device: Speakers (Realtek(R) Audio) (5.0)
+6.9231 	INFO 	keyboard.Keyboard is using ptb backend.
+6.9232 	INFO 	keyboard.Keyboard is using ptb backend.
+6.9232 	INFO 	keyboard.Keyboard is using ptb backend.
+6.9232 	EXP 	encoding_phase: status = STARTED
+6.9949 	EXP 	Created instr_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='instr_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+6.9954 	EXP 	Created visual_stimulus = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='visual_stimulus', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.0078 	EXP 	Created auditory_icon = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='speaker.png', interpolate=True, mask=None, maskParams=None, name='auditory_icon', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+7.0078 	EXP 	audio_stim: sampleRate = 48000
+7.0078 	EXP 	audio_stim: channels = None
+7.0156 	EXP 	Sound audio_stim set volume 1.000
+7.0199 	EXP 	Created break_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='break_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+7.0244 	EXP 	Created end_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='end_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0038 	INFO 	Keyboard events cleared
+0.0038 	EXP 	instr_text: autoDraw = True
+4.6683 	EXP 	Device response: <KeyPress from None: t=4.660695599974133, value=escape, duration=None>
+4.6688 	DATA 	Keypress: escape
+4.8043 	EXP 	Device response: <KeyPress from None: t=4.660695599974133, value=escape, duration=0.13613710005301982>
+4.8043 	EXP 	encoding_phase: status = STOPPED
+4.8138 	EXP 	instr_text: autoDraw = False
+4.8140 	EXP 	encoding_phase: status = STOPPED
+4.8176 	INFO 	saved data to 'D:\\Remember_Know\\data\\ttt_encoding_phase_2026-03-23_20h41.47.869.csv'
+4.8188 	INFO 	saved data to D:\Remember_Know\data\ttt_encoding_phase_2026-03-23_20h41.47.869.psydat
+5.1879 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+5.1997 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+5.1997 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+5.1997 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+5.1997 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

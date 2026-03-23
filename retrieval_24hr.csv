@@ -1,0 +1,73 @@
+definition,word,old_new,correct_old_new
+A glass shoe for science,BEAKER,old,yes
+A metal eyelid,SHUTTER,new,no
+A sky-writing goose,AIRPLANE,new,no
+A rock pillow,BOULDER,old,yes
+A metal birdcage for letters,MAILBOX,new,no
+A sleepy paintbrush,MOP,old,yes
+A tree skeleton,BRANCH,new,no
+A paper airplane graveyard,TRASHCAN,old,yes
+A metal butterfly,CLIP,old,yes
+A silent trumpet,CONCH,new,no
+A metal sunflower seed,NUT,old,yes
+A metal handshake,CLAMP,new,no
+A polite thunderbolt,FLASH,old,yes
+A silent whistle,FLAG,new,no
+A metal caterpillar,TRAIN,new,no
+A frozen river bridge,ICEBRIDGE,old,yes
+A metal tooth for wood,SAW,new,no
+A metal pillow for ships,DOCK,old,yes
+A polite mirror for time,WATCH,old,yes
+A sleepy ladder,STAIRS,old,yes
+A cloud factory,FACTORY,new,no
+A polite shovel,SPOON,new,no
+A sleepy computer,SERVER,old,yes
+A book that glows,TABLET,new,no
+A pocket waterfall,FAUCET,new,no
+A pocket desert,SAND,old,yes
+A pocket shadow for eyes,SUNGLASSES,new,no
+A tooth for giants,SPIKE,new,no
+A polite thunder,APPLAUSE,new,no
+A paper boat for money,WALLET,old,yes
+A clock without hands,CALENDAR,new,no
+A pocket rainbow,CRAYON,old,yes
+A polite prison for tea,TEAPOT,old,yes
+A polite cage for birds,AVIARY,new,no
+A cloud you can sit on,SOFA,new,no
+A pocket tornado,FAN,old,yes
+A portable shadow maker,UMBRELLA,old,yes
+A sleepy spotlight,MOON,old,yes
+A wall with lungs,WINDOWSCREEN,old,yes
+A pocket thunderstorm,SPRAYBOTTLE,new,no
+A house for shoes,RACK,new,no
+A tree’s paper factory,LEAF,new,no
+A sweater for walls,INSULATION,new,no
+A sleepless neighborhood rooster,SIREN,old,yes
+A polite cage for books,BOOKCASE,old,yes
+A sleepy robot,TOASTER,new,no
+A metal shoebox for wheels,GARAGE,old,yes
+A book that never ends,SCROLL,new,no
+A glass pillow,LENS,old,yes
+A metal sunflower,SATELLITE,new,no
+A metal tongue for doors,HINGE,new,no
+A glass ladder for drinking,STRAW,old,yes
+A silent drum for war,TANK,new,no
+A polite cage for light,LAMPSHADE,old,yes
+A glass ladder,TESTTUBE,new,no
+A polite cage for hands,GLOVE,old,yes
+A frozen mirror,ICE,new,no
+A book for recipes,COOKBOOK,old,yes
+A portable cave,BOX,old,yes
+A metal ear for walls,VENT,new,no
+A sky leash,KITE,old,yes
+A frozen blanket,FROST,new,no
+A striped escape artist,ZEBRA,old,yes
+A doorbell for burglars,ALARM,new,no
+A rainproof shell on legs,TURTLE,old,yes
+A sun-powered eye,SOLARPANEL,old,yes
+A whisper catcher,MICROPHONE,new,no
+A book with teeth,ZIPPER,old,yes
+A polite hammer,MALLET,new,no
+A frozen cloud,ICECREAM,new,no
+A pocket blizzard,TISSUE,old,yes
+A paper road,MAP,old,yes

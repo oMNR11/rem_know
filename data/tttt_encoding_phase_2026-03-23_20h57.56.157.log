@@ -1,0 +1,42 @@
+5.2723 	INFO 	Loaded monitor calibration from ['2025_12_27 10:38', '2025_12_27 13:43']
+5.5766 	INFO 	Using renderer 'Intel(R) UHD Graphics 770' for graphics
+5.5766 	INFO 	OpenGL version supported by driver is 4..
+5.5880 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000244923BD780>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000244923BD720>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000244919A4FD0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.5881 	EXP 	window1: backgroundImage = ''
+5.5881 	EXP 	window1: backgroundFit = 'none'
+5.8292 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+5.8292 	EXP 	window1: recordFrameIntervals = False
+5.9131 	EXP 	window1: recordFrameIntervals = True
+6.0235 	EXP 	Screen (0) actual frame rate measured at 99.81Hz
+6.0236 	EXP 	window1: recordFrameIntervals = False
+6.1240 	INFO 	keyboard.Keyboard is using ptb backend.
+6.1241 	INFO 	keyboard.Keyboard is using ptb backend.
+6.1346 	INFO 	Created stream for speaker device: Headphones (Space Travel 2) (6.0)
+6.1357 	INFO 	keyboard.Keyboard is using ptb backend.
+6.1358 	INFO 	keyboard.Keyboard is using ptb backend.
+6.1358 	INFO 	keyboard.Keyboard is using ptb backend.
+6.1358 	EXP 	encoding_phase: status = STARTED
+6.2041 	EXP 	Created instr_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='instr_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+6.2045 	EXP 	Created visual_stimulus = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='visual_stimulus', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.2164 	EXP 	Created auditory_icon = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='speaker.png', interpolate=True, mask=None, maskParams=None, name='auditory_icon', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+6.2165 	EXP 	audio_stim: sampleRate = 44100
+6.2165 	EXP 	audio_stim: channels = None
+6.2238 	EXP 	Sound audio_stim set volume 1.000
+6.2303 	EXP 	Created rating_prompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-5.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.03), italic=False, languageStyle='LTR', name='rating_prompt', opacity=1, ori=0.0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+6.2340 	EXP 	Created break_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='break_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+6.2378 	EXP 	Created end_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='end_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0040 	INFO 	Keyboard events cleared
+0.0039 	EXP 	instr_text: autoDraw = True
+21.5644 	DATA 	Keypress: escape
+21.5791 	EXP 	Device response: <KeyPress from None: t=21.563735100091435, value=escape, duration=None>
+21.6932 	EXP 	Device response: <KeyPress from None: t=21.563735100091435, value=escape, duration=0.12004700000397861>
+21.6933 	EXP 	encoding_phase: status = STOPPED
+21.7024 	EXP 	instr_text: autoDraw = False
+21.7025 	EXP 	encoding_phase: status = STOPPED
+21.7083 	INFO 	saved data to 'D:\\Remember_Know\\data\\tttt_encoding_phase_2026-03-23_20h57.56.157.csv'
+21.7090 	INFO 	saved data to D:\Remember_Know\data\tttt_encoding_phase_2026-03-23_20h57.56.157.psydat
+22.1034 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+22.1868 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+22.1869 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+22.1869 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+22.1869 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
