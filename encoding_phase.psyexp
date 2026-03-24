@@ -450,9 +450,314 @@
         <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
       </KeyboardComponent>
     </Routine>
+    <Routine name="practice_trial">
+      <RoutineSettingsComponent name="practice_trial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="practice_trial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <CodeComponent name="prac_code" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="if modality == 'visual':&amp;#10;    is_visual = 1&amp;#10;    is_auditory = 0&amp;#10;    # Provide a dummy valid sound ('A' note) to prevent PsychoPy from crashing &amp;#10;    # since visual words don't have .wav files in your folder.&amp;#10;    current_sound = 'A' &amp;#10;    current_vol = 0.0&amp;#10;else:&amp;#10;    is_visual = 0&amp;#10;    is_auditory = 1&amp;#10;    current_sound = 'audio/' + word + '.wav'&amp;#10;    current_vol = 1.0" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Py" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="prac_code" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <TextComponent name="prac_visual" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="prac_visual" valType="code" updates="None" name="name"/>
+        <Param val="is_visual" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="$definition + '\n\n' + word" valType="str" updates="set every repeat" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <ImageComponent name="prac_icon" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="speaker.png" valType="file" updates="constant" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="prac_icon" valType="code" updates="None" name="name"/>
+        <Param val="is_auditory" valType="num" updates="set every repeat" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(0.5, 0.5)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <SoundComponent name="prac_audio" plugin="None">
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="True" valType="bool" updates="constant" name="hamming"/>
+        <Param val="1" valType="code" updates="None" name="latencyClass"/>
+        <Param val="prac_audio" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="str" updates="None" name="resample"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="$current_sound" valType="str" updates="set every repeat" name="sound"/>
+        <Param val="-1" valType="str" updates="None" name="speakerIndex"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="5" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="constant" name="stopWithRoutine"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="current_vol" valType="num" updates="set every repeat" name="volume"/>
+      </SoundComponent>
+      <KeyboardComponent name="prac_resp" plugin="None">
+        <Param val="'1', '2', '3', '4', '5'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="prac_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="5.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+      <TextComponent name="prac_rating_prompt" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="prac_rating_prompt" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="5.5" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Rate cleverness: 1 (Not at all)  to  5 (Extremely)" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="main_task_start">
+      <RoutineSettingsComponent name="main_task_start" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="main_task_start" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="orientation" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="orientation" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Orientation complete! &amp;#10;&amp;#10;The main task will now begin. Remember to rate the cleverness of each definition from 1 to 5.&amp;#10;&amp;#10;Press SPACE to start." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="prac_instruction">
+      <RoutineSettingsComponent name="prac_instruction" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="prac_instruction" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Arial" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.04" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Before the main experiment begins, we will go through 6 practice examples so you can get used to the timing and the rating scale.&amp;#10;&amp;#10;Press the SPACEBAR to begin the practice." valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp_2" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
   </Routines>
   <Flow>
     <Routine name="Instruction"/>
+    <Routine name="prac_instruction"/>
+    <LoopInitiator loopType="TrialHandler" name="practice_rials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[OrderedDict([('definition', 'A gray giant with a hose'), ('word', 'ELEPHANT'), ('modality', 'auditory')]), OrderedDict([('definition', 'A wooden box with strings'), ('word', 'GUITAR'), ('modality', 'auditory')]), OrderedDict([('definition', 'A loud sky drum'), ('word', 'THUNDER'), ('modality', 'auditory')]), OrderedDict([('definition', 'A sweet red fruit with seeds'), ('word', 'APPLE'), ('modality', 'visual')]), OrderedDict([('definition', 'A flying vehicle with wings'), ('word', 'AIRPLANE'), ('modality', 'visual')]), OrderedDict([('definition', 'A yellow curved fruit'), ('word', 'BANANA'), ('modality', 'visual')])]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="practice_encoding.csv" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="practice_rials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="practice_trial"/>
+    <LoopTerminator name="practice_rials"/>
+    <Routine name="main_task_start"/>
     <LoopInitiator loopType="TrialHandler" name="trials">
       <Param name="Selected rows" updates="None" val="" valType="str"/>
       <Param name="conditions" updates="None" val="[OrderedDict([('definition', 'A portable shadow box'), ('word', 'SUITCASE'), ('block', np.int64(1)), ('modality', 'visual')]), OrderedDict([('definition', 'A silent drummer'), ('word', 'HEART'), ('block', np.int64(1)), ('modality', 'visual')]), OrderedDict([('definition', 'A spoon with ambition'), ('word', 'SHOVEL'), ('block', np.int64(1)), ('modality', 'visual')]), OrderedDict([('definition', 'A metal tongue for guitars'), ('word', 'PICK'), ('block', np.int64(1)), ('modality', 'visual')]), OrderedDict([('definition', 'A glass slipper for drinks'), ('word', 'CUP'), ('block', np.int64(1)), ('modality', 'visual')]), OrderedDict([('definition', 'A glass drum'), ('word', 'BOWL'), ('block', np.int64(1)), ('modality', 'visual')]), OrderedDict([('definition', 'A house for wheels'), ('word', 'PARKINGLOT'), ('block', np.int64(1)), ('modality', 'visual')]), OrderedDict([('definition', 'A glass stomach for flowers'), ('word', 'VASE'), ('block', np.int64(1)), ('modality', 'visual')]), OrderedDict([('definition', 'A pocket refrigerator'), ('word', 'COOLER'), ('block', np.int64(1)), ('modality', 'visual')]), OrderedDict([('definition', 'A rainbow bridge for cars'), ('word', 'OVERPASS'), ('block', np.int64(1)), ('modality', 'visual')]), OrderedDict([('definition', 'A bread pillow'), ('word', 'LOAF'), ('block', np.int64(1)), ('modality', 'visual')]), OrderedDict([('definition', 'A sleepy trumpet'), ('word', 'HORN'), ('block', np.int64(1)), ('modality', 'visual')]), OrderedDict([('definition', 'A wooden toothpick for giants'), ('word', 'LOG'), ('block', np.int64(1)), ('modality', 'visual')]), OrderedDict([('definition', 'A portable sunshade'), ('word', 'VISOR'), ('block', np.int64(1)), ('modality', 'visual')]), OrderedDict([('definition', 'A wooden river'), ('word', 'PLANK'), ('block', np.int64(1)), ('modality', 'visual')]), OrderedDict([('definition', 'A pocket thunderbolt'), ('word', 'BATTERY'), ('block', np.int64(1)), ('modality', 'visual')]), OrderedDict([('definition', 'A portable mountain'), ('word', 'BACKPACK'), ('block', np.int64(1)), ('modality', 'visual')]), OrderedDict([('definition', 'A metal river snake'), ('word', 'PIPE'), ('block', np.int64(1)), ('modality', 'visual')]), OrderedDict([('definition', 'A pocket mirror for spies'), ('word', 'COMPACT'), ('block', np.int64(2)), ('modality', 'auditory')]), OrderedDict([('definition', 'A paper forest'), ('word', 'NEWSPAPER'), ('block', np.int64(2)), ('modality', 'auditory')]), OrderedDict([('definition', 'A polite skeleton for tents'), ('word', 'POLE'), ('block', np.int64(2)), ('modality', 'auditory')]), OrderedDict([('definition', 'A metal umbrella for wheels'), ('word', 'HUBCAP'), ('block', np.int64(2)), ('modality', 'auditory')]), OrderedDict([('definition', 'A wall that moves'), ('word', 'CURTAIN'), ('block', np.int64(2)), ('modality', 'auditory')]), OrderedDict([('definition', 'A pocket library'), ('word', 'DIARY'), ('block', np.int64(2)), ('modality', 'auditory')]), OrderedDict([('definition', 'A silent fireworks show'), ('word', 'STARS'), ('block', np.int64(2)), ('modality', 'auditory')]), OrderedDict([('definition', 'A rock that floats'), ('word', 'PUMICE'), ('block', np.int64(2)), ('modality', 'auditory')]), OrderedDict([('definition', 'A metal rainbow'), ('word', 'BRIDGE'), ('block', np.int64(2)), ('modality', 'auditory')]), OrderedDict([('definition', 'A sky anchor'), ('word', 'HELICOPTER'), ('block', np.int64(2)), ('modality', 'auditory')]), OrderedDict([('definition', &quot;A snowman's spare nose&quot;), ('word', 'CARROT'), ('block', np.int64(2)), ('modality', 'auditory')]), OrderedDict([('definition', 'A cloud on a stick'), ('word', 'COTTONCANDY'), ('block', np.int64(2)), ('modality', 'auditory')]), OrderedDict([('definition', 'A metal tree with traffic fruit'), ('word', 'TRAFFICLIGHT'), ('block', np.int64(2)), ('modality', 'auditory')]), OrderedDict([('definition', 'A flying door'), ('word', 'WINDOW'), ('block', np.int64(2)), ('modality', 'auditory')]), OrderedDict([('definition', 'A pocket sun'), ('word', 'FLASHLIGHT'), ('block', np.int64(2)), ('modality', 'auditory')]), OrderedDict([('definition', 'A portable thundercloud'), ('word', 'DRUM'), ('block', np.int64(2)), ('modality', 'auditory')]), OrderedDict([('definition', 'A sleepy mountain'), ('word', 'VOLCANO'), ('block', np.int64(2)), ('modality', 'auditory')]), OrderedDict([('definition', 'A metal spider for paper'), ('word', 'STAPLER'), ('block', np.int64(2)), ('modality', 'auditory')]), OrderedDict([('definition', 'A polite thunderbolt'), ('word', 'FLASH'), ('block', np.int64(3)), ('modality', 'visual')]), OrderedDict([('definition', 'A glass shoe for science'), ('word', 'BEAKER'), ('block', np.int64(3)), ('modality', 'visual')]), OrderedDict([('definition', 'A paper boat for money'), ('word', 'WALLET'), ('block', np.int64(3)), ('modality', 'visual')]), OrderedDict([('definition', 'A frozen river bridge'), ('word', 'ICEBRIDGE'), ('block', np.int64(3)), ('modality', 'visual')]), OrderedDict([('definition', 'A metal sunflower seed'), ('word', 'NUT'), ('block', np.int64(3)), ('modality', 'visual')]), OrderedDict([('definition', 'A sleepy ladder'), ('word', 'STAIRS'), ('block', np.int64(3)), ('modality', 'visual')]), OrderedDict([('definition', 'A sleepy paintbrush'), ('word', 'MOP'), ('block', np.int64(3)), ('modality', 'visual')]), OrderedDict([('definition', 'A wall with lungs'), ('word', 'WINDOWSCREEN'), ('block', np.int64(3)), ('modality', 'visual')]), OrderedDict([('definition', 'A pocket blizzard'), ('word', 'TISSUE'), ('block', np.int64(3)), ('modality', 'visual')]), OrderedDict([('definition', 'A book for recipes'), ('word', 'COOKBOOK'), ('block', np.int64(3)), ('modality', 'visual')]), OrderedDict([('definition', 'A sleepless neighborhood rooster'), ('word', 'SIREN'), ('block', np.int64(3)), ('modality', 'visual')]), OrderedDict([('definition', 'A polite mirror for time'), ('word', 'WATCH'), ('block', np.int64(3)), ('modality', 'visual')]), OrderedDict([('definition', 'A rock pillow'), ('word', 'BOULDER'), ('block', np.int64(3)), ('modality', 'visual')]), OrderedDict([('definition', 'A glass ladder for drinking'), ('word', 'STRAW'), ('block', np.int64(3)), ('modality', 'visual')]), OrderedDict([('definition', 'A polite cage for books'), ('word', 'BOOKCASE'), ('block', np.int64(3)), ('modality', 'visual')]), OrderedDict([('definition', 'A striped escape artist'), ('word', 'ZEBRA'), ('block', np.int64(3)), ('modality', 'visual')]), OrderedDict([('definition', 'A portable shadow maker'), ('word', 'UMBRELLA'), ('block', np.int64(3)), ('modality', 'visual')]), OrderedDict([('definition', 'A sleepy computer'), ('word', 'SERVER'), ('block', np.int64(3)), ('modality', 'visual')]), OrderedDict([('definition', 'A book with teeth'), ('word', 'ZIPPER'), ('block', np.int64(4)), ('modality', 'auditory')]), OrderedDict([('definition', 'A sky leash'), ('word', 'KITE'), ('block', np.int64(4)), ('modality', 'auditory')]), OrderedDict([('definition', 'A metal pillow for ships'), ('word', 'DOCK'), ('block', np.int64(4)), ('modality', 'auditory')]), OrderedDict([('definition', 'A metal butterfly'), ('word', 'CLIP'), ('block', np.int64(4)), ('modality', 'auditory')]), OrderedDict([('definition', 'A polite prison for tea'), ('word', 'TEAPOT'), ('block', np.int64(4)), ('modality', 'auditory')]), OrderedDict([('definition', 'A paper road'), ('word', 'MAP'), ('block', np.int64(4)), ('modality', 'auditory')]), OrderedDict([('definition', 'A pocket desert'), ('word', 'SAND'), ('block', np.int64(4)), ('modality', 'auditory')]), OrderedDict([('definition', 'A portable cave'), ('word', 'BOX'), ('block', np.int64(4)), ('modality', 'auditory')]), OrderedDict([('definition', 'A pocket rainbow'), ('word', 'CRAYON'), ('block', np.int64(4)), ('modality', 'auditory')]), OrderedDict([('definition', 'A polite cage for hands'), ('word', 'GLOVE'), ('block', np.int64(4)), ('modality', 'auditory')]), OrderedDict([('definition', 'A pocket tornado'), ('word', 'FAN'), ('block', np.int64(4)), ('modality', 'auditory')]), OrderedDict([('definition', 'A sun-powered eye'), ('word', 'SOLARPANEL'), ('block', np.int64(4)), ('modality', 'auditory')]), OrderedDict([('definition', 'A paper airplane graveyard'), ('word', 'TRASHCAN'), ('block', np.int64(4)), ('modality', 'auditory')]), OrderedDict([('definition', 'A glass pillow'), ('word', 'LENS'), ('block', np.int64(4)), ('modality', 'auditory')]), OrderedDict([('definition', 'A polite cage for light'), ('word', 'LAMPSHADE'), ('block', np.int64(4)), ('modality', 'auditory')]), OrderedDict([('definition', 'A sleepy spotlight'), ('word', 'MOON'), ('block', np.int64(4)), ('modality', 'auditory')]), OrderedDict([('definition', 'A rainproof shell on legs'), ('word', 'TURTLE'), ('block', np.int64(4)), ('modality', 'auditory')]), OrderedDict([('definition', 'A metal shoebox for wheels'), ('word', 'GARAGE'), ('block', np.int64(4)), ('modality', 'auditory')])]" valType="str"/>

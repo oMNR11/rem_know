@@ -1,0 +1,422 @@
+1.9461 	WARNING 	Requested audio device 'Headphones (Space Travel 2)' that is not available on this hardware. The 'audioDevice' preference should be one of ['Speakers (Realtek(R) Audio)']
+5.0227 	INFO 	Loaded monitor calibration from ['2025_12_27 10:38', '2025_12_27 13:43']
+5.3340 	INFO 	Using renderer 'Intel(R) UHD Graphics 770' for graphics
+5.3341 	INFO 	OpenGL version supported by driver is 4..
+5.3519 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000254093DB100>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000254093DB160>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000254094D2860>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1080]), stencilBits=8, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.3519 	EXP 	window1: backgroundImage = ''
+5.3519 	EXP 	window1: backgroundFit = 'none'
+5.5938 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+5.5938 	EXP 	window1: recordFrameIntervals = False
+5.6769 	EXP 	window1: recordFrameIntervals = True
+5.7872 	EXP 	Screen (0) actual frame rate measured at 100.05Hz
+5.7872 	EXP 	window1: recordFrameIntervals = False
+5.8711 	INFO 	keyboard.Keyboard is using ptb backend.
+5.8713 	INFO 	keyboard.Keyboard is using ptb backend.
+5.8713 	INFO 	keyboard.Keyboard is using ptb backend.
+5.8713 	INFO 	keyboard.Keyboard is using ptb backend.
+5.8714 	INFO 	keyboard.Keyboard is using ptb backend.
+5.8714 	INFO 	keyboard.Keyboard is using ptb backend.
+5.8714 	INFO 	keyboard.Keyboard is using ptb backend.
+5.8714 	INFO 	keyboard.Keyboard is using ptb backend.
+5.8715 	INFO 	keyboard.Keyboard is using ptb backend.
+5.8715 	INFO 	keyboard.Keyboard is using ptb backend.
+5.8715 	INFO 	keyboard.Keyboard is using ptb backend.
+5.8715 	INFO 	keyboard.Keyboard is using ptb backend.
+5.8715 	INFO 	keyboard.Keyboard is using ptb backend.
+5.8716 	INFO 	keyboard.Keyboard is using ptb backend.
+5.8716 	EXP 	retrieval_30min: status = STARTED
+5.9440 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+5.9536 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+5.9582 	EXP 	Created prac_inst = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='prac_inst', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+5.9587 	EXP 	Created recall_prompt_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='recall_prompt_2', opacity=1, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+5.9655 	EXP 	Created feedback_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='feedback_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+5.9658 	EXP 	Created recog_prompt_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='recog_prompt_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+5.9705 	EXP 	Created source_prompt_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='source_prompt_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+5.9742 	EXP 	Created rk_prompt_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='rk_prompt_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+5.9787 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='text_4', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+5.9793 	EXP 	Created recall_prompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='recall_prompt', opacity=1, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+5.9848 	EXP 	Created feedback = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='feedback', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+5.9851 	EXP 	Created recog_prompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='recog_prompt', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+5.9886 	EXP 	Created source_prompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='source_prompt', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+5.9922 	EXP 	Created rk_prompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='rk_prompt', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+5.9956 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0018 	EXP 	typed_response_2: autoLog = True
+0.0018 	EXP 	typed_response: autoLog = True
+0.0043 	INFO 	Keyboard events cleared
+0.0042 	EXP 	text: autoDraw = True
+3.8130 	DATA 	Keypress: space
+3.8242 	EXP 	Device response: <KeyPress from None: t=3.812548299996706, value=space, duration=None>
+3.8310 	INFO 	Keyboard events cleared
+3.8310 	EXP 	text: autoDraw = False
+3.8310 	EXP 	text_3: autoDraw = True
+3.9417 	EXP 	Device response: <KeyPress from None: t=3.812548299996706, value=space, duration=0.11975679999886779>
+5.1315 	EXP 	Device response: <KeyPress from None: t=5.124259600001096, value=space, duration=None>
+5.1357 	DATA 	Keypress: space
+5.1407 	INFO 	Keyboard events cleared
+5.1406 	EXP 	text_3: autoDraw = False
+5.1406 	EXP 	prac_inst: autoDraw = True
+5.2213 	EXP 	Device response: <KeyPress from None: t=5.124259600001096, value=space, duration=0.08816779999324353>
+5.8529 	DATA 	Keypress: space
+5.8612 	EXP 	Device response: <KeyPress from None: t=5.852288499998394, value=space, duration=None>
+5.8688 	EXP 	Imported practice_retrieval.csv as conditions, 6 conditions, 4 params
+5.8690 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'definition': 'A sweet red fruit with seeds', 'word': 'APPLE', 'old_new': 'old', 'correct_old_new': 'yes', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+5.8763 	EXP 	prac_inst: autoDraw = False
+5.8763 	EXP 	recall_prompt_2: height = np.float64(0.04)
+5.8763 	EXP 	recall_prompt_2: height = np.float64(0.04)
+5.8763 	EXP 	recall_prompt_2: height = np.float64(0.04)
+5.8763 	EXP 	recall_prompt_2: text = 'A sweet red fruit with seeds\n\nType the word below and press ENTER to submit.'
+5.8763 	EXP 	recall_prompt_2: height = np.float64(0.04)
+5.8763 	EXP 	recall_prompt_2: height = np.float64(0.04)
+5.8763 	EXP 	recall_prompt_2: height = np.float64(0.04)
+5.8763 	EXP 	recall_prompt_2: text = 'A sweet red fruit with seeds\n\nType the word below and press ENTER to submit.\n\n(If you cannot remember the word, leave the box blank and press ENTER to see the answer).'
+5.9510 	EXP 	Device response: <KeyPress from None: t=5.852288499998394, value=space, duration=0.09583939999720315>
+6.3612 	INFO 	Keyboard events cleared
+6.3612 	EXP 	recall_prompt_2: autoDraw = True
+6.3612 	EXP 	typed_response_2: autoDraw = True
+10.9900 	EXP 	Device response: <KeyPress from None: t=10.988110199999937, value=a, duration=None>
+10.9921 	DATA 	Keypress: a
+11.1402 	EXP 	Device response: <KeyPress from None: t=10.988110199999937, value=a, duration=0.14402069999778178>
+11.1403 	EXP 	Device response: <KeyPress from None: t=11.140046599997731, value=p, duration=None>
+11.1431 	DATA 	Keypress: p
+11.2301 	EXP 	Device response: <KeyPress from None: t=11.140046599997731, value=p, duration=0.08043300000281306>
+11.2934 	DATA 	Keypress: p
+11.3005 	EXP 	Device response: <KeyPress from None: t=11.292043000001286, value=p, duration=None>
+11.3802 	EXP 	Device response: <KeyPress from None: t=11.292043000001286, value=p, duration=0.07994109999708598>
+11.4803 	EXP 	Device response: <KeyPress from None: t=11.476069699994696, value=l, duration=None>
+11.4834 	DATA 	Keypress: l
+11.5900 	EXP 	Device response: <KeyPress from None: t=11.476069699994696, value=l, duration=0.11188000000402099>
+11.6001 	EXP 	Device response: <KeyPress from None: t=11.596147099997324, value=e, duration=None>
+11.6034 	DATA 	Keypress: e
+11.6899 	EXP 	Device response: <KeyPress from None: t=11.596147099997324, value=e, duration=0.08781940000335453>
+11.7700 	EXP 	Device response: <KeyPress from None: t=11.764026799995918, value=return, duration=None>
+11.7822 	DATA 	Keypress: return
+11.7841 	EXP 	recall_prompt_2: autoDraw = False
+11.7841 	EXP 	typed_response_2: autoDraw = False
+11.7841 	EXP 	feedback_2: height = np.float64(0.05)
+11.7841 	EXP 	feedback_2: height = np.float64(0.05)
+11.7841 	EXP 	feedback_2: height = np.float64(0.05)
+11.7841 	EXP 	feedback_2: text = 'The correct word is:  APPLE'
+11.7841 	EXP 	feedback_2: autoDraw = False
+11.7841 	EXP 	recog_prompt_2: height = np.float64(0.04)
+11.7841 	EXP 	recog_prompt_2: height = np.float64(0.04)
+11.7841 	EXP 	recog_prompt_2: height = np.float64(0.04)
+11.7841 	EXP 	recog_prompt_2: text = "A sweet red fruit with seeds\n\nDid you see or hear this definition earlier?\n\nPress 'Y' for YES\nPress 'N' for NO"
+11.7841 	EXP 	recog_prompt_2: text = "A sweet red fruit with seeds\n\nDid you see or hear this definition earlier?\n\nPress 'Y' for YES\nPress 'N' for NO"
+11.8705 	EXP 	Device response: <KeyPress from None: t=11.764026799995918, value=return, duration=0.1043195000020205>
+12.2800 	INFO 	Keyboard events cleared
+12.2798 	EXP 	recog_prompt_2: autoDraw = True
+13.5423 	DATA 	Keypress: n
+13.5508 	EXP 	Device response: <KeyPress from None: t=13.5411879999956, value=n, duration=None>
+13.5510 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'definition': 'A cold winter blanket', 'word': 'SNOW', 'old_new': 'new', 'correct_old_new': 'no', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+13.5596 	EXP 	recog_prompt_2: autoDraw = False
+13.5596 	EXP 	source_prompt_2: autoDraw = False
+13.5596 	EXP 	rk_prompt_2: autoDraw = False
+13.5596 	EXP 	recall_prompt_2: height = np.float64(0.04)
+13.5596 	EXP 	recall_prompt_2: height = np.float64(0.04)
+13.5596 	EXP 	recall_prompt_2: height = np.float64(0.04)
+13.5596 	EXP 	recall_prompt_2: text = 'A cold winter blanket\n\nType the word below and press ENTER to submit.'
+13.5596 	EXP 	recall_prompt_2: height = np.float64(0.04)
+13.5596 	EXP 	recall_prompt_2: height = np.float64(0.04)
+13.5596 	EXP 	recall_prompt_2: height = np.float64(0.04)
+13.5596 	EXP 	recall_prompt_2: text = 'A cold winter blanket\n\nType the word below and press ENTER to submit.\n\n(If you cannot remember the word, leave the box blank and press ENTER to see the answer).'
+13.6307 	EXP 	Device response: <KeyPress from None: t=13.5411879999956, value=n, duration=0.08740160000161268>
+14.0494 	INFO 	Keyboard events cleared
+14.0494 	EXP 	recall_prompt_2: autoDraw = True
+14.0494 	EXP 	typed_response_2: autoDraw = True
+15.8923 	DATA 	Keypress: s
+15.9005 	EXP 	Device response: <KeyPress from None: t=15.891962699999567, value=s, duration=None>
+15.9832 	DATA 	Keypress: n
+15.9897 	EXP 	Device response: <KeyPress from None: t=15.980284299999767, value=n, duration=None>
+15.9995 	EXP 	Device response: <KeyPress from None: t=15.891962699999567, value=s, duration=0.10401979999733157>
+16.0932 	DATA 	Keypress: o
+16.1015 	EXP 	Device response: <KeyPress from None: t=16.092095499996503, value=o, duration=None>
+16.1495 	EXP 	Device response: <KeyPress from None: t=15.980284299999767, value=n, duration=0.15970789999846602>
+16.1696 	EXP 	Device response: <KeyPress from None: t=16.164670499994827, value=w, duration=None>
+16.1732 	DATA 	Keypress: w
+16.1996 	EXP 	Device response: <KeyPress from None: t=16.092095499996503, value=o, duration=0.10410960000444902>
+16.2697 	EXP 	Device response: <KeyPress from None: t=16.164670499994827, value=w, duration=0.09559640000225045>
+16.4123 	DATA 	Keypress: return
+16.4194 	EXP 	Device response: <KeyPress from None: t=16.411939300000085, value=return, duration=None>
+16.4290 	EXP 	recall_prompt_2: autoDraw = False
+16.4290 	EXP 	typed_response_2: autoDraw = False
+16.4290 	EXP 	feedback_2: height = np.float64(0.05)
+16.4290 	EXP 	feedback_2: height = np.float64(0.05)
+16.4290 	EXP 	feedback_2: height = np.float64(0.05)
+16.4290 	EXP 	feedback_2: text = 'The correct word is:  SNOW'
+16.4290 	EXP 	feedback_2: autoDraw = False
+16.4290 	EXP 	recog_prompt_2: height = np.float64(0.04)
+16.4290 	EXP 	recog_prompt_2: height = np.float64(0.04)
+16.4290 	EXP 	recog_prompt_2: height = np.float64(0.04)
+16.4290 	EXP 	recog_prompt_2: text = "A cold winter blanket\n\nDid you see or hear this definition earlier?\n\nPress 'Y' for YES\nPress 'N' for NO"
+16.4290 	EXP 	recog_prompt_2: text = "A cold winter blanket\n\nDid you see or hear this definition earlier?\n\nPress 'Y' for YES\nPress 'N' for NO"
+16.5399 	EXP 	Device response: <KeyPress from None: t=16.411939300000085, value=return, duration=0.12024039999960223>
+16.9195 	INFO 	Keyboard events cleared
+16.9193 	EXP 	recog_prompt_2: autoDraw = True
+17.8192 	EXP 	Device response: <KeyPress from None: t=17.81246639999881, value=n, duration=None>
+17.8195 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'definition': 'A wooden box with strings', 'word': 'GUITAR', 'old_new': 'old', 'correct_old_new': 'yes', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+17.8300 	DATA 	Keypress: n
+17.8319 	EXP 	recog_prompt_2: autoDraw = False
+17.8319 	EXP 	source_prompt_2: autoDraw = False
+17.8319 	EXP 	rk_prompt_2: autoDraw = False
+17.8319 	EXP 	recall_prompt_2: height = np.float64(0.04)
+17.8319 	EXP 	recall_prompt_2: height = np.float64(0.04)
+17.8319 	EXP 	recall_prompt_2: height = np.float64(0.04)
+17.8319 	EXP 	recall_prompt_2: text = 'A wooden box with strings\n\nType the word below and press ENTER to submit.'
+17.8319 	EXP 	recall_prompt_2: height = np.float64(0.04)
+17.8319 	EXP 	recall_prompt_2: height = np.float64(0.04)
+17.8319 	EXP 	recall_prompt_2: height = np.float64(0.04)
+17.8319 	EXP 	recall_prompt_2: text = 'A wooden box with strings\n\nType the word below and press ENTER to submit.\n\n(If you cannot remember the word, leave the box blank and press ENTER to see the answer).'
+17.9497 	EXP 	Device response: <KeyPress from None: t=17.81246639999881, value=n, duration=0.1282296999997925>
+18.3189 	INFO 	Keyboard events cleared
+18.3188 	EXP 	recall_prompt_2: autoDraw = True
+18.3188 	EXP 	typed_response_2: autoDraw = True
+19.8887 	EXP 	Device response: <KeyPress from None: t=19.883923599998525, value=g, duration=None>
+19.8919 	DATA 	Keypress: g
+19.9430 	DATA 	Keypress: u
+19.9498 	EXP 	Device response: <KeyPress from None: t=19.94016669999837, value=u, duration=None>
+19.9891 	EXP 	Device response: <KeyPress from None: t=19.883923599998525, value=g, duration=0.09610840000095777>
+20.0089 	EXP 	Device response: <KeyPress from None: t=20.00404189999972, value=i, duration=None>
+20.0113 	DATA 	Keypress: i
+20.0393 	EXP 	Device response: <KeyPress from None: t=19.94016669999837, value=u, duration=0.09601639999891631>
+20.1492 	EXP 	Device response: <KeyPress from None: t=20.00404189999972, value=i, duration=0.14404690000083065>
+20.1894 	EXP 	Device response: <KeyPress from None: t=20.188357799997902, value=t, duration=None>
+20.1929 	DATA 	Keypress: t
+20.3290 	EXP 	Device response: <KeyPress from None: t=20.188357799997902, value=t, duration=0.13567750000220258>
+20.3491 	EXP 	Device response: <KeyPress from None: t=20.348080799994932, value=a, duration=None>
+20.3521 	DATA 	Keypress: a
+20.5088 	EXP 	Device response: <KeyPress from None: t=20.348080799994932, value=a, duration=0.15189500000269618>
+20.6927 	DATA 	Keypress: r
+20.7001 	EXP 	Device response: <KeyPress from None: t=20.692137999998522, value=r, duration=None>
+20.8090 	EXP 	Device response: <KeyPress from None: t=20.692137999998522, value=r, duration=0.11190789999818662>
+20.9788 	EXP 	Device response: <KeyPress from None: t=20.9719713999948, value=return, duration=None>
+20.9872 	DATA 	Keypress: return
+20.9890 	EXP 	recall_prompt_2: autoDraw = False
+20.9890 	EXP 	typed_response_2: autoDraw = False
+20.9890 	EXP 	feedback_2: height = np.float64(0.05)
+20.9890 	EXP 	feedback_2: height = np.float64(0.05)
+20.9890 	EXP 	feedback_2: height = np.float64(0.05)
+20.9890 	EXP 	feedback_2: text = 'The correct word is:  GUITAR'
+20.9890 	EXP 	feedback_2: autoDraw = False
+20.9890 	EXP 	recog_prompt_2: height = np.float64(0.04)
+20.9890 	EXP 	recog_prompt_2: height = np.float64(0.04)
+20.9890 	EXP 	recog_prompt_2: height = np.float64(0.04)
+20.9890 	EXP 	recog_prompt_2: text = "A wooden box with strings\n\nDid you see or hear this definition earlier?\n\nPress 'Y' for YES\nPress 'N' for NO"
+20.9890 	EXP 	recog_prompt_2: text = "A wooden box with strings\n\nDid you see or hear this definition earlier?\n\nPress 'Y' for YES\nPress 'N' for NO"
+21.0889 	EXP 	Device response: <KeyPress from None: t=20.9719713999948, value=return, duration=0.11238040000171168>
+21.4788 	INFO 	Keyboard events cleared
+21.4787 	EXP 	recog_prompt_2: autoDraw = True
+22.1290 	EXP 	Device response: <KeyPress from None: t=22.12442039999587, value=y, duration=None>
+22.1299 	DATA 	Keypress: y
+22.1394 	EXP 	recog_prompt_2: autoDraw = False
+22.2491 	EXP 	Device response: <KeyPress from None: t=22.12442039999587, value=y, duration=0.11988859999837587>
+22.6287 	INFO 	Keyboard events cleared
+22.6285 	EXP 	source_prompt_2: autoDraw = True
+22.9099 	DATA 	Keypress: a
+22.9189 	EXP 	Device response: <KeyPress from None: t=22.908462299994426, value=a, duration=None>
+22.9285 	EXP 	source_prompt_2: autoDraw = False
+23.0488 	EXP 	Device response: <KeyPress from None: t=22.908462299994426, value=a, duration=0.1360763000047882>
+23.4186 	INFO 	Keyboard events cleared
+23.4184 	EXP 	rk_prompt_2: autoDraw = True
+23.8689 	EXP 	Device response: <KeyPress from None: t=23.868297299995902, value=1, duration=None>
+23.8692 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'definition': 'A large vehicle for many people', 'word': 'BUS', 'old_new': 'new', 'correct_old_new': 'no', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+23.8790 	DATA 	Keypress: 1
+23.8831 	EXP 	rk_prompt_2: autoDraw = False
+23.8831 	EXP 	recall_prompt_2: height = np.float64(0.04)
+23.8831 	EXP 	recall_prompt_2: height = np.float64(0.04)
+23.8831 	EXP 	recall_prompt_2: height = np.float64(0.04)
+23.8831 	EXP 	recall_prompt_2: text = 'A large vehicle for many people\n\nType the word below and press ENTER to submit.'
+23.8831 	EXP 	recall_prompt_2: height = np.float64(0.04)
+23.8831 	EXP 	recall_prompt_2: height = np.float64(0.04)
+23.8831 	EXP 	recall_prompt_2: height = np.float64(0.04)
+23.8831 	EXP 	recall_prompt_2: text = 'A large vehicle for many people\n\nType the word below and press ENTER to submit.\n\n(If you cannot remember the word, leave the box blank and press ENTER to see the answer).'
+24.0089 	EXP 	Device response: <KeyPress from None: t=23.868297299995902, value=1, duration=0.13631030000397004>
+24.3681 	INFO 	Keyboard events cleared
+24.3680 	EXP 	recall_prompt_2: autoDraw = True
+24.3680 	EXP 	typed_response_2: autoDraw = True
+27.1780 	EXP 	Device response: <KeyPress from None: t=27.171980799997982, value=b, duration=None>
+27.1805 	DATA 	Keypress: b
+27.2683 	EXP 	Device response: <KeyPress from None: t=27.171980799997982, value=b, duration=0.08810049999738112>
+27.3085 	EXP 	Device response: <KeyPress from None: t=27.308256699994672, value=u, duration=None>
+27.3120 	DATA 	Keypress: u
+27.3883 	EXP 	Device response: <KeyPress from None: t=27.308256699994672, value=u, duration=0.07215660000656499>
+27.4302 	DATA 	Keypress: s
+27.4381 	EXP 	Device response: <KeyPress from None: t=27.428219999994326, value=s, duration=None>
+27.5182 	EXP 	Device response: <KeyPress from None: t=27.428219999994326, value=s, duration=0.08049490000121295>
+27.6210 	DATA 	Keypress: return
+27.6279 	EXP 	Device response: <KeyPress from None: t=27.62004639999941, value=return, duration=None>
+27.6376 	EXP 	recall_prompt_2: autoDraw = False
+27.6376 	EXP 	typed_response_2: autoDraw = False
+27.6376 	EXP 	feedback_2: height = np.float64(0.05)
+27.6376 	EXP 	feedback_2: height = np.float64(0.05)
+27.6376 	EXP 	feedback_2: height = np.float64(0.05)
+27.6376 	EXP 	feedback_2: text = 'The correct word is:  BUS'
+27.6376 	EXP 	feedback_2: autoDraw = False
+27.6376 	EXP 	recog_prompt_2: height = np.float64(0.04)
+27.6376 	EXP 	recog_prompt_2: height = np.float64(0.04)
+27.6376 	EXP 	recog_prompt_2: height = np.float64(0.04)
+27.6376 	EXP 	recog_prompt_2: text = "A large vehicle for many people\n\nDid you see or hear this definition earlier?\n\nPress 'Y' for YES\nPress 'N' for NO"
+27.6376 	EXP 	recog_prompt_2: text = "A large vehicle for many people\n\nDid you see or hear this definition earlier?\n\nPress 'Y' for YES\nPress 'N' for NO"
+27.7384 	EXP 	Device response: <KeyPress from None: t=27.62004639999941, value=return, duration=0.11225069999636617>
+28.1280 	INFO 	Keyboard events cleared
+28.1279 	EXP 	recog_prompt_2: autoDraw = True
+29.1084 	EXP 	Device response: <KeyPress from None: t=29.100266599998577, value=n, duration=None>
+29.1090 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'definition': 'A hot drink in a mug', 'word': 'COFFEE', 'old_new': 'new', 'correct_old_new': 'no', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+29.1196 	DATA 	Keypress: n
+29.1215 	EXP 	recog_prompt_2: autoDraw = False
+29.1215 	EXP 	source_prompt_2: autoDraw = False
+29.1215 	EXP 	rk_prompt_2: autoDraw = False
+29.1215 	EXP 	recall_prompt_2: height = np.float64(0.04)
+29.1215 	EXP 	recall_prompt_2: height = np.float64(0.04)
+29.1215 	EXP 	recall_prompt_2: height = np.float64(0.04)
+29.1215 	EXP 	recall_prompt_2: text = 'A hot drink in a mug\n\nType the word below and press ENTER to submit.'
+29.1215 	EXP 	recall_prompt_2: height = np.float64(0.04)
+29.1215 	EXP 	recall_prompt_2: height = np.float64(0.04)
+29.1215 	EXP 	recall_prompt_2: height = np.float64(0.04)
+29.1215 	EXP 	recall_prompt_2: text = 'A hot drink in a mug\n\nType the word below and press ENTER to submit.\n\n(If you cannot remember the word, leave the box blank and press ENTER to see the answer).'
+29.2185 	EXP 	Device response: <KeyPress from None: t=29.100266599998577, value=n, duration=0.11224729999958072>
+29.6075 	INFO 	Keyboard events cleared
+29.6075 	EXP 	recall_prompt_2: autoDraw = True
+29.6075 	EXP 	typed_response_2: autoDraw = True
+31.3673 	EXP 	Device response: <KeyPress from None: t=31.364044999994803, value=c, duration=None>
+31.3693 	DATA 	Keypress: c
+31.4475 	EXP 	Device response: <KeyPress from None: t=31.44409530000121, value=o, duration=None>
+31.4500 	DATA 	Keypress: o
+31.4774 	EXP 	Device response: <KeyPress from None: t=31.364044999994803, value=c, duration=0.10393420000036713>
+31.5272 	EXP 	Device response: <KeyPress from None: t=31.44409530000121, value=o, duration=0.08019849999982398>
+31.8072 	EXP 	Device response: <KeyPress from None: t=31.803961300000083, value=f, duration=None>
+31.8090 	DATA 	Keypress: f
+31.9373 	EXP 	Device response: <KeyPress from None: t=31.803961300000083, value=f, duration=0.1283091000004788>
+32.2972 	EXP 	Device response: <KeyPress from None: t=32.29208269999799, value=f, duration=None>
+32.2991 	DATA 	Keypress: f
+32.3972 	EXP 	Device response: <KeyPress from None: t=32.29208269999799, value=f, duration=0.09594469999865396>
+32.4474 	EXP 	Device response: <KeyPress from None: t=32.443913799994334, value=e, duration=None>
+32.4500 	DATA 	Keypress: e
+32.5471 	EXP 	Device response: <KeyPress from None: t=32.443913799994334, value=e, duration=0.09620050000376068>
+32.6473 	EXP 	Device response: <KeyPress from None: t=32.643992099998286, value=e, duration=None>
+32.6499 	DATA 	Keypress: e
+32.7172 	EXP 	Device response: <KeyPress from None: t=32.643992099998286, value=e, duration=0.06449640000209911>
+32.8872 	EXP 	Device response: <KeyPress from None: t=32.884152300001006, value=return, duration=None>
+32.8956 	DATA 	Keypress: return
+32.8975 	EXP 	recall_prompt_2: autoDraw = False
+32.8975 	EXP 	typed_response_2: autoDraw = False
+32.8975 	EXP 	feedback_2: height = np.float64(0.05)
+32.8975 	EXP 	feedback_2: height = np.float64(0.05)
+32.8975 	EXP 	feedback_2: height = np.float64(0.05)
+32.8975 	EXP 	feedback_2: text = 'The correct word is:  COFFEE'
+32.8975 	EXP 	feedback_2: autoDraw = False
+32.8975 	EXP 	recog_prompt_2: height = np.float64(0.04)
+32.8975 	EXP 	recog_prompt_2: height = np.float64(0.04)
+32.8975 	EXP 	recog_prompt_2: height = np.float64(0.04)
+32.8975 	EXP 	recog_prompt_2: text = "A hot drink in a mug\n\nDid you see or hear this definition earlier?\n\nPress 'Y' for YES\nPress 'N' for NO"
+32.8975 	EXP 	recog_prompt_2: text = "A hot drink in a mug\n\nDid you see or hear this definition earlier?\n\nPress 'Y' for YES\nPress 'N' for NO"
+33.0075 	EXP 	Device response: <KeyPress from None: t=32.884152300001006, value=return, duration=0.12032819999876665>
+33.3871 	INFO 	Keyboard events cleared
+33.3870 	EXP 	recog_prompt_2: autoDraw = True
+33.9074 	EXP 	Device response: <KeyPress from None: t=33.900230499995814, value=n, duration=None>
+33.9079 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'definition': 'A yellow curved fruit', 'word': 'BANANA', 'old_new': 'old', 'correct_old_new': 'yes', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+33.9172 	DATA 	Keypress: n
+33.9188 	EXP 	recog_prompt_2: autoDraw = False
+33.9188 	EXP 	source_prompt_2: autoDraw = False
+33.9188 	EXP 	rk_prompt_2: autoDraw = False
+33.9188 	EXP 	recall_prompt_2: height = np.float64(0.04)
+33.9188 	EXP 	recall_prompt_2: height = np.float64(0.04)
+33.9188 	EXP 	recall_prompt_2: height = np.float64(0.04)
+33.9188 	EXP 	recall_prompt_2: text = 'A yellow curved fruit\n\nType the word below and press ENTER to submit.'
+33.9188 	EXP 	recall_prompt_2: height = np.float64(0.04)
+33.9188 	EXP 	recall_prompt_2: height = np.float64(0.04)
+33.9188 	EXP 	recall_prompt_2: height = np.float64(0.04)
+33.9188 	EXP 	recall_prompt_2: text = 'A yellow curved fruit\n\nType the word below and press ENTER to submit.\n\n(If you cannot remember the word, leave the box blank and press ENTER to see the answer).'
+34.0176 	EXP 	Device response: <KeyPress from None: t=33.900230499995814, value=n, duration=0.11200729999836767>
+34.4067 	INFO 	Keyboard events cleared
+34.4067 	EXP 	recall_prompt_2: autoDraw = True
+34.4067 	EXP 	typed_response_2: autoDraw = True
+35.7668 	EXP 	Device response: <KeyPress from None: t=35.763966799997434, value=b, duration=None>
+35.7698 	DATA 	Keypress: b
+35.9070 	EXP 	Device response: <KeyPress from None: t=35.763966799997434, value=b, duration=0.13610879999760073>
+35.9169 	EXP 	Device response: <KeyPress from None: t=35.91598140000133, value=a, duration=None>
+35.9195 	DATA 	Keypress: a
+36.0366 	EXP 	Device response: <KeyPress from None: t=36.03610839999601, value=n, duration=None>
+36.0386 	DATA 	Keypress: n
+36.0770 	EXP 	Device response: <KeyPress from None: t=35.91598140000133, value=a, duration=0.1519845999937388>
+36.1568 	EXP 	Device response: <KeyPress from None: t=36.03610839999601, value=n, duration=0.11190020000503864>
+36.1668 	EXP 	Device response: <KeyPress from None: t=36.16410139999789, value=a, duration=None>
+36.1689 	DATA 	Keypress: a
+36.2571 	EXP 	Device response: <KeyPress from None: t=36.25214699999924, value=n, duration=None>
+36.2614 	DATA 	Keypress: n
+36.2768 	EXP 	Device response: <KeyPress from None: t=36.16410139999789, value=a, duration=0.11196259999996983>
+36.3471 	EXP 	Device response: <KeyPress from None: t=36.25214699999924, value=n, duration=0.08820489999925485>
+36.8267 	EXP 	Device response: <KeyPress from None: t=36.82001119999768, value=a, duration=None>
+36.8290 	DATA 	Keypress: a
+36.9466 	EXP 	Device response: <KeyPress from None: t=36.82001119999768, value=a, duration=0.12025919999723556>
+37.0767 	EXP 	Device response: <KeyPress from None: t=37.07610800000111, value=return, duration=None>
+37.0841 	DATA 	Keypress: return
+37.0865 	EXP 	recall_prompt_2: autoDraw = False
+37.0865 	EXP 	typed_response_2: autoDraw = False
+37.0865 	EXP 	feedback_2: height = np.float64(0.05)
+37.0865 	EXP 	feedback_2: height = np.float64(0.05)
+37.0865 	EXP 	feedback_2: height = np.float64(0.05)
+37.0865 	EXP 	feedback_2: text = 'The correct word is:  BANANA'
+37.0865 	EXP 	feedback_2: autoDraw = False
+37.0865 	EXP 	recog_prompt_2: height = np.float64(0.04)
+37.0865 	EXP 	recog_prompt_2: height = np.float64(0.04)
+37.0865 	EXP 	recog_prompt_2: height = np.float64(0.04)
+37.0865 	EXP 	recog_prompt_2: text = "A yellow curved fruit\n\nDid you see or hear this definition earlier?\n\nPress 'Y' for YES\nPress 'N' for NO"
+37.0865 	EXP 	recog_prompt_2: text = "A yellow curved fruit\n\nDid you see or hear this definition earlier?\n\nPress 'Y' for YES\nPress 'N' for NO"
+37.1869 	EXP 	Device response: <KeyPress from None: t=37.07610800000111, value=return, duration=0.10427389999676961>
+37.5765 	INFO 	Keyboard events cleared
+37.5764 	EXP 	recog_prompt_2: autoDraw = True
+39.8378 	DATA 	Keypress: y
+39.8466 	EXP 	Device response: <KeyPress from None: t=39.83719339999516, value=y, duration=None>
+39.8561 	EXP 	recog_prompt_2: autoDraw = False
+39.9368 	EXP 	Device response: <KeyPress from None: t=39.83719339999516, value=y, duration=0.09506010000040988>
+40.3461 	INFO 	Keyboard events cleared
+40.3460 	EXP 	source_prompt_2: autoDraw = True
+47.9278 	DATA 	Keypress: v
+47.9365 	EXP 	Device response: <KeyPress from None: t=47.92501489999995, value=v, duration=None>
+47.9449 	EXP 	source_prompt_2: autoDraw = False
+48.0255 	EXP 	Device response: <KeyPress from None: t=47.92501489999995, value=v, duration=0.0951576999941608>
+48.4353 	INFO 	Keyboard events cleared
+48.4351 	EXP 	rk_prompt_2: autoDraw = True
+49.9567 	DATA 	Keypress: 1
+49.9651 	EXP 	Device response: <KeyPress from None: t=49.956150699996215, value=1, duration=None>
+49.9749 	INFO 	Keyboard events cleared
+49.9748 	EXP 	rk_prompt_2: autoDraw = False
+49.9748 	EXP 	text_4: autoDraw = True
+50.0660 	EXP 	Device response: <KeyPress from None: t=49.956150699996215, value=1, duration=0.10432569999829866>
+51.7351 	EXP 	Device response: <KeyPress from None: t=51.73229189999984, value=space, duration=None>
+51.7407 	EXP 	Imported retrieval_30min.csv as conditions, 72 conditions, 4 params
+51.7410 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'definition': 'A house for wheels', 'word': 'PARKINGLOT', 'old_new': 'old', 'correct_old_new': 'yes', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+51.7453 	DATA 	Keypress: space
+51.7470 	EXP 	text_4: autoDraw = False
+51.7470 	EXP 	recall_prompt: text = ''
+51.7470 	EXP 	recall_prompt: height = np.float64(0.04)
+51.7470 	EXP 	recall_prompt: height = np.float64(0.04)
+51.7470 	EXP 	recall_prompt: height = np.float64(0.04)
+51.7470 	EXP 	recall_prompt: text = 'A house for wheels\n\nType the word below and press ENTER to submit.\n\n(If you cannot remember the word, leave the box blank and press ENTER to see the answer).'
+51.8457 	EXP 	Device response: <KeyPress from None: t=51.73229189999984, value=space, duration=0.10408040000038454>
+52.2361 	INFO 	Keyboard events cleared
+52.2360 	EXP 	recall_prompt: autoDraw = True
+52.2360 	EXP 	typed_response: autoDraw = True
+52.4772 	DATA 	Keypress: escape
+52.4846 	EXP 	Device response: <KeyPress from None: t=52.475928799998655, value=escape, duration=None>
+52.5948 	EXP 	Device response: <KeyPress from None: t=52.475928799998655, value=escape, duration=0.11234870000043884>
+52.5949 	EXP 	retrieval_30min: status = STOPPED
+52.6045 	EXP 	recall_prompt: autoDraw = False
+52.6045 	EXP 	typed_response: autoDraw = False
+52.6048 	EXP 	retrieval_30min: status = STOPPED
+52.6124 	INFO 	saved data to 'D:\\Remember_Know\\data\\twt_retrieval_30min_2026-03-24_16h25.04.767.csv'
+52.6131 	INFO 	saved data to D:\Remember_Know\data\twt_retrieval_30min_2026-03-24_16h25.04.767.psydat
+52.9720 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+53.0059 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+53.0059 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+53.0059 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+53.0059 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+53.0059 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+53.0059 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+53.0059 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+53.0059 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+53.0060 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+53.0060 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+53.0060 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+53.0060 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+53.0060 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

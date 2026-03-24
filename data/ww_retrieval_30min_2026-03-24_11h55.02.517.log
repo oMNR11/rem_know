@@ -1,0 +1,92 @@
+1.6293 	WARNING 	Requested audio device 'Headphones (Space Travel 2)' that is not available on this hardware. The 'audioDevice' preference should be one of ['Speakers (Realtek(R) Audio)']
+7.1581 	INFO 	Loaded monitor calibration from ['2025_12_27 10:38', '2025_12_27 13:43']
+7.4445 	INFO 	Using renderer 'Intel(R) UHD Graphics 770' for graphics
+7.4445 	INFO 	OpenGL version supported by driver is 4..
+7.4556 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=True, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001CD30826050>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001CD308260B0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001CD3090D7B0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1080]), stencilBits=8, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.4556 	EXP 	window1: backgroundImage = ''
+7.4556 	EXP 	window1: backgroundFit = 'none'
+7.6902 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.6903 	EXP 	window1: recordFrameIntervals = False
+7.7760 	EXP 	window1: recordFrameIntervals = True
+7.8868 	EXP 	Screen (0) actual frame rate measured at 99.60Hz
+7.8869 	EXP 	window1: recordFrameIntervals = False
+7.9787 	INFO 	keyboard.Keyboard is using ptb backend.
+7.9788 	INFO 	keyboard.Keyboard is using ptb backend.
+7.9789 	INFO 	keyboard.Keyboard is using ptb backend.
+7.9789 	INFO 	keyboard.Keyboard is using ptb backend.
+7.9789 	INFO 	keyboard.Keyboard is using ptb backend.
+7.9790 	INFO 	keyboard.Keyboard is using ptb backend.
+7.9790 	INFO 	keyboard.Keyboard is using ptb backend.
+7.9790 	INFO 	keyboard.Keyboard is using ptb backend.
+7.9790 	INFO 	keyboard.Keyboard is using ptb backend.
+7.9791 	INFO 	keyboard.Keyboard is using ptb backend.
+7.9791 	INFO 	keyboard.Keyboard is using ptb backend.
+7.9791 	INFO 	keyboard.Keyboard is using ptb backend.
+7.9792 	INFO 	keyboard.Keyboard is using ptb backend.
+7.9792 	EXP 	retrieval_30min: status = STARTED
+8.0451 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.0546 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.0589 	EXP 	Created prac_inst = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='prac_inst', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.0593 	EXP 	Created recall_prompt_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='recall_prompt_2', opacity=1, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.0770 	EXP 	Created recog_prompt_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='recog_prompt_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.0821 	EXP 	Created source_prompt_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='source_prompt_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.0870 	EXP 	Created rk_prompt_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='rk_prompt_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.0919 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='text_4', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.0923 	EXP 	Created recall_prompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='recall_prompt', opacity=1, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.0983 	EXP 	Created recog_prompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='recog_prompt', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.1016 	EXP 	Created source_prompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='source_prompt', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.1052 	EXP 	Created rk_prompt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='rk_prompt', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.1085 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0017 	EXP 	typed_response_2: autoLog = True
+0.0017 	EXP 	typed_response: autoLog = True
+0.0041 	INFO 	Keyboard events cleared
+0.0041 	EXP 	text: autoDraw = True
+39.2848 	DATA 	Keypress: space
+39.2984 	EXP 	Device response: <KeyPress from None: t=39.28416680000373, value=space, duration=None>
+39.3025 	EXP 	text: autoDraw = False
+39.3025 	EXP 	text_3: autoDraw = True
+39.4130 	EXP 	Device response: <KeyPress from None: t=39.28416680000373, value=space, duration=0.12788149999687448>
+76.7805 	DATA 	Keypress: space
+76.7882 	EXP 	Device response: <KeyPress from None: t=76.77977939999982, value=space, duration=None>
+76.9084 	EXP 	Device response: <KeyPress from None: t=76.77977939999982, value=space, duration=0.12011790000542533>
+79.4981 	EXP 	Device response: <KeyPress from None: t=79.49187840000377, value=space, duration=None>
+79.4991 	DATA 	Keypress: space
+79.6380 	EXP 	Device response: <KeyPress from None: t=79.49187840000377, value=space, duration=0.14399279999634018>
+80.6693 	DATA 	Keypress: space
+80.6777 	EXP 	Device response: <KeyPress from None: t=80.66829790000338, value=space, duration=None>
+80.7980 	EXP 	Device response: <KeyPress from None: t=80.66829790000338, value=space, duration=0.12818349999724887>
+80.8778 	EXP 	Device response: <KeyPress from None: t=80.87607199999911, value=space, duration=None>
+80.8789 	DATA 	Keypress: space
+80.9977 	EXP 	Device response: <KeyPress from None: t=80.87607199999911, value=space, duration=0.11213130000396632>
+82.1286 	DATA 	Mouse: Left button down, pos=(887,690)
+82.1887 	DATA 	Mouse:  Left button up, pos=(887,690)
+82.4298 	DATA 	Keypress: space
+82.4376 	EXP 	Device response: <KeyPress from None: t=82.42835270000069, value=space, duration=None>
+82.6077 	EXP 	Device response: <KeyPress from None: t=82.42835270000069, value=space, duration=0.175629299999855>
+82.6977 	EXP 	Device response: <KeyPress from None: t=82.69179979999899, value=space, duration=None>
+82.6990 	DATA 	Keypress: space
+82.8376 	EXP 	Device response: <KeyPress from None: t=82.69179979999899, value=space, duration=0.1364984000028926>
+82.8776 	EXP 	Device response: <KeyPress from None: t=82.87609750000411, value=space, duration=None>
+82.8789 	DATA 	Keypress: space
+83.0175 	EXP 	Device response: <KeyPress from None: t=82.87609750000411, value=space, duration=0.13568099999974947>
+83.8283 	DATA 	Keypress: escape
+83.8374 	EXP 	Device response: <KeyPress from None: t=83.82770729999902, value=escape, duration=None>
+83.9971 	EXP 	Device response: <KeyPress from None: t=83.82770729999902, value=escape, duration=0.1683989000011934>
+83.9971 	EXP 	retrieval_30min: status = STOPPED
+84.0067 	EXP 	text_3: autoDraw = False
+84.0068 	EXP 	retrieval_30min: status = STOPPED
+84.0115 	INFO 	saved data to 'D:\\Remember_Know\\data\\ww_retrieval_30min_2026-03-24_11h55.02.517.csv'
+84.0119 	INFO 	saved data to D:\Remember_Know\data\ww_retrieval_30min_2026-03-24_11h55.02.517.psydat
+84.3888 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+84.4328 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+84.4329 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+84.4329 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+84.4329 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+84.4329 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+84.4329 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+84.4329 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+84.4329 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+84.4329 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+84.4329 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+84.4329 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+84.4329 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.

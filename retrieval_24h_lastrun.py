@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2025.1.1),
-    on March 24, 2026, at 16:25
+    on March 24, 2026, at 16:27
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -47,7 +47,7 @@ runAtExit = []
 # information about this experiment
 expInfo = {
     'participant': '',
-    'session': 'retrieval_30min',
+    'session': 'retrieval_24h',
     'date|hid': data.getDateStr(),
     'expName|hid': expName,
     'expVersion|hid': expVersion,
@@ -133,7 +133,7 @@ def setupData(expInfo, dataDir=None):
     thisExp = data.ExperimentHandler(
         name=expName, version=expVersion,
         extraInfo=expInfo, runtimeInfo=None,
-        originPath='D:\\Remember_Know\\retrieval_30min_lastrun.py',
+        originPath='D:\\Remember_Know\\retrieval_24h_lastrun.py',
         savePickle=True, saveWideText=True,
         dataFileName=dataDir + os.sep + filename, sortColumns='time'
     )
@@ -2029,7 +2029,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         method='random', 
         extraInfo=expInfo, 
         originPath=-1, 
-        trialList=data.importConditions('retrieval_30min.csv'), 
+        trialList=data.importConditions('retrieval_24hr.csv'), 
         seed=None, 
     )
     thisExp.addLoop(trials_retrieval)  # add the loop to the experiment

@@ -1,0 +1,38 @@
+5.8194 	INFO 	Loaded monitor calibration from ['2025_12_27 10:38', '2025_12_27 13:43']
+6.1066 	INFO 	Using renderer 'Intel(R) UHD Graphics 770' for graphics
+6.1066 	INFO 	OpenGL version supported by driver is 4..
+6.1185 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000273F75AA8F0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000273F75AA890>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000273F769A0E0>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(0.0), np.float64(0.0)], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.1185 	EXP 	window1: backgroundImage = ''
+6.1185 	EXP 	window1: backgroundFit = 'none'
+6.3655 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+6.3656 	EXP 	window1: recordFrameIntervals = False
+6.4519 	EXP 	window1: recordFrameIntervals = True
+6.5619 	EXP 	Screen (0) actual frame rate measured at 100.14Hz
+6.5620 	EXP 	window1: recordFrameIntervals = False
+6.6395 	INFO 	keyboard.Keyboard is using ptb backend.
+6.6396 	INFO 	keyboard.Keyboard is using ptb backend.
+6.6396 	INFO 	keyboard.Keyboard is using ptb backend.
+6.6471 	INFO 	Created stream for speaker device: Headphones (Space Travel 2) (6.0)
+6.6478 	INFO 	keyboard.Keyboard is using ptb backend.
+6.6478 	INFO 	keyboard.Keyboard is using ptb backend.
+6.6504 	INFO 	Created stream for speaker device: Headphones (Space Travel 2) (6.0)
+6.6509 	INFO 	keyboard.Keyboard is using ptb backend.
+6.6509 	INFO 	keyboard.Keyboard is using ptb backend.
+6.6510 	INFO 	keyboard.Keyboard is using ptb backend.
+6.6510 	EXP 	encoding_phase: status = STARTED
+6.7150 	EXP 	Created instr_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='instr_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+6.7200 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.04), italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+6.7205 	EXP 	Created prac_visual = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.04, italic=False, languageStyle='LTR', name='prac_visual', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.7350 	EXP 	Created prac_icon = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=np.False_, flipVert=np.False_, image='speaker.png', interpolate=True, mask=None, maskParams=None, name='prac_icon', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+6.7351 	EXP 	prac_audio: sampleRate = 48000
+6.7351 	EXP 	prac_audio: channels = None
+6.9497 	INFO 	saved data to D:\Remember_Know\data\wow_encoding_phase_2026-03-24_11h37.44.655.psydat
+6.9504 	INFO 	saved data to 'D:\\Remember_Know\\data\\wow_encoding_phase_2026-03-24_11h37.44.655.csv'
+6.9553 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+7.0419 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+7.0419 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+7.0419 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+7.0419 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+7.0419 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+7.0420 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+7.0420 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
