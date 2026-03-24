@@ -14,6 +14,4 @@ Update the file paths to the local file path of your condition files.
 You can find the option to update the file path in the trial loop when the rem_know.psyexp file is opened in Builder mode . Alternatively, you can
 also use Code to update it.
 
-To be built - 
-1. Retrieval for 30 mins
-2. Retrieval for 24 hours
+
